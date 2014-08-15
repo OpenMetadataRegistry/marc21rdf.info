@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Level of contraction of tactile resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/tactilelev#">
+        <dc:title>MARC21-007: Level of contraction of tactile resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: combination  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilelev#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilelev#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3959"/>
+				<skos:prefLabel xml:lang="en">combination</skos:prefLabel>
+				<skos:definition xml:lang="en">A combination of contracted and uncontracted.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: contracted  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilelev#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilelev#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3958"/>
+				<skos:prefLabel xml:lang="en">contracted</skos:prefLabel>
+				<skos:definition xml:lang="en">Contracted.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes Standard English braille, the code for contracted braille of the Braille Authority of the United Kingdom and English Braille, American ed., the code for contracted braille of the Braille Authority of North America.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilelev#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilelev#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3960"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not braille or Moon.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilelev#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilelev#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3962"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Level of contraction other than uncontracted, contracted, combination.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: uncontracted  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilelev#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilelev#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3957"/>
+				<skos:prefLabel xml:lang="en">uncontracted</skos:prefLabel>
+				<skos:definition xml:lang="en">Not contracted.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes grade 1 braille.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilelev#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilelev#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3961"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Level of contraction is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

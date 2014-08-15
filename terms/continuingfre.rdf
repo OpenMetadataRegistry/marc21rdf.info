@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Frequency of continuing resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/continuingfre#">
+        <dc:title>MARC21-008: Frequency of continuing resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: annual  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3854"/>
+				<skos:prefLabel xml:lang="en">annual</skos:prefLabel>
+				<skos:definition xml:lang="en">Once a year.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: biennial  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3860"/>
+				<skos:prefLabel xml:lang="en">biennial</skos:prefLabel>
+				<skos:definition xml:lang="en">Every two years.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: bimonthly  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3855"/>
+				<skos:prefLabel xml:lang="en">bimonthly</skos:prefLabel>
+				<skos:definition xml:lang="en">Every two months.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes 6, 7, or 8 times a year.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: biweekly  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3858"/>
+				<skos:prefLabel xml:lang="en">biweekly</skos:prefLabel>
+				<skos:definition xml:lang="en">Every two weeks.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: continuously updated  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3864"/>
+				<skos:prefLabel xml:lang="en">continuously updated</skos:prefLabel>
+				<skos:definition xml:lang="en">More frequent than daily.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: daily  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3857"/>
+				<skos:prefLabel xml:lang="en">daily</skos:prefLabel>
+				<skos:definition xml:lang="en">Once a day.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes Saturday and Sunday.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: monthly  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3865"/>
+				<skos:prefLabel xml:lang="en">monthly</skos:prefLabel>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes 9, 10, 11, or 12 times a year.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: no determinable frequency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3853"/>
+				<skos:prefLabel xml:lang="en">no determinable frequency</skos:prefLabel>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3871"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Frequency other than annual, bimonthly, semiweekly, daily, biweekly, semiannual, biennial, triennial, three times a week, three times a month, continuously updated, monthly, quarterly, semimonthly, three times a year, weekly.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: quarterly  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3866"/>
+				<skos:prefLabel xml:lang="en">quarterly</skos:prefLabel>
+				<skos:definition xml:lang="en">Every three months.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes 4 times a  year.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: semiannual  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3859"/>
+				<skos:prefLabel xml:lang="en">semiannual</skos:prefLabel>
+				<skos:definition xml:lang="en">Twice a year.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: semimonthly  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3867"/>
+				<skos:prefLabel xml:lang="en">semimonthly</skos:prefLabel>
+				<skos:definition xml:lang="en">Twice a month.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: semiweekly  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3856"/>
+				<skos:prefLabel xml:lang="en">semiweekly</skos:prefLabel>
+				<skos:definition xml:lang="en">Twice a week.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: three times a month  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3863"/>
+				<skos:prefLabel xml:lang="en">three times a month</skos:prefLabel>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: three times a week  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3862"/>
+				<skos:prefLabel xml:lang="en">three times a week</skos:prefLabel>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: three times a year  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3868"/>
+				<skos:prefLabel xml:lang="en">three times a year</skos:prefLabel>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: triennial  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3861"/>
+				<skos:prefLabel xml:lang="en">triennial</skos:prefLabel>
+				<skos:definition xml:lang="en">Every three years.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3869"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: weekly  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingfre#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingfre#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3870"/>
+				<skos:prefLabel xml:lang="en">weekly</skos:prefLabel>
+				<skos:definition xml:lang="en">Once a week.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Illustrations of books -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/bookill#">
+        <dc:title>MARC21-008: Illustrations of books</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: charts  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3904"/>
+				<skos:prefLabel xml:lang="en">charts</skos:prefLabel>
+				<skos:definition xml:lang="en">Charts.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: coats of arms  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3909"/>
+				<skos:prefLabel xml:lang="en">coats of arms</skos:prefLabel>
+				<skos:definition xml:lang="en">Coats of arms.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: facsimiles  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3908"/>
+				<skos:prefLabel xml:lang="en">facsimiles</skos:prefLabel>
+				<skos:definition xml:lang="en">Facsimiles.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: forms  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3911"/>
+				<skos:prefLabel xml:lang="en">forms</skos:prefLabel>
+				<skos:definition xml:lang="en">Forms.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: genealogical tables  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3910"/>
+				<skos:prefLabel xml:lang="en">genealogical tables</skos:prefLabel>
+				<skos:definition xml:lang="en">Genealogical tables.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: illuminations  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3915"/>
+				<skos:prefLabel xml:lang="en">illuminations</skos:prefLabel>
+				<skos:definition xml:lang="en">Illuminations.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: illustrations  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3901"/>
+				<skos:prefLabel xml:lang="en">illustrations</skos:prefLabel>
+				<skos:definition xml:lang="en">Illustrations.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Types of illustrations not covered by any of the more specific concepts.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: maps  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3902"/>
+				<skos:prefLabel xml:lang="en">maps</skos:prefLabel>
+				<skos:definition xml:lang="en">Maps.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3907"/>
+				<skos:prefLabel xml:lang="en">music</skos:prefLabel>
+				<skos:definition xml:lang="en">Music.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: no illustrations  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3900"/>
+				<skos:prefLabel xml:lang="en">no illustrations</skos:prefLabel>
+				<skos:definition xml:lang="en">Work does not contain illustrations.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: phonodisc, phonowire, etc.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3913"/>
+				<skos:prefLabel xml:lang="en">phonodisc, phonowire, etc.</skos:prefLabel>
+				<skos:definition xml:lang="en">Phonodisc, phonowire, etc.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: photographs  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3914"/>
+				<skos:prefLabel xml:lang="en">photographs</skos:prefLabel>
+				<skos:definition xml:lang="en">Photographs.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: plans  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3905"/>
+				<skos:prefLabel xml:lang="en">plans</skos:prefLabel>
+				<skos:definition xml:lang="en">Plans.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: plates  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3906"/>
+				<skos:prefLabel xml:lang="en">plates</skos:prefLabel>
+				<skos:definition xml:lang="en">Plates.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: portraits  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3903"/>
+				<skos:prefLabel xml:lang="en">portraits</skos:prefLabel>
+				<skos:definition xml:lang="en">Portraits.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: samples  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookill#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookill#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3912"/>
+				<skos:prefLabel xml:lang="en">samples</skos:prefLabel>
+				<skos:definition xml:lang="en">Samples.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

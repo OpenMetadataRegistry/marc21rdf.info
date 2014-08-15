@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of nonprojected graphic -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#">
+        <dc:title>MARC21-007: Specific material designation of nonprojected graphic</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: activity card  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4455"/>
+				<skos:prefLabel xml:lang="en">activity card</skos:prefLabel>
+				<skos:definition xml:lang="en">A card printed with words, numerals, and/or pictures to be used by an individual or a group as a basis for performing a specific activity.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: chart  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4466"/>
+				<skos:prefLabel xml:lang="en">chart</skos:prefLabel>
+				<skos:definition xml:lang="en">Opaque sheet that exhibits data in graphic or tabular form.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., a wall chart.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: collage  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4456"/>
+				<skos:prefLabel xml:lang="en">collage</skos:prefLabel>
+				<skos:definition xml:lang="en">Original work created by affixing various materials (paper, wood, newspaper, cloth, etc.) to a surface.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: drawing  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4457"/>
+				<skos:prefLabel xml:lang="en">drawing</skos:prefLabel>
+				<skos:definition xml:lang="en">Original visual representation (other than a print or painting) made with pencil, pen, chalk, or other writing instrument usually on paper or similar nonrigid support.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: flash card  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4467"/>
+				<skos:prefLabel xml:lang="en">flash card</skos:prefLabel>
+				<skos:definition xml:lang="en">Card or other opaque material printed with words, numerals, or pictures and designed for rapid display.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: icon  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4469"/>
+				<skos:prefLabel xml:lang="en">icon</skos:prefLabel>
+				<skos:definition xml:lang="en">Icon.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4474"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than activity card, collage, drawing, painting, photomechanical print, photonegative, photoprint, picture, print, poster, technical drawing, chart, flash card, postcard, icon, radiograph, study print, photograph, type unspecified.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: painting  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4458"/>
+				<skos:prefLabel xml:lang="en">painting</skos:prefLabel>
+				<skos:definition xml:lang="en">Original visual representation produced by applying paint to a surface.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: photograph, type unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4473"/>
+				<skos:prefLabel xml:lang="en">photograph, type unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Photograph, type unspecified.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: photomechanical print  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4459"/>
+				<skos:prefLabel xml:lang="en">photomechanical print</skos:prefLabel>
+				<skos:definition xml:lang="en">Any picture produced in imitation of another picture through the use of photographic process to transfer the image to a printing surface.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">A snapshot made to document a painting or a Xerox copy of a print are considered photomechanical reproductions. Art reproductions are included here.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: photonegative  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4460"/>
+				<skos:prefLabel xml:lang="en">photonegative</skos:prefLabel>
+				<skos:definition xml:lang="en">Piece of film, a glass plate, or pattern on which a negative image appears, i.e., directly opposite to a positive image (photoprint), slide, or transparency, used to produce a positive print.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+				<skos:scopeNote xml:lang="en">Photonegatives do not include negative photoprints, photoprints that are a combination of negative and positive images, or photograms or solarized prints, all of which are considered to be techniques used when making photoprints.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: photoprint  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4461"/>
+				<skos:prefLabel xml:lang="en">photoprint</skos:prefLabel>
+				<skos:definition xml:lang="en">Photoprints have a positive image made either directly or indirectly on a sensitized surface by the action of light or other radiant energy. The term photoprint rather than photograph is used here as a more precise term than photograph, which technically can cover both the print and the negative.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">Opaque stereographs are included here.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: picture  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4462"/>
+				<skos:prefLabel xml:lang="en">picture</skos:prefLabel>
+				<skos:definition xml:lang="en">Two-dimensional visual representation accessible to the naked eye and generally on an opaque backing.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: postcard  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4468"/>
+				<skos:prefLabel xml:lang="en">postcard</skos:prefLabel>
+				<skos:definition xml:lang="en">Postcard.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: poster  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4464"/>
+				<skos:prefLabel xml:lang="en">poster</skos:prefLabel>
+				<skos:definition xml:lang="en">Poster.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: print  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4463"/>
+				<skos:prefLabel xml:lang="en">print</skos:prefLabel>
+				<skos:definition xml:lang="en">Design or picture transferred from an engraved plate, wood block, lithographic stone, or other medium. Generally there are four types: planographic print, relief print, intaglio print, and stencil print.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: radiograph  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4470"/>
+				<skos:prefLabel xml:lang="en">radiograph</skos:prefLabel>
+				<skos:definition xml:lang="en">A photograph produced by the passage of radiation, such as X rays, gamma rays, or neutrons, through an opaque object.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: study print  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4471"/>
+				<skos:prefLabel xml:lang="en">study print</skos:prefLabel>
+				<skos:definition xml:lang="en">Study print.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: technical drawing  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4465"/>
+				<skos:prefLabel xml:lang="en">technical drawing</skos:prefLabel>
+				<skos:definition xml:lang="en">Cross section, detail, diagram, elevation, perspective, plan, working plan, etc., made for use in an engineering or other technical context.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4472"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Special material designation for the nonprojected graphic is not specified.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

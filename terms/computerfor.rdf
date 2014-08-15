@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Form of item of computer files -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/computerfor#">
+        <dc:title>MARC21-008: Form of item of computer files</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: direct electronic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computerfor#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computerfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4664"/>
+				<skos:prefLabel xml:lang="en">direct electronic</skos:prefLabel>
+				<skos:notation xml:lang="en">q</skos:notation>
+				<skos:definition xml:lang="en">Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway device, flashdrive, portable hard drive, etc.</skos:definition>
+		</skos:Concept>
+<!-- Concept: online  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computerfor#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computerfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4663"/>
+				<skos:prefLabel xml:lang="en">online</skos:prefLabel>
+				<skos:notation xml:lang="en">o</skos:notation>
+				<skos:definition xml:lang="en">Accessed by means of hardware and software connections to a communications network.</skos:definition>
+		</skos:Concept>
+<!-- Concept: unknown or not specified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computerfor#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computerfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4665"/>
+				<skos:prefLabel xml:lang="en">unknown or not specified</skos:prefLabel>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

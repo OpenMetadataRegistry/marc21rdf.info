@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Capture and storage technique of sound recording -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/soundrecordingcap#">
+        <dc:title>MARC21-007: Capture and storage technique of sound recording</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: acoustical capture, direct storage  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingcap#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingcap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3479"/>
+				<skos:prefLabel xml:lang="en">acoustical capture, direct storage</skos:prefLabel>
+				<skos:definition xml:lang="en">Usually a disc or cylinder recording, captured using an acoustical horn and diaphragm and stored directly on a master surface.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Most acoustical recordings date from before 1927/29 when electrical recording equipment became available.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: analog electrical storage  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingcap#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingcap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3482"/>
+				<skos:prefLabel xml:lang="en">analog electrical storage</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound recordings which were captured using electrical techniques and stored as modulations and pulses on a magnetic surface.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">Most recordings made from the late 1940s until early 1980s are analog electrical recordings.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: digital storage  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingcap#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingcap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3481"/>
+				<skos:prefLabel xml:lang="en">digital storage</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound recordings which were captured electrically and stored using digital techniques.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Such recordings are normally identified as "digitally recorded" or some similar phrase on the label or package. "Digital remaster" or "digital mixing" does not imply original digital storage. Note: Digital storage and digital playback should not be confused.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: direct storage, not acoustical  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingcap#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingcap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3480"/>
+				<skos:prefLabel xml:lang="en">direct storage, not acoustical</skos:prefLabel>
+				<skos:definition xml:lang="en">Disc recordings captured using electrical equipment and stored directly on a master surface.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">All recordings made with microphones and other electrical equipment prior to the availability of magnetic recording techniques in the late 1940s used direct storage. Commercial recordings marked "direct to disc" or some equivalent phrase also use this technique.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingcap#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingcap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3484"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Capture and storage technique other than acoustical capture, direct storage, direct storage, not acoustical, digital storage, analog electrical storage.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingcap#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingcap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3483"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Capture and storage technique are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

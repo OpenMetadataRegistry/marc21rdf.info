@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xml:base="http://marc21rdf.info/elements/3XX"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:reg="http://metadataregistry.org/uri/profile/RegAp/">
+
+<!-- Element Set: MARC 21 Elements 3XX -->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/3XX">
+  <dc:title xml:lang="en">MARC 21 Elements 3XX</dc:title>
+  <foaf:homepage rdf:resource="http://www.loc.gov/marc/bibliographic/bd3xx.html"/>
+</rdf:Description>
+
+<!--Property: Azimuth measure point longitude or straight vertical longitude from pole in Geospatial Reference Data (Horizontal coordinate system) (Local)-->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/3XX/M34204n">
+  <rdfs:isDefinedBy rdf:resource="http://marc21rdf.info/elements/3XX" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">hasAzimuthMeasurePointLongitudeOrStraightVerticalLongitudeFromPoleInGeospatialReferenceDataHorizontalCoordinateSystemLocal</reg:name>
+  <rdfs:label xml:lang="en">Azimuth measure point longitude or straight vertical longitude from pole in Geospatial Reference Data (Horizontal coordinate system) (Local)</rdfs:label>
+  <skos:definition xml:lang="en">Azimuth measure point longitude (longitude of the map projection origin) when subfield $a contains the text Oblique Mercator. It contains a straight vertical longitude from pole (a longitude to be oriented straight up from the North or South Pole) when $a contains Polar stereographic. Horizontal coordinate system. Local.</skos:definition>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <skos:scopeNote xml:lang="en">tag: 342 (Geospatial Reference Data)&lt;br /&gt;ind2: 4 (Local )&lt;br /&gt;sub: n (Azimuth measure point longitude or straight vertical longitude from pole)&lt;br /&gt;</skos:scopeNote>
+</rdf:Description>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

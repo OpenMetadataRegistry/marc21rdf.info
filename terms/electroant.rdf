@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Antecedent/Source of electronic resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electroant#">
+        <dc:title>MARC21-007: Antecedent/Source of electronic resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: file reproduced from an electronic resource  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroant#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroant#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3418"/>
+				<skos:prefLabel xml:lang="en">file reproduced from an electronic resource</skos:prefLabel>
+				<skos:definition xml:lang="en">Electronic resource has been created or copied from an existing electronic resource.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., to generate new copies or derivative copies with lower resolution or smaller file size; to process an existing file with Optical Character Recognition - OCR - software; etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: file reproduced from an intermediate   (not microform  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroant#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroant#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3419"/>
+				<skos:prefLabel xml:lang="en">file reproduced from an intermediate   (not microform</skos:prefLabel>
+				<skos:definition xml:lang="en">Content comprising the electronic resource has been created by reformatting/digitizing from an intermediate other than microform.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Common examples of non-microfom intermediates for visual and textual materials are: photocopies, 35 mm film, transparencies, slides, 2nd generation video tape, etc. A common example of an intermediate for audio materials is 2nd generation analog tapes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: file reproduced from microform  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroant#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroant#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3417"/>
+				<skos:prefLabel xml:lang="en">file reproduced from microform</skos:prefLabel>
+				<skos:definition xml:lang="en">Content comprising the electronic resource has been created by scanning from microform.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">16mm microfilm, 35mm microfilm, 105mm microfiche, microcard, micro-opaque, etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: file reproduced from original  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroant#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroant#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3416"/>
+				<skos:prefLabel xml:lang="en">file reproduced from original</skos:prefLabel>
+				<skos:definition xml:lang="en">Content (image, audio, or video) comprising the electronic resource has been created by digitization of the original item.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Common examples of original objects include: printed or manuscript texts and/or images that are made on paper or on vellum; photographic prints (and in some instances photographic negatives, depending on creator's intent); analog audio formats; and video formats. This value does not pertain to microform even if microform is the original.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroant#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroant#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3420"/>
+				<skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">Images comprising the electronic resource have been created from mixed sources.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">Portions scanned from original item, portions scanned from microfilm, etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroant#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroant#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3421"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Antecedent or source are not applicable to this electronic resource.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">Appropriate for electronic resources other than those created during a reformatting process.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroant#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroant#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3422"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Antecedent or source of this reformatted electronic resource is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

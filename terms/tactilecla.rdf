@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Class of braille writing -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/tactilecla#">
+        <dc:title>MARC21-007: Class of braille writing</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: computer braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3504"/>
+				<skos:prefLabel xml:lang="en">computer braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille representations for symbols used in computer programs, texts, and other computer related materials.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: format code braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3502"/>
+				<skos:prefLabel xml:lang="en">format code braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille formatting rules for textbooks and related materials.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: literary braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3501"/>
+				<skos:prefLabel xml:lang="en">literary braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille representation for the alphabet, numbers, and punctuation marks commonly used in general writing.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: mathematics and scientific braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3503"/>
+				<skos:prefLabel xml:lang="en">mathematics and scientific braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille representations for symbols employed in mathematics and scientific writing.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: multiple braille types  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3506"/>
+				<skos:prefLabel xml:lang="en">multiple braille types</skos:prefLabel>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: music braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3505"/>
+				<skos:prefLabel xml:lang="en">music braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille representations for symbols used in notated music.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: no specified class of braille writing  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla##" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3500"/>
+				<skos:prefLabel xml:lang="en">no specified class of braille writing</skos:prefLabel>
+				<skos:definition xml:lang="en">Item consists of fewer than two specified classes of braille writing.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3507"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3509"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Class of braille writing other than no specified class of braille writing, literary braille, format code braille, mathematics and scientific braille, computer braille, music braille, multiple braille types.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilecla#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilecla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3508"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

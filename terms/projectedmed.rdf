@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Medium for sound of projected media -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/projectedmed#">
+        <dc:title>MARC21-007: Medium for sound of projected media</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: magnetic audio tape in cartridge  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4012"/>
+				<skos:prefLabel xml:lang="en">magnetic audio tape in cartridge</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany an item is carried on a magnetic audio tape cartridge.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: magnetic audio tape in cassette  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4015"/>
+				<skos:prefLabel xml:lang="en">magnetic audio tape in cassette</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany an item is carried on a cassette of magnetic audio tape.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: magnetic audio tape on reel  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4014"/>
+				<skos:prefLabel xml:lang="en">magnetic audio tape on reel</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany an item is carried on a reel of magnetic audio tape.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: magnetic sound track on motion picture film  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4011"/>
+				<skos:prefLabel xml:lang="en">magnetic sound track on motion picture film</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany a projected graphic is carried on a magnetic track that is part of the film.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">70 mm. motion picture films often include magnetic sound tracks.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: no sound (silent)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4009"/>
+				<skos:prefLabel xml:lang="en">no sound (silent)</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound is not present.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: optical and magnetic sound track on motion picture film  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4016"/>
+				<skos:prefLabel xml:lang="en">optical and magnetic sound track on motion picture film</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany a projected graphic is carried on both an optical and magnetic track.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: optical sound track on motion picture film  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4010"/>
+				<skos:prefLabel xml:lang="en">optical sound track on motion picture film</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany a projected graphic is carried on an optical track that is part of a film.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">For 16 and 35 mm. films, it is usually assumed that sound is carried on an optical track.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4020"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Medium for sound other than no sound (silent), optical sound track on motion picture film, magnetic sound track on motion picture film, magnetic audio tape in cartridge, sound disc, magnetic audio tape on reel, magnetic audio tape in cassette, optical and magnetic sound track onvideotape, videodisc.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: sound disc  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4013"/>
+				<skos:prefLabel xml:lang="en">sound disc</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany an item is carried on a sound disc.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">This method of providing for sound is typically used with filmstrips. Sound discs include 7, 10, and 12 in. vinyl phonograph records and 4 3/4 in. compact discs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4019"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Medium for sound is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: videodisc  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4018"/>
+				<skos:prefLabel xml:lang="en">videodisc</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany an item is included as part of a videodisc.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">Videodiscs are not ordinarily used to record only sound. A distinction must be made between videodiscs (e.g., 12 in. laser-scan videodiscs that include video information) and compact discs that are used to record sound only (e.g., 4 3/4 in. audio compact discs). The technology to physically record video or audio information on digital disc systems is the same.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: videotape  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedmed#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4017"/>
+				<skos:prefLabel xml:lang="en">videotape</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound to accompany an item is included as part of a videotape.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">Videotape is not ordinarily used to record only sound.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

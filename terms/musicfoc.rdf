@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Form of composition for music -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/musicfoc#">
+        <dc:title>MARC21-007: Form of composition for music</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: anthems  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#an" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3724"/>
+				<skos:prefLabel xml:lang="en">anthems</skos:prefLabel>
+				<skos:definition xml:lang="en">Anthems.</skos:definition>
+				<skos:notation xml:lang="en">an</skos:notation>
+		</skos:Concept>
+<!-- Concept: ballads  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#bd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3725"/>
+				<skos:prefLabel xml:lang="en">ballads</skos:prefLabel>
+				<skos:definition xml:lang="en">Ballads.</skos:definition>
+				<skos:notation xml:lang="en">bd</skos:notation>
+		</skos:Concept>
+<!-- Concept: ballets  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#bt" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3728"/>
+				<skos:prefLabel xml:lang="en">ballets</skos:prefLabel>
+				<skos:definition xml:lang="en">Ballets.</skos:definition>
+				<skos:notation xml:lang="en">bt</skos:notation>
+		</skos:Concept>
+<!-- Concept: bluegrass music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#bg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3726"/>
+				<skos:prefLabel xml:lang="en">bluegrass music</skos:prefLabel>
+				<skos:definition xml:lang="en">Bluegrass music.</skos:definition>
+				<skos:notation xml:lang="en">bg</skos:notation>
+		</skos:Concept>
+<!-- Concept: blues  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#bl" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3727"/>
+				<skos:prefLabel xml:lang="en">blues</skos:prefLabel>
+				<skos:definition xml:lang="en">Blues.</skos:definition>
+				<skos:notation xml:lang="en">bl</skos:notation>
+		</skos:Concept>
+<!-- Concept: canons and rounds  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cn" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3735"/>
+				<skos:prefLabel xml:lang="en">canons and rounds</skos:prefLabel>
+				<skos:definition xml:lang="en">Canons and rounds. Compositions employing strict imitation throughout.</skos:definition>
+				<skos:notation xml:lang="en">cn</skos:notation>
+		</skos:Concept>
+<!-- Concept: cantatas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ct" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3740"/>
+				<skos:prefLabel xml:lang="en">cantatas</skos:prefLabel>
+				<skos:definition xml:lang="en">Cantatas.</skos:definition>
+				<skos:notation xml:lang="en">ct</skos:notation>
+		</skos:Concept>
+<!-- Concept: canzonas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3742"/>
+				<skos:prefLabel xml:lang="en">canzonas</skos:prefLabel>
+				<skos:definition xml:lang="en">Canzonas.</skos:definition>
+				<skos:notation xml:lang="en">cz</skos:notation>
+		</skos:Concept>
+<!-- Concept: carols  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cr" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3738"/>
+				<skos:prefLabel xml:lang="en">carols</skos:prefLabel>
+				<skos:definition xml:lang="en">Carols.</skos:definition>
+				<skos:notation xml:lang="en">cr</skos:notation>
+		</skos:Concept>
+<!-- Concept: chaconnes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ca" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3729"/>
+				<skos:prefLabel xml:lang="en">chaconnes</skos:prefLabel>
+				<skos:definition xml:lang="en">Chaconnes.</skos:definition>
+				<skos:notation xml:lang="en">ca</skos:notation>
+		</skos:Concept>
+<!-- Concept: chance compositions  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cs" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3739"/>
+				<skos:prefLabel xml:lang="en">chance compositions</skos:prefLabel>
+				<skos:definition xml:lang="en">Chance compositions.</skos:definition>
+				<skos:notation xml:lang="en">cs</skos:notation>
+		</skos:Concept>
+<!-- Concept: chansons, polyphonic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cp" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3737"/>
+				<skos:prefLabel xml:lang="en">chansons, polyphonic</skos:prefLabel>
+				<skos:definition xml:lang="en">Chansons, polyphonic.</skos:definition>
+				<skos:notation xml:lang="en">cp</skos:notation>
+		</skos:Concept>
+<!-- Concept: chant, Christian  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3731"/>
+				<skos:prefLabel xml:lang="en">chant, Christian</skos:prefLabel>
+				<skos:definition xml:lang="en">Chant, Christian.</skos:definition>
+				<skos:notation xml:lang="en">cc</skos:notation>
+		</skos:Concept>
+<!-- Concept: chants, other religions  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cb" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3730"/>
+				<skos:prefLabel xml:lang="en">chants, other religions</skos:prefLabel>
+				<skos:definition xml:lang="en">Chants, Other religions.</skos:definition>
+				<skos:notation xml:lang="en">cb</skos:notation>
+		</skos:Concept>
+<!-- Concept: chorale preludes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cl" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3734"/>
+				<skos:prefLabel xml:lang="en">chorale preludes</skos:prefLabel>
+				<skos:definition xml:lang="en">Chorale preludes.</skos:definition>
+				<skos:notation xml:lang="en">cl</skos:notation>
+		</skos:Concept>
+<!-- Concept: chorales  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ch" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3733"/>
+				<skos:prefLabel xml:lang="en">chorales</skos:prefLabel>
+				<skos:definition xml:lang="en">Chorales.</skos:definition>
+				<skos:notation xml:lang="en">ch</skos:notation>
+		</skos:Concept>
+<!-- Concept: concerti grossi  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3732"/>
+				<skos:prefLabel xml:lang="en">concerti grossi</skos:prefLabel>
+				<skos:definition xml:lang="en">Concerti grossi.</skos:definition>
+				<skos:notation xml:lang="en">cg</skos:notation>
+		</skos:Concept>
+<!-- Concept: concertos  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#co" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3736"/>
+				<skos:prefLabel xml:lang="en">concertos</skos:prefLabel>
+				<skos:definition xml:lang="en">Concertos.</skos:definition>
+				<skos:notation xml:lang="en">co</skos:notation>
+		</skos:Concept>
+<!-- Concept: country music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#cy" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3741"/>
+				<skos:prefLabel xml:lang="en">country music</skos:prefLabel>
+				<skos:definition xml:lang="en">Country music.</skos:definition>
+				<skos:notation xml:lang="en">cy</skos:notation>
+		</skos:Concept>
+<!-- Concept: dance forms  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#df" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3743"/>
+				<skos:prefLabel xml:lang="en">dance forms</skos:prefLabel>
+				<skos:definition xml:lang="en">Dance forms.</skos:definition>
+				<skos:notation xml:lang="en">df</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes music for individual dances except for mazurkas, minuets, pavans, polonaises, and waltzes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: divertimentos, serenades, cassations, divertissements, and notturni  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#dv" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3744"/>
+				<skos:prefLabel xml:lang="en">divertimentos, serenades, cassations, divertissements, and notturni</skos:prefLabel>
+				<skos:definition xml:lang="en">Divertimentos, serenades, cassations, divertissements, and notturni.</skos:definition>
+				<skos:notation xml:lang="en">dv</skos:notation>
+		</skos:Concept>
+<!-- Concept: fantasias  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ft" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3748"/>
+				<skos:prefLabel xml:lang="en">fantasias</skos:prefLabel>
+				<skos:definition xml:lang="en">Fantasias.</skos:definition>
+				<skos:notation xml:lang="en">ft</skos:notation>
+		</skos:Concept>
+<!-- Concept: flamenco  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#fl" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3746"/>
+				<skos:prefLabel xml:lang="en">flamenco</skos:prefLabel>
+				<skos:definition xml:lang="en">Flamenco.</skos:definition>
+				<skos:notation xml:lang="en">fl</skos:notation>
+				<skos:scopeNote xml:lang="en">All the Flamenco styles, or "palos", and other forms of song and dance coming from the folkloric tradition of Spanish gypsies.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: folk music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#fm" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3747"/>
+				<skos:prefLabel xml:lang="en">folk music</skos:prefLabel>
+				<skos:definition xml:lang="en">Folk music.</skos:definition>
+				<skos:notation xml:lang="en">fm</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes folk songs, etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: fugues  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#fg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3745"/>
+				<skos:prefLabel xml:lang="en">fugues</skos:prefLabel>
+				<skos:definition xml:lang="en">Fugues.</skos:definition>
+				<skos:notation xml:lang="en">fg</skos:notation>
+		</skos:Concept>
+<!-- Concept: gospel music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#gm" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3749"/>
+				<skos:prefLabel xml:lang="en">gospel music</skos:prefLabel>
+				<skos:definition xml:lang="en">Gospel music.</skos:definition>
+				<skos:notation xml:lang="en">gm</skos:notation>
+		</skos:Concept>
+<!-- Concept: hymns  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#hy" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3750"/>
+				<skos:prefLabel xml:lang="en">hymns</skos:prefLabel>
+				<skos:definition xml:lang="en">Hymns.</skos:definition>
+				<skos:notation xml:lang="en">hy</skos:notation>
+		</skos:Concept>
+<!-- Concept: jazz  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#jz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3751"/>
+				<skos:prefLabel xml:lang="en">jazz</skos:prefLabel>
+				<skos:definition xml:lang="en">Jazz.</skos:definition>
+				<skos:notation xml:lang="en">jz</skos:notation>
+		</skos:Concept>
+<!-- Concept: madrigals  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#md" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3753"/>
+				<skos:prefLabel xml:lang="en">madrigals</skos:prefLabel>
+				<skos:definition xml:lang="en">Madrigals.</skos:definition>
+				<skos:notation xml:lang="en">md</skos:notation>
+		</skos:Concept>
+<!-- Concept: marches  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#mr" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3757"/>
+				<skos:prefLabel xml:lang="en">marches</skos:prefLabel>
+				<skos:definition xml:lang="en">Marches.</skos:definition>
+				<skos:notation xml:lang="en">mr</skos:notation>
+		</skos:Concept>
+<!-- Concept: masses  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ms" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3758"/>
+				<skos:prefLabel xml:lang="en">masses</skos:prefLabel>
+				<skos:definition xml:lang="en">Masses.</skos:definition>
+				<skos:notation xml:lang="en">ms</skos:notation>
+		</skos:Concept>
+<!-- Concept: mazurkas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#mz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3760"/>
+				<skos:prefLabel xml:lang="en">mazurkas</skos:prefLabel>
+				<skos:definition xml:lang="en">Mazurkas.</skos:definition>
+				<skos:notation xml:lang="en">mz</skos:notation>
+		</skos:Concept>
+<!-- Concept: minuets  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#mi" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3754"/>
+				<skos:prefLabel xml:lang="en">minuets</skos:prefLabel>
+				<skos:definition xml:lang="en">Minuets.</skos:definition>
+				<skos:notation xml:lang="en">mi</skos:notation>
+		</skos:Concept>
+<!-- Concept: motets  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#mo" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3755"/>
+				<skos:prefLabel xml:lang="en">motets</skos:prefLabel>
+				<skos:definition xml:lang="en">Motets.</skos:definition>
+				<skos:notation xml:lang="en">mo</skos:notation>
+		</skos:Concept>
+<!-- Concept: motion picture music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#mp" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3756"/>
+				<skos:prefLabel xml:lang="en">motion picture music</skos:prefLabel>
+				<skos:definition xml:lang="en">Motion picture music.</skos:definition>
+				<skos:notation xml:lang="en">mp</skos:notation>
+		</skos:Concept>
+<!-- Concept: multiple forms  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#mu" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3759"/>
+				<skos:prefLabel xml:lang="en">multiple forms</skos:prefLabel>
+				<skos:definition xml:lang="en">Multiple forms.</skos:definition>
+				<skos:notation xml:lang="en">mu</skos:notation>
+		</skos:Concept>
+<!-- Concept: musical revues and comedies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#mc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3752"/>
+				<skos:prefLabel xml:lang="en">musical revues and comedies</skos:prefLabel>
+				<skos:definition xml:lang="en">Musical revues and comedies.</skos:definition>
+				<skos:notation xml:lang="en">mc</skos:notation>
+		</skos:Concept>
+<!-- Concept: nocturnes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#nc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3761"/>
+				<skos:prefLabel xml:lang="en">nocturnes</skos:prefLabel>
+				<skos:definition xml:lang="en">Nocturnes.</skos:definition>
+				<skos:notation xml:lang="en">nc</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#nn" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3762"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Not applicable</skos:definition>
+				<skos:notation xml:lang="en">nn</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for any item that is a non-music sound recording.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: operas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#op" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3763"/>
+				<skos:prefLabel xml:lang="en">operas</skos:prefLabel>
+				<skos:definition xml:lang="en">Operas.</skos:definition>
+				<skos:notation xml:lang="en">op</skos:notation>
+		</skos:Concept>
+<!-- Concept: oratorios  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#or" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3764"/>
+				<skos:prefLabel xml:lang="en">oratorios</skos:prefLabel>
+				<skos:definition xml:lang="en">Oratorios.</skos:definition>
+				<skos:notation xml:lang="en">or</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#zz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3795"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Form of composition other than anthems, ballads, bluegrass music, blues, ballets, chaconnes, chants, other religions, chant, Christian, concerti grossi, chorales, chorale preludes, canons and rounds, concertos, chansons, polyphonic, carols, chance compositions, cantatas, country music, canzonas, dance forms, divertimentos, serenades, cassations, divertissements, and notturni, fugues, flamenco, folk music, fantasias, gospel music, hymns, jazz, musical revues and comedies, madrigals, minuets, motets, motion picture music, marches, masses, multiple forms, mazurkas, nocturnes, operas, oratorios, overtures, program music, passion music, polonaises, popular music, preludes, passacaglias, part-songs, pavans, rock music, rondos, ragtime music, ricercars, rhapsodies, requiems, square dance music, songs, sonatas, symphonic poems, studies and exercises, suites, symphonies, toccatas, teatro lirico, trio-sonatas, villancicos, variations, waltzes, zarzuelas.</skos:definition>
+				<skos:notation xml:lang="en">zz</skos:notation>
+		</skos:Concept>
+<!-- Concept: overtures  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ov" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3765"/>
+				<skos:prefLabel xml:lang="en">overtures</skos:prefLabel>
+				<skos:definition xml:lang="en">Overtures.</skos:definition>
+				<skos:notation xml:lang="en">ov</skos:notation>
+		</skos:Concept>
+<!-- Concept: part-songs  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#pt" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3772"/>
+				<skos:prefLabel xml:lang="en">part-songs</skos:prefLabel>
+				<skos:definition xml:lang="en">Part-songs.</skos:definition>
+				<skos:notation xml:lang="en">pt</skos:notation>
+		</skos:Concept>
+<!-- Concept: passacaglias  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ps" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3771"/>
+				<skos:prefLabel xml:lang="en">passacaglias</skos:prefLabel>
+				<skos:definition xml:lang="en">Passacaglias.</skos:definition>
+				<skos:notation xml:lang="en">ps</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes all types of ostinato basses.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: passion music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#pm" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3767"/>
+				<skos:prefLabel xml:lang="en">passion music</skos:prefLabel>
+				<skos:definition xml:lang="en">Passion music.</skos:definition>
+				<skos:notation xml:lang="en">pm</skos:notation>
+		</skos:Concept>
+<!-- Concept: pavans  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#pv" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3773"/>
+				<skos:prefLabel xml:lang="en">pavans</skos:prefLabel>
+				<skos:definition xml:lang="en">Pavans.</skos:definition>
+				<skos:notation xml:lang="en">pv</skos:notation>
+		</skos:Concept>
+<!-- Concept: polonaises  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#po" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3768"/>
+				<skos:prefLabel xml:lang="en">polonaises</skos:prefLabel>
+				<skos:definition xml:lang="en">Polonaises.</skos:definition>
+				<skos:notation xml:lang="en">po</skos:notation>
+		</skos:Concept>
+<!-- Concept: popular music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#pp" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3769"/>
+				<skos:prefLabel xml:lang="en">popular music</skos:prefLabel>
+				<skos:definition xml:lang="en">Popular music.</skos:definition>
+				<skos:notation xml:lang="en">pp</skos:notation>
+		</skos:Concept>
+<!-- Concept: preludes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#pr" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3770"/>
+				<skos:prefLabel xml:lang="en">preludes</skos:prefLabel>
+				<skos:definition xml:lang="en">Preludes.</skos:definition>
+				<skos:notation xml:lang="en">pr</skos:notation>
+		</skos:Concept>
+<!-- Concept: program music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#pg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3766"/>
+				<skos:prefLabel xml:lang="en">program music</skos:prefLabel>
+				<skos:definition xml:lang="en">Program music.</skos:definition>
+				<skos:notation xml:lang="en">pg</skos:notation>
+		</skos:Concept>
+<!-- Concept: ragtime music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#rg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3776"/>
+				<skos:prefLabel xml:lang="en">ragtime music</skos:prefLabel>
+				<skos:definition xml:lang="en">Ragtime music.</skos:definition>
+				<skos:notation xml:lang="en">rg</skos:notation>
+		</skos:Concept>
+<!-- Concept: requiems  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#rq" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3779"/>
+				<skos:prefLabel xml:lang="en">requiems</skos:prefLabel>
+				<skos:definition xml:lang="en">Requiems.</skos:definition>
+				<skos:notation xml:lang="en">rq</skos:notation>
+		</skos:Concept>
+<!-- Concept: rhapsodies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#rp" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3778"/>
+				<skos:prefLabel xml:lang="en">rhapsodies</skos:prefLabel>
+				<skos:definition xml:lang="en">Rhapsodies.</skos:definition>
+				<skos:notation xml:lang="en">rp</skos:notation>
+		</skos:Concept>
+<!-- Concept: ricercars  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ri" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3777"/>
+				<skos:prefLabel xml:lang="en">ricercars</skos:prefLabel>
+				<skos:definition xml:lang="en">Ricercars.</skos:definition>
+				<skos:notation xml:lang="en">ri</skos:notation>
+		</skos:Concept>
+<!-- Concept: rock music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#rc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3774"/>
+				<skos:prefLabel xml:lang="en">rock music</skos:prefLabel>
+				<skos:definition xml:lang="en">Rock music.</skos:definition>
+				<skos:notation xml:lang="en">rc</skos:notation>
+		</skos:Concept>
+<!-- Concept: rondos  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#rd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3775"/>
+				<skos:prefLabel xml:lang="en">rondos</skos:prefLabel>
+				<skos:definition xml:lang="en">Rondos.</skos:definition>
+				<skos:notation xml:lang="en">rd</skos:notation>
+		</skos:Concept>
+<!-- Concept: sonatas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#sn" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3782"/>
+				<skos:prefLabel xml:lang="en">sonatas</skos:prefLabel>
+				<skos:definition xml:lang="en">Sonatas.</skos:definition>
+				<skos:notation xml:lang="en">sn</skos:notation>
+		</skos:Concept>
+<!-- Concept: songs  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#sg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3781"/>
+				<skos:prefLabel xml:lang="en">songs</skos:prefLabel>
+				<skos:definition xml:lang="en">Songs.</skos:definition>
+				<skos:notation xml:lang="en">sg</skos:notation>
+		</skos:Concept>
+<!-- Concept: square dance music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#sd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3780"/>
+				<skos:prefLabel xml:lang="en">square dance music</skos:prefLabel>
+				<skos:definition xml:lang="en">Square dance music.</skos:definition>
+				<skos:notation xml:lang="en">sd</skos:notation>
+		</skos:Concept>
+<!-- Concept: studies and exercises  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#st" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3784"/>
+				<skos:prefLabel xml:lang="en">studies and exercises</skos:prefLabel>
+				<skos:definition xml:lang="en">Studies and exercises.</skos:definition>
+				<skos:notation xml:lang="en">st</skos:notation>
+		</skos:Concept>
+<!-- Concept: suites  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#su" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3785"/>
+				<skos:prefLabel xml:lang="en">suites</skos:prefLabel>
+				<skos:definition xml:lang="en">Suites.</skos:definition>
+				<skos:notation xml:lang="en">su</skos:notation>
+		</skos:Concept>
+<!-- Concept: symphonic poems  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#sp" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3783"/>
+				<skos:prefLabel xml:lang="en">symphonic poems</skos:prefLabel>
+				<skos:definition xml:lang="en">Symphonic poems.</skos:definition>
+				<skos:notation xml:lang="en">sp</skos:notation>
+		</skos:Concept>
+<!-- Concept: symphonies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#sy" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3786"/>
+				<skos:prefLabel xml:lang="en">symphonies</skos:prefLabel>
+				<skos:definition xml:lang="en">Symphonies.</skos:definition>
+				<skos:notation xml:lang="en">sy</skos:notation>
+		</skos:Concept>
+<!-- Concept: teatro lirico  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#tl" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3788"/>
+				<skos:prefLabel xml:lang="en">teatro lirico</skos:prefLabel>
+				<skos:definition xml:lang="en">Spanish and Spanish American theatre music.</skos:definition>
+				<skos:notation xml:lang="en">tl</skos:notation>
+				<skos:scopeNote xml:lang="en"></skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: toccatas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#tc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3787"/>
+				<skos:prefLabel xml:lang="en">toccatas</skos:prefLabel>
+				<skos:definition xml:lang="en">Toccatas.</skos:definition>
+				<skos:notation xml:lang="en">tc</skos:notation>
+		</skos:Concept>
+<!-- Concept: trio-sonatas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#ts" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3789"/>
+				<skos:prefLabel xml:lang="en">trio-sonatas</skos:prefLabel>
+				<skos:definition xml:lang="en">Trio-sonatas.</skos:definition>
+				<skos:notation xml:lang="en">ts</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#uu" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3790"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Unknown.</skos:definition>
+				<skos:notation xml:lang="en">uu</skos:notation>
+				<skos:scopeNote xml:lang="en">Used when the only indication given is the number of instruments and the medium of performance. No structure or genre is given, although they may be implied or understood.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: variations  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#vr" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3792"/>
+				<skos:prefLabel xml:lang="en">variations</skos:prefLabel>
+				<skos:definition xml:lang="en">Variations.</skos:definition>
+				<skos:notation xml:lang="en">vr</skos:notation>
+		</skos:Concept>
+<!-- Concept: villancicos  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#vi" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3791"/>
+				<skos:prefLabel xml:lang="en">villancicos</skos:prefLabel>
+				<skos:definition xml:lang="en">Characteristic form of Spanish polyphony, religious or secular, from the 16th to 18th centuries. Religious villancicos were usually sung in important ceremonies (including Christmas, when these songs were sometimes called "pastoradas").</skos:definition>
+				<skos:notation xml:lang="en">vi</skos:notation>
+		</skos:Concept>
+<!-- Concept: waltzes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#wz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3793"/>
+				<skos:prefLabel xml:lang="en">waltzes</skos:prefLabel>
+				<skos:definition xml:lang="en">Waltzes.</skos:definition>
+				<skos:notation xml:lang="en">wz</skos:notation>
+		</skos:Concept>
+<!-- Concept: zarzuelas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfoc#za" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfoc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3794"/>
+				<skos:prefLabel xml:lang="en">zarzuelas</skos:prefLabel>
+				<skos:definition xml:lang="en">Zarzuelas.</skos:definition>
+				<skos:notation xml:lang="en">za</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

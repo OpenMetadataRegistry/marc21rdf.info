@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Special physical characteristics of tactile resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/tactilespc#">
+        <dc:title>MARC21-007: Special physical characteristics of tactile resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: jumbo or enlarged braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilespc#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilespc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4393"/>
+				<skos:prefLabel xml:lang="en">jumbo or enlarged braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Jumbo or enlarged braille, which is used for braille students and braille readers with reduced tactile sensitivity.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilespc#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilespc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4394"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Not braille.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilespc#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilespc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4396"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific physical characteristics other than print/braille, jumbo or enlarged braille.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: print/braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilespc#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilespc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4392"/>
+				<skos:prefLabel xml:lang="en">print/braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Eye-readable print with braille interleaved or embossed.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilespc#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilespc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4395"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Special physical characteristics are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

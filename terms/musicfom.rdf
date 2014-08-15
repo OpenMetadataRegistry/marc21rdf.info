@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Format of music -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/musicfom#">
+        <dc:title>MARC21-007: Format of music</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: accompaniment reduced for keyboard  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3842"/>
+				<skos:prefLabel xml:lang="en">accompaniment reduced for keyboard</skos:prefLabel>
+				<skos:definition xml:lang="en">Accompaniment is reduced for keyboard instrument(s) and the vocal parts and/or solo instrumental parts remain the same.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for scores of works for solo voices and chorus showing only the parts for chorus, at least in those portions of the work in which the chorus sings, with the instrumental accompaniment arranged for one or two keyboard instruments.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: chorus score  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3846"/>
+				<skos:prefLabel xml:lang="en">chorus score</skos:prefLabel>
+				<skos:definition xml:lang="en">A score of a work for solo voices and chorus showing only the parts for chorus, at least in those portions of the work in which the chorus sings, with the instrumental accompaniment either arranged for one or two keyboard instruments or omitted.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: close score  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3845"/>
+				<skos:prefLabel xml:lang="en">close score</skos:prefLabel>
+				<skos:definition xml:lang="en">Close score (e.g., a hymnal) that has separate parts transcribed on two staves.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: condensed score  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3847"/>
+				<skos:prefLabel xml:lang="en">condensed score</skos:prefLabel>
+				<skos:definition xml:lang="en">A score in which the number of staves is reduced to two or a few, generally organized by instrumental sections, and often with cues for individual parts. Used for: Reduced score, Short score.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: condensed score or piano-conductor score  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3844"/>
+				<skos:prefLabel xml:lang="en">condensed score or piano-conductor score</skos:prefLabel>
+				<skos:definition xml:lang="en">Orchestral or band music that has been reduced to a few staves. It may be part of an ensemble work for a particular instrument, with cues for other instruments. Such a score is used by an individual playing the instrument for which the score was written or for the conductor.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: full score  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3840"/>
+				<skos:prefLabel xml:lang="en">full score</skos:prefLabel>
+				<skos:definition xml:lang="en">Series of staves containing all the instrumental and/or vocal parts of a musical work, arranged so that they can be read simultaneously.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: full score, miniature or study size  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3841"/>
+				<skos:prefLabel xml:lang="en">full score, miniature or study size</skos:prefLabel>
+				<skos:definition xml:lang="en">Miniature score that is usually smaller in size and not intended to be used in performances.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: multiple score formats  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3849"/>
+				<skos:prefLabel xml:lang="en">multiple score formats</skos:prefLabel>
+				<skos:definition xml:lang="en">Several types of scores are issued together, as is frequently the case with band music.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3850"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is a sound recording.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3852"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Format of music other than full score, full score, miniature or study size, accompaniment reduced for keyboard, voice score, condensed score or piano-conductor score, close score, multiple score formats.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: performer-conductor part  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3848"/>
+				<skos:prefLabel xml:lang="en">performer-conductor part</skos:prefLabel>
+				<skos:definition xml:lang="en">Score reduced to a single instrument for which the score was written or for the conductor.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3851"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Format of the item is unknown.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: voice score  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicfom#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicfom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3843"/>
+				<skos:prefLabel xml:lang="en">voice score</skos:prefLabel>
+				<skos:definition xml:lang="en">A score for a vocal work with the accompaniment omitted.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for vocal works originally unaccompanied.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

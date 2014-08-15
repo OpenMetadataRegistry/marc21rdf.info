@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Form of original item of continuing resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/continuingori#">
+        <dc:title>MARC21-008: Form of original item of continuing resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3831"/>
+				<skos:prefLabel xml:lang="en">braille</skos:prefLabel>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: direct electronic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3836"/>
+				<skos:prefLabel xml:lang="en">direct electronic</skos:prefLabel>
+				<skos:definition xml:lang="en">Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway device, flashdrive, portable hard drive, etc.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: electronic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3837"/>
+				<skos:prefLabel xml:lang="en">electronic</skos:prefLabel>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: large print  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3829"/>
+				<skos:prefLabel xml:lang="en">large print</skos:prefLabel>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: magnetic tape [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#hx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3833"/>
+				<skos:prefLabel xml:lang="en">magnetic tape [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfiche  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3827"/>
+				<skos:prefLabel xml:lang="en">microfiche</skos:prefLabel>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfilm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3826"/>
+				<skos:prefLabel xml:lang="en">microfilm</skos:prefLabel>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: microopaque  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3828"/>
+				<skos:prefLabel xml:lang="en">microopaque</skos:prefLabel>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: multimedia [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#ix" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3834"/>
+				<skos:prefLabel xml:lang="en">multimedia [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: newspaper format  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3830"/>
+				<skos:prefLabel xml:lang="en">newspaper format</skos:prefLabel>
+				<skos:definition xml:lang="en">On newsprint and/or looks like a newspaper.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: none of the following  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3825"/>
+				<skos:prefLabel xml:lang="en">none of the following</skos:prefLabel>
+				<skos:definition xml:lang="en">Form of original item other than microfilm, microfiche, microopaque, large print, newspaper format, braille, online, direct electronic, electronic.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: online  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3835"/>
+				<skos:prefLabel xml:lang="en">online</skos:prefLabel>
+				<skos:definition xml:lang="en">Accessed by means of hardware and software connections to a communications network.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: other physical medium (x) [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#xx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3838"/>
+				<skos:prefLabel xml:lang="en">other physical medium (x) [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">x</skos:notation>
+		</skos:Concept>
+<!-- Concept: other physical medium (z) [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#zx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3839"/>
+				<skos:prefLabel xml:lang="en">other physical medium (z) [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: punched paper tape [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingori#gx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingori#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3832"/>
+				<skos:prefLabel xml:lang="en">punched paper tape [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

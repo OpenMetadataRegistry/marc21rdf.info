@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Dimensions of video -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/videodim#">
+        <dc:title>MARC21-007: Dimensions of video</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 1 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videodim#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3706"/>
+				<skos:prefLabel xml:lang="en">1 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">1 in.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: 1/2 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videodim#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3705"/>
+				<skos:prefLabel xml:lang="en">1/2 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">1/2 in.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: 1/4 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videodim#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3704"/>
+				<skos:prefLabel xml:lang="en">1/4 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">1/4 in.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: 2 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videodim#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3707"/>
+				<skos:prefLabel xml:lang="en">2 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">2 in.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: 3/4 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videodim#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3708"/>
+				<skos:prefLabel xml:lang="en">3/4 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">3/4 in.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: 8 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videodim#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3703"/>
+				<skos:prefLabel xml:lang="en">8 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">8 mm.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videodim#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3710"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions other than 8 mm., 1/4 in., 1/2 in., 1 in., 2 in., 3/4 in.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for videodisc dimensions since standard code values for videodiscs do not yet exist.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videodim#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3709"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Width is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

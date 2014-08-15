@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Generation of motion picture -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/motionpicturegen#">
+        <dc:title>MARC21-007: Generation of motion picture</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: duplicate  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturegen#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturegen#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3877"/>
+				<skos:prefLabel xml:lang="en">duplicate</skos:prefLabel>
+				<skos:definition xml:lang="en">Duplicate that is usually negative, referred to as a dupe neg, and is a reproduction of the original picture or sound track. A duplicate negative is made from a master positive, which in turn was made from an earlier negative.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">A duplicate is at least three generations from the original. Duplicate negatives may be prepared either to obtain characteristics not present in the original image, as in special effects work, or to protect and extend the production availability of the assembled original negative as when duplicate negatives are prepared for release printing simultaneously at different labs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: master  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturegen#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturegen#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3878"/>
+				<skos:prefLabel xml:lang="en">master</skos:prefLabel>
+				<skos:definition xml:lang="en">Master that is usually positive and referred to as a master positive. It is a specially prepared positive print made from an earlier generation negative film and used for the preparation of duplicate negatives rather than for projection.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">The master is normally considered second generation material.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: original  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturegen#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturegen#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3879"/>
+				<skos:prefLabel xml:lang="en">original</skos:prefLabel>
+				<skos:definition xml:lang="en">Original that is usually negative. It is film exposed in a camera and thus of better quality than any subsequent generation or derivative.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+				<skos:scopeNote xml:lang="en">When referring to older film, an original is almost always a negative. However, the original film may also be a reversal positive.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturegen#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturegen#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3882"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Generation other than duplicate, master original, reference print/viewing copy.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: reference print/viewing copy  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturegen#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturegen#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3880"/>
+				<skos:prefLabel xml:lang="en">reference print/viewing copy</skos:prefLabel>
+				<skos:definition xml:lang="en">Reference print (ref print) that is defined technically as a release print which has been approved by the producer and director of a film. A reference print may also mean a print kept as a reference print to evaluate the quality of subsequent prints. In film archives, the term is used to indicate that a film may be viewed by researchers.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">It is not original, master, or duplicate material.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturegen#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturegen#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3881"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Generation stage of the film is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

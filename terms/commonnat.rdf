@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Nature of contents -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/commonnat#">
+        <dc:title>MARC21-008: Nature of contents</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: abstracts/summaries  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4050"/>
+				<skos:prefLabel xml:lang="en">abstracts/summaries</skos:prefLabel>
+				<skos:definition xml:lang="en">Abstracts or summaries of other publications.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: bibliographies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4051"/>
+				<skos:prefLabel xml:lang="en">bibliographies</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant part of the item is a bibliography or bibliographies.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: biography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4057"/>
+				<skos:prefLabel xml:lang="en">biography</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant part of the item contains biographical material, whether autobiography, individual biography, or collective biography.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for genealogy.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: calendars  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#5" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4048"/>
+				<skos:prefLabel xml:lang="en">calendars</skos:prefLabel>
+				<skos:definition xml:lang="en">Published systems of organizing days. These may be academic calendars or almanacs, calendars published by bodies, such as labor organizations, library associations, etc.</skos:definition>
+				<skos:notation xml:lang="en">5</skos:notation>
+		</skos:Concept>
+<!-- Concept: catalogs  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4052"/>
+				<skos:prefLabel xml:lang="en">catalogs</skos:prefLabel>
+				<skos:definition xml:lang="en">List of items in a collection.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Also includes lists of collectible objects, such as stamps and coins, or trade catalogs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: comics or graphic novels  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#6" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4049"/>
+				<skos:prefLabel xml:lang="en">comics or graphic novels</skos:prefLabel>
+				<skos:definition xml:lang="en">Instances of "sequential art" in which a story (whether fact or fiction) is told primarily through a set of images (often in the form of multiple "panels" per page) presented concurrently but meant to be "read" sequentially by the viewer. The accompanying narrative and/or dialog text, when it occurs, works integrally with the images to tell the story.</skos:definition>
+				<skos:notation xml:lang="en">6</skos:notation>
+		</skos:Concept>
+<!-- Concept: dictionaries  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4053"/>
+				<skos:prefLabel xml:lang="en">dictionaries</skos:prefLabel>
+				<skos:definition xml:lang="en">Dictionaries.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for a glossary or a gazetteer. Not used for concordance or serial biographical dictionaries.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: directories  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4067"/>
+				<skos:prefLabel xml:lang="en">directories</skos:prefLabel>
+				<skos:definition xml:lang="en">Directory or register of persons or corporate bodies.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for serial biographical dictionaries.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: discographies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4059"/>
+				<skos:prefLabel xml:lang="en">discographies</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant part of the item is a discography or discographies, or other bibliography of recorded sound.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: encyclopedias  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4054"/>
+				<skos:prefLabel xml:lang="en">encyclopedias</skos:prefLabel>
+				<skos:definition xml:lang="en">Encyclopedia or an encyclopedic treatment of a specific topic.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: filmographies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4066"/>
+				<skos:prefLabel xml:lang="en">filmographies</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant part of the item is a filmography or other bibliography of moving images.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: handbooks  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4055"/>
+				<skos:prefLabel xml:lang="en">handbooks</skos:prefLabel>
+				<skos:definition xml:lang="en">Handbooks.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: indexes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4058"/>
+				<skos:prefLabel xml:lang="en">indexes</skos:prefLabel>
+				<skos:definition xml:lang="en">Index to bibliographical material other than itself (e.g., an indexing journal).</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used when a publication contains an index to its own content.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: law reports and digests  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4072"/>
+				<skos:prefLabel xml:lang="en">law reports and digests</skos:prefLabel>
+				<skos:definition xml:lang="en">Texts of decisions of courts or administrative agencies.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+				<skos:scopeNote xml:lang="en">Also used when an item includes texts of digests of such decisions.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: legal articles  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4056"/>
+				<skos:prefLabel xml:lang="en">legal articles</skos:prefLabel>
+				<skos:definition xml:lang="en">Substantive articles on legal topics, such as those published in law school reviews.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: legal cases and case notes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4071"/>
+				<skos:prefLabel xml:lang="en">legal cases and case notes</skos:prefLabel>
+				<skos:definition xml:lang="en">Discussions, such as those in the case comments section of law school reviews, of particular legal cases that have been decided by, or that are pending before, courts or administrative agencies.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: legal cases and case notes [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#nx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4062"/>
+				<skos:prefLabel xml:lang="en">legal cases and case notes [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: legislation  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4060"/>
+				<skos:prefLabel xml:lang="en">legislation</skos:prefLabel>
+				<skos:definition xml:lang="en">Full or partial texts of enactments of legislative bodies, published either in statute or in code form, or texts of rules and regulations issued by executive or administrative agencies.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: no specified nature of contents  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4047"/>
+				<skos:prefLabel xml:lang="en">no specified nature of contents</skos:prefLabel>
+				<skos:definition xml:lang="en">No specified nature of contents.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: programmed texts  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4065"/>
+				<skos:prefLabel xml:lang="en">programmed texts</skos:prefLabel>
+				<skos:definition xml:lang="en">Programmed texts.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: reviews  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4064"/>
+				<skos:prefLabel xml:lang="en">reviews</skos:prefLabel>
+				<skos:definition xml:lang="en">Reviews.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes critical reviews of published or performed works (e.g., books, films, sound recordings, theater, etc.).</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: standards or specifications  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4070"/>
+				<skos:prefLabel xml:lang="en">standards or specifications</skos:prefLabel>
+				<skos:definition xml:lang="en">Either an international, national or industry standard or a specification which gives a precise statement of a process or a service requirement.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: statistics  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4068"/>
+				<skos:prefLabel xml:lang="en">statistics</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant part of the item is a collection of statistical data on a subject.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for works about statistical methodology.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: surveys of literature in a subject area  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4063"/>
+				<skos:prefLabel xml:lang="en">surveys of literature in a subject area</skos:prefLabel>
+				<skos:definition xml:lang="en">Surveys of literature in a subject area.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes authored surveys that summarize what has been published about a subject</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: technical reports  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4069"/>
+				<skos:prefLabel xml:lang="en">technical reports</skos:prefLabel>
+				<skos:definition xml:lang="en">Work that is the result of scientific investigation or technical development, testing, or evaluation, presented in a form suitable for dissemination to the technical community.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: theses  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4061"/>
+				<skos:prefLabel xml:lang="en">theses</skos:prefLabel>
+				<skos:definition xml:lang="en">Thesis, dissertation, or work identified as having been created to satisfy the requirements for an academic certification or degree.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: treaties  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4074"/>
+				<skos:prefLabel xml:lang="en">treaties</skos:prefLabel>
+				<skos:definition xml:lang="en">Treaty or accord negotiated between two or more parties to settle a disagreement, establish a relationship, grant rights, etc.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: yearbooks  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonnat#y" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonnat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4073"/>
+				<skos:prefLabel xml:lang="en">yearbooks</skos:prefLabel>
+				<skos:notation xml:lang="en">y</skos:notation>
+				<skos:definition xml:lang="en">Reference publication issued on an annual or less frequent basis that contains articles summarizing the accomplishments or events of a particular year within a specific discipline or area of endeavor.</skos:definition>
+				<skos:scopeNote xml:lang="en">Not used for annual reports, which are administrative overviews of an organization.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

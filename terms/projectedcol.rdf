@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Color characteristics of a projected graphic -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/projectedcol#">
+        <dc:title>MARC21-007: Color characteristics of a projected graphic</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: black-and-white  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedcol#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3554"/>
+				<skos:prefLabel xml:lang="en">black-and-white</skos:prefLabel>
+				<skos:definition xml:lang="en">Image is printed or executed in black-and-white. Refers to monochrome photographic materials (including film) and videorecordings, or to overhead transparencies executed in black-and-white.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Does not include tinted, toned, or stained items.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: hand colored  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedcol#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3556"/>
+				<skos:prefLabel xml:lang="en">hand colored</skos:prefLabel>
+				<skos:definition xml:lang="en">Image, produced by a printing or photographic process, is hand colored.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedcol#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3557"/>
+				<skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">A combination of one color, black and white, colored, hand colored, and/or other images.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: multicolored  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedcol#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3555"/>
+				<skos:prefLabel xml:lang="en">multicolored</skos:prefLabel>
+				<skos:definition xml:lang="en">Image is printed or executed in more than one color. The color is a result of a number of processes, either photographic or electronic, capable of reproducing a reasonable range of hues, or of original application of color materials, for example, paint.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for color photographic processes (motion pictures, filmstrips, transparencies, and slides), color videorecordings, or multicolored overhead transparencies.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedcol#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3558"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item has no images.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, when the item in hand is sound track film intended to accompany visual images not actually present.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: one color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedcol#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3553"/>
+				<skos:prefLabel xml:lang="en">one color</skos:prefLabel>
+				<skos:definition xml:lang="en">Image is printed or executed in a single color (i.e., monochromatic).</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Used only for transparency sets. Does not include black.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedcol#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3560"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Color other than one color, black-and-white, multicolored, hand colored, mixed.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedcol#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3559"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Color characteristics of the projected graphic are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

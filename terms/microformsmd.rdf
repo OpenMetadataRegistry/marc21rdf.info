@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of microform -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/microformsmd#">
+        <dc:title>MARC21-007: Specific material designation of microform</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: aperture card  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4438"/>
+				<skos:prefLabel xml:lang="en">aperture card</skos:prefLabel>
+				<skos:definition xml:lang="en">Card with one or more rectangular opening(s), or aperture(s), specifically prepared for the mounting or insertion of a piece of photographic film containing one or more microimage(s). The cards are usually EAM (Electrical Accounting Machine) punched cards, commonly known as IBM cards, that are standardized for use in card-handling machines. Such cards contain only one aperture and most frequently have only one microimage.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfiche  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4442"/>
+				<skos:prefLabel xml:lang="en">microfiche</skos:prefLabel>
+				<skos:definition xml:lang="en">Transparent sheet of photographic film containing microimages arranged in a grid pattern (a two-dimensional array) and having a heading that contains identifying information in text that is large enough to be read without magnification. Grid patterns vary with reduction ratios. Microfiches are grouped in five ranges of reduction ratios: low reduction (ratios up to and including 15:1), normal reduction (ratios greater than 15:1 up to and including 30:1), high reduction (ratios greater than 30:1 up to and including 60:1), very high reduction (ratios greater than 60:1 up to and including 90:1) and ultrahigh reduction (ratios greater than 90:1). The most common microfiche are made by filming textual or graphic material at a reduction ratio of approximately 24:1. Such microfiche are 105 mm. high and 148 mm. wide (approximately 4x6 in.) and have a grid pattern that accommodates 98 microimages made from documents that are no more than 11 in. high and 8 1/2 in. wide. The heading area is the width of one row and is found directly above the first row of microimages. The most common COM (Computer-Output-Microfilm) microfiche are made by recording computer-generated data at an effective reduction ratio of 48:1 on a 105 mm. x 148 mm. sheet of film. Such microfiche have a grid pattern of 15 rows and 18 columns, comprising 270 microimages. The heading area is the width of one row and is found directly above the first row of microimages. Microfiche made at ultrahigh ratios are commonly called ultrafiche. Ratios and grid patterns have not been standardized for these microfiche and differ according to application and method for production.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfiche cassette  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4443"/>
+				<skos:prefLabel xml:lang="en">microfiche cassette</skos:prefLabel>
+				<skos:definition xml:lang="en">Microfiche cassette.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfilm cartridge  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4439"/>
+				<skos:prefLabel xml:lang="en">microfilm cartridge</skos:prefLabel>
+				<skos:definition xml:lang="en">Consists of a strip of photographic film wound onto a single core (or hub), housed in a protective container. Microfilm cartridges require reading equipment (readers and reader-printers) that is specifically adapted for their use. Normally, the end of the film is left free for threading into such equipment. Common film lengths, widths, and reduction ratios are the same as those of microfilm reels.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfilm cassette  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4440"/>
+				<skos:prefLabel xml:lang="en">microfilm cassette</skos:prefLabel>
+				<skos:definition xml:lang="en">Analogous to the sound tape cassette. Consists of a strip of photographic film wound onto a double core, housed in a protective container. Microfilm cassettes require reading equipment (readers and reader-printers) that is specifically adapted for their use. Because they are double-cored, they are not threaded when used in such readers and reader-printers. Usual film lengths are 100 ft (approximately 30 m.) or less. Common film width is 16 mm. and usual reduction ratios are those of microfilm reels and cartridges.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfilm reel  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4441"/>
+				<skos:prefLabel xml:lang="en">microfilm reel</skos:prefLabel>
+				<skos:definition xml:lang="en">Consists of a strip of photographic film wound onto an unenclosed flanged holder (or reel). Microfilm reels require manual threading when used in readers and reader-printers and require equipment that is adapted for their use. Film lengths are usually 100 ft. (approximately 30 m.) or less. For microimages produced by filming textual and graphic materials, the most common film widths are 35 mm. and 16 mm. and reduction ratios commonly range from about 10:1 to about 20:1. Sixteen millimeter film with effective ratios of either 24:1 or 48:1 is most often used for COM (Computer-Output-Microfilm) microimages.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfilm roll  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4446"/>
+				<skos:prefLabel xml:lang="en">microfilm roll</skos:prefLabel>
+				<skos:definition xml:lang="en">A wound length of microfilm not on a reel, cartridge, etc.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfilm slip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4445"/>
+				<skos:prefLabel xml:lang="en">microfilm slip</skos:prefLabel>
+				<skos:definition xml:lang="en">A short strip of microfilm cut from a roll.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: microopaque  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4444"/>
+				<skos:prefLabel xml:lang="en">microopaque</skos:prefLabel>
+				<skos:definition xml:lang="en">Sheet of opaque material bearing a number of microimages arranged in a two-dimensional array. Microopaques resemble microfiche. Common dimensions are 3x5 in. and 6x9 in. Common reduction ratios are approximately 24:1 or 20:1. Microopaques usually have identifying information in text that is large enough to read without magnification.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4448"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than aperture card, microfilm cartridge, microfilm cassette, microfilm reel, microfiche, microfiche cassette, microopaque, microfilm slip, microfilm roll.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes microchip (a sheet of photographic film of very small dimensions), microdot (a minuscule piece of photgraphic film with ultrahigh reduction ration), microform scroll (a roll of unusually wide photographic film).</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformsmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4447"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Special material designation for the microform is not specified.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

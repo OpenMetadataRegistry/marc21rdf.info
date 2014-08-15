@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Type of reproduction of map -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/maprep#">
+        <dc:title>MARC21-007: Type of reproduction of map</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: facsimile  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maprep#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maprep#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4612"/>
+				<skos:prefLabel xml:lang="en">facsimile</skos:prefLabel>
+				<skos:definition xml:lang="en">Facsimile which resembles the original in all aspects possible, but it is not the original.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maprep#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maprep#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4613"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not a reproduction.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maprep#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maprep#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4615"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Type of reproduction other than facsimile.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maprep#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maprep#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4614"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Type of reproduction is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Platform use category of remote sensing platform -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/remotesensingpla#">
+        <dc:title>MARC21-007: Platform use category of remote sensing platform</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: meteorological  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpla#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4166"/>
+				<skos:prefLabel xml:lang="en">meteorological</skos:prefLabel>
+				<skos:definition xml:lang="en">Primary use for the platform is to make remote-sensing images of meteorological events and conditions.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed uses  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpla#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4169"/>
+				<skos:prefLabel xml:lang="en">mixed uses</skos:prefLabel>
+				<skos:definition xml:lang="en">Platform from which remote-sensing images can be made is designed for a variety of uses.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpla#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4170"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Identification of platform use category is not applicable.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpla#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4172"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Platform use category other than meteorological, surface observing, space observing, mixed uses.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: space observing  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpla#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4168"/>
+				<skos:prefLabel xml:lang="en">space observing</skos:prefLabel>
+				<skos:definition xml:lang="en">Primary use for the platform is to make remote-sensing images of space.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: surface observing  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpla#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4167"/>
+				<skos:prefLabel xml:lang="en">surface observing</skos:prefLabel>
+				<skos:definition xml:lang="en">Primary use for the platform is to make remote-sensing images of the surface of a planet, moon, etc. (including the Earth).</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpla#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpla#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4171"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Platform use category is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

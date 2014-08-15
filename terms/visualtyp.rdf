@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Type of visual material -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/visualtyp#">
+        <dc:title>MARC21-007: Type of visual material</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: art original  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4616"/>
+				<skos:prefLabel xml:lang="en">art original</skos:prefLabel>
+				<skos:definition xml:lang="en">Two or three-dimensional work of art created by an artist, for example, a sculpture, as contrasted with a reproduction of it.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: art reproduction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4618"/>
+				<skos:prefLabel xml:lang="en">art reproduction</skos:prefLabel>
+				<skos:definition xml:lang="en">Two or three-dimensional mechanically reproduced copy of a work of art, generally as one of a commercial edition.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: chart  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4627"/>
+				<skos:prefLabel xml:lang="en">chart</skos:prefLabel>
+				<skos:definition xml:lang="en">Opaque sheet that exhibits data in graphic or tabular form (e.g., a calendar).</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: diorama  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4619"/>
+				<skos:prefLabel xml:lang="en">diorama</skos:prefLabel>
+				<skos:definition xml:lang="en">Three-dimensional representation of a scene created by placing objects, figures, etc. in front of a two-dimensional background.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: electronic videorecording [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#ex" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4620"/>
+				<skos:prefLabel xml:lang="en">electronic videorecording [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: filmstrip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4621"/>
+				<skos:prefLabel xml:lang="en">filmstrip</skos:prefLabel>
+				<skos:definition xml:lang="en">Length of film containing a succession of images intended for projection one frame at a time with or without recorded sound.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: flash card  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4628"/>
+				<skos:prefLabel xml:lang="en">flash card</skos:prefLabel>
+				<skos:definition xml:lang="en">Card or other opaque material printed with words, numerals, or pictures and designed for rapid display.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+				<skos:scopeNote xml:lang="en">Activity cards are included in this category.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: game  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4622"/>
+				<skos:prefLabel xml:lang="en">game</skos:prefLabel>
+				<skos:definition xml:lang="en">Item or set of items designed for play according to prescribed rules and intended for recreation or instruction.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+				<skos:scopeNote xml:lang="en">includes puzzles and simulations.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: graphic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4624"/>
+				<skos:prefLabel xml:lang="en">graphic</skos:prefLabel>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: kit  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4617"/>
+				<skos:prefLabel xml:lang="en">kit</skos:prefLabel>
+				<skos:definition xml:lang="en">Mixture of components from two or more categories, that is, sound recording, maps, filmstrips, etc., no one of which is the predominant constituent of the item.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Also includes the packages of material called laboratory kits, and packages of assorted materials, such as a set of K-12 social studies curriculum material (all books, workbooks, guides, activities, etc.) or packages of educational test materials (tests, answer sheets, scoring guides, score charts, interpretative manuals, etc.).</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: microscope slide  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4629"/>
+				<skos:prefLabel xml:lang="en">microscope slide</skos:prefLabel>
+				<skos:definition xml:lang="en">Transparent mount, usually glass, containing a minute object to be viewed through a microscope or microprojector.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: model  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4630"/>
+				<skos:prefLabel xml:lang="en">model</skos:prefLabel>
+				<skos:definition xml:lang="en">Three-dimensional representation of a real thing, either of the exact size of the original or to scale.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: motion picture  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4626"/>
+				<skos:prefLabel xml:lang="en">motion picture</skos:prefLabel>
+				<skos:definition xml:lang="en">Series of still pictures on film with or without sound, designed to be projected in rapid succession to produce the optical effect of motion.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4636"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Type of visual material other than art original, kit, art reproduction, diorama, filmstrip, game, picture, graphic, technical drawing, motion picture, chart, flash card, microscope slide, model, realia, slide, transparency, videorecording, toy.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: picture  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4623"/>
+				<skos:prefLabel xml:lang="en">picture</skos:prefLabel>
+				<skos:definition xml:lang="en">Two-dimensional visual representation accessible to the naked eye and generally on an opaque backing.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: realia  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4631"/>
+				<skos:prefLabel xml:lang="en">realia</skos:prefLabel>
+				<skos:definition xml:lang="en">Realia.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes 1) all other three-dimensional items not covered by the other codes (e.g., clothing, stitchery, fabrics, tools, utensils), and 2) naturally occurring objects.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: slide  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4632"/>
+				<skos:prefLabel xml:lang="en">slide</skos:prefLabel>
+				<skos:definition xml:lang="en">Transparent material on which there is a two-dimensional image, usually held in a mount, and designed for use in a projector or viewer.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+				<skos:scopeNote xml:lang="en">Modern stereographs, for example, Viewmaster reels, are included here.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: technical drawing  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4625"/>
+				<skos:prefLabel xml:lang="en">technical drawing</skos:prefLabel>
+				<skos:definition xml:lang="en">Cross section, detail, diagram, elevation, perspective, plan, working plan, etc., made for use in an architectural engineering or other technical context.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: toy  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4635"/>
+				<skos:prefLabel xml:lang="en">toy</skos:prefLabel>
+				<skos:definition xml:lang="en">Material object for children or others to play with (often an imitation of some familiar object); a plaything; also, something contrived for amusement rather than for practical use.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+		</skos:Concept>
+<!-- Concept: transparency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4633"/>
+				<skos:prefLabel xml:lang="en">transparency</skos:prefLabel>
+				<skos:definition xml:lang="en">Transparent material on which a basically still image is recorded. Transparencies are designed for use with an overhead projector or a light box.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+				<skos:scopeNote xml:lang="en">X-rays are coded as transparencies.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: videorecording  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtyp#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4634"/>
+				<skos:prefLabel xml:lang="en">videorecording</skos:prefLabel>
+				<skos:definition xml:lang="en">Recording on which visual images, usually in motion and accompanied by sound, have been registered. Videorecordings are designed for playback by means of a television receiver or monitor.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

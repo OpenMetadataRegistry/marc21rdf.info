@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Government publication -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/commongov#">
+        <dc:title>MARC21-008: Government publication</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: autonomous or semi-autonomous component  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3884"/>
+				<skos:prefLabel xml:lang="en">autonomous or semi-autonomous component</skos:prefLabel>
+				<skos:definition xml:lang="en">Published or produced by or for a government body of an autonomous or semi-autonomous component of a country.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: federal or national  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3886"/>
+				<skos:prefLabel xml:lang="en">federal or national</skos:prefLabel>
+				<skos:definition xml:lang="en">Published or produced by or for a federal or national government body (e.g., a sovereign nation, such as Canada). Used for the governments of England, Wales, Scotland, and Northern Ireland. Also used for American Indian tribes.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: government publication - level undetermined  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3891"/>
+				<skos:prefLabel xml:lang="en">government publication - level undetermined</skos:prefLabel>
+				<skos:definition xml:lang="en">Published or produced by or for a government body but that the jurisdictional level cannot be determined.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: government publication - level undetermined [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#nx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3890"/>
+				<skos:prefLabel xml:lang="en">government publication - level undetermined [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: international intergovernmental  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3887"/>
+				<skos:prefLabel xml:lang="en">international intergovernmental</skos:prefLabel>
+				<skos:definition xml:lang="en">Published or produced by or for an international intergovernmental body.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: local  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3888"/>
+				<skos:prefLabel xml:lang="en">local</skos:prefLabel>
+				<skos:definition xml:lang="en">Published or produced by or for a local government jurisdiction such as a town, city, county, etc.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: multilocal  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3885"/>
+				<skos:prefLabel xml:lang="en">multilocal</skos:prefLabel>
+				<skos:definition xml:lang="en">Published or produced by or for a multilocal jurisdiction which is defined as a regional combination of jurisdictions below the state level.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: multistate  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3889"/>
+				<skos:prefLabel xml:lang="en">multistate</skos:prefLabel>
+				<skos:definition xml:lang="en">Published or produced by or for a regional combination of jurisdictions at the state, provincial, territorial, etc. level.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: not a government publication  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3883"/>
+				<skos:prefLabel xml:lang="en">not a government publication</skos:prefLabel>
+				<skos:definition xml:lang="en">Not published by or for a government body.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3894"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Government publication other than autonomous or semi-autonomous component, multilocal, federal or national, international intergovernmental, local, multistate, government publication - level undetermined, state, provincial, territorial, dependent, etc.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: state, provincial, territorial, dependent, etc.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3892"/>
+				<skos:prefLabel xml:lang="en">state, provincial, territorial, dependent, etc.</skos:prefLabel>
+				<skos:definition xml:lang="en">Jurisdictional level of the government body is a state, province, territory, or other dependent jurisdiction.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown if item is government publication  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commongov#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commongov#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3893"/>
+				<skos:prefLabel xml:lang="en">unknown if item is government publication</skos:prefLabel>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

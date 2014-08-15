@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Completeness of the motion picture -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/motionpicturecom#">
+        <dc:title>MARC21-007: Completeness of the motion picture</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: complete  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecom#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3568"/>
+				<skos:prefLabel xml:lang="en">complete</skos:prefLabel>
+				<skos:definition xml:lang="en">Judged to be complete.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: incomplete  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecom#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3569"/>
+				<skos:prefLabel xml:lang="en">incomplete</skos:prefLabel>
+				<skos:definition xml:lang="en">Judged to be incomplete.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecom#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3570"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Completeness is not applicable to the type of motion picture.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., home movies, unedited footage, outtakes, and in some cases, unidentified material, etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecom#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3571"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Completeness of the item is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

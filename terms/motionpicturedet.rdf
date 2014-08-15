@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Deterioration stage of motion picture -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/motionpicturedet#">
+        <dc:title>MARC21-007: Deterioration stage of motion picture</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: nitrate: brownish, discoloration, fading, dusty  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3635"/>
+				<skos:prefLabel xml:lang="en">nitrate: brownish, discoloration, fading, dusty</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of nitrate materials characterized as brownish, discoloration, fading, dusty.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: nitrate: congealed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3638"/>
+				<skos:prefLabel xml:lang="en">nitrate: congealed</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of nitrate materials characterized as congealed.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: nitrate: frothy, bubbles, blisters  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3637"/>
+				<skos:prefLabel xml:lang="en">nitrate: frothy, bubbles, blisters</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of nitrate materials characterized as frothy, bubbles, blisters.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: nitrate: powder  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3639"/>
+				<skos:prefLabel xml:lang="en">nitrate: powder</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of nitrate materials characterized as powder.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: nitrate: pungent odor  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3634"/>
+				<skos:prefLabel xml:lang="en">nitrate: pungent odor</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of nitrate materials characterized as pungent odor.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: nitrate: sticky  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3636"/>
+				<skos:prefLabel xml:lang="en">nitrate: sticky</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of nitrate materials characterized as sticky.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: nitrate: suspicious odor  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3633"/>
+				<skos:prefLabel xml:lang="en">nitrate: suspicious odor</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of nitrate materials characterized as suspicious odor.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: non-nitrate: advanced deterioration  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3641"/>
+				<skos:prefLabel xml:lang="en">non-nitrate: advanced deterioration</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of non-nitrate materials (safety film, etc.) characterized as advanced deterioration.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: non-nitrate: detectable deterioration  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3640"/>
+				<skos:prefLabel xml:lang="en">non-nitrate: detectable deterioration</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of non-nitrate materials (safety film, etc.) characterized as detectable deterioration.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: non-nitrate: disaster  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3642"/>
+				<skos:prefLabel xml:lang="en">non-nitrate: disaster</skos:prefLabel>
+				<skos:definition xml:lang="en">Deterioration of non-nitrate materials (safety film, etc.) characterized as disaster.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: none apparent  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedet#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedet#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3632"/>
+				<skos:prefLabel xml:lang="en">none apparent</skos:prefLabel>
+				<skos:definition xml:lang="en">No deterioration is apparent on either nitrate or non-nitrate motion picture film.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xml:base="http://marc21rdf.info/elements/3XX"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:reg="http://metadataregistry.org/uri/profile/RegAp/">
+
+<!-- Element Set: MARC 21 Elements 3XX -->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/3XX">
+  <dc:title xml:lang="en">MARC 21 Elements 3XX</dc:title>
+  <foaf:homepage rdf:resource="http://www.loc.gov/marc/bibliographic/bd3xx.html"/>
+</rdf:Description>
+
+<!--Property: Additional information in Hours, Etc. (No display constant generated)-->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/3XX/M3078_b">
+  <rdfs:isDefinedBy rdf:resource="http://marc21rdf.info/elements/3XX" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">hasAdditionalInformationInHoursEtcNoDisplayConstantGenerated</reg:name>
+  <rdfs:label xml:lang="en">Additional information in Hours, Etc. (No display constant generated)</rdfs:label>
+  <skos:definition xml:lang="en">Additional information pertaining to the hours of availability of the item. No display constant generated.</skos:definition>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <skos:scopeNote xml:lang="en">tag: 307 (Hours, Etc.)&lt;br /&gt;ind1: 8 (No display constant generated)&lt;br /&gt;ind2: # (no caption)&lt;br /&gt;sub: b (Additional information)&lt;br /&gt;</skos:scopeNote>
+</rdf:Description>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

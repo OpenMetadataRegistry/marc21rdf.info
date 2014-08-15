@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Music parts -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/musicpar#">
+        <dc:title>MARC21-007: Music parts</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: instrumental and vocal parts  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicpar#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicpar#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4042"/>
+				<skos:prefLabel xml:lang="en">instrumental and vocal parts</skos:prefLabel>
+				<skos:definition xml:lang="en">Both instrumental and vocal parts are present.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: instrumental parts  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicpar#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicpar#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4043"/>
+				<skos:prefLabel xml:lang="en">instrumental parts</skos:prefLabel>
+				<skos:definition xml:lang="en">Instrumental parts are present.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: no parts in hand or not specified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicpar#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicpar#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4041"/>
+				<skos:prefLabel xml:lang="en">no parts in hand or not specified</skos:prefLabel>
+				<skos:definition xml:lang="en">No parts in hand or the musical parts are not specified.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicpar#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicpar#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4045"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not notated music.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicpar#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicpar#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4046"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Unknown whether the item being cataloged contains parts.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+				<skos:scopeNote xml:lang="en">May be used for records created without examining the item, such as retrospective conversion from a printed card.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: vocal parts  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicpar#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicpar#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4044"/>
+				<skos:prefLabel xml:lang="en">vocal parts</skos:prefLabel>
+				<skos:definition xml:lang="en">Vocal parts are present.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Base of film of microform -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/microformbas#">
+        <dc:title>MARC21-007: Base of film of microform</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: mixed base (nitrate and safety)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3440"/>
+				<skos:prefLabel xml:lang="en">mixed base (nitrate and safety)</skos:prefLabel>
+				<skos:definition xml:lang="en">Combination of nitrate base and safety base film.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: nitrate base  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3439"/>
+				<skos:prefLabel xml:lang="en">nitrate base</skos:prefLabel>
+				<skos:definition xml:lang="en">Cellulose nitrate film.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3441"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">A reflective rather than a transparent base.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for microopaques (which can be termed microcard or microprint).</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3446"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Base of film other than safety base, undetermined, safety base, acetate undetermined, safety base, diacetate, nitrate base, mixed base (nitrate and safety), not applicable, safety base, polyester, safety base, mixed, safety base, triacetate.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: safety base, acetate undetermined  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3437"/>
+				<skos:prefLabel xml:lang="en">safety base, acetate undetermined</skos:prefLabel>
+				<skos:definition xml:lang="en">Acetate safety base film whose exact type cannot be determined.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: safety base, diacetate  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3438"/>
+				<skos:prefLabel xml:lang="en">safety base, diacetate</skos:prefLabel>
+				<skos:definition xml:lang="en">Cellulose diacetate film base.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: safety base, mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3443"/>
+				<skos:prefLabel xml:lang="en">safety base, mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">Mixed safety base films are spliced together; no nitrate film.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: safety base, polyester  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3442"/>
+				<skos:prefLabel xml:lang="en">safety base, polyester</skos:prefLabel>
+				<skos:definition xml:lang="en">Film base is made of a synthetic resin (e.g., estar).</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: safety base, triacetate  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3444"/>
+				<skos:prefLabel xml:lang="en">safety base, triacetate</skos:prefLabel>
+				<skos:definition xml:lang="en">Cellulose triacetate film base.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: safety base, undetermined  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3436"/>
+				<skos:prefLabel xml:lang="en">safety base, undetermined</skos:prefLabel>
+				<skos:definition xml:lang="en">Type has not been identified.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformbas#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3445"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

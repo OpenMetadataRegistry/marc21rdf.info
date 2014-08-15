@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Braille music format -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/tactilebmf#">
+        <dc:title>MARC21-007: Braille music format</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: bar by bar  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3465"/>
+				<skos:prefLabel xml:lang="en">bar by bar</skos:prefLabel>
+				<skos:definition xml:lang="en">Music is displayed in indented paragraphs with all of the parts for each measure written consecutively.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: bar over bar  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3464"/>
+				<skos:prefLabel xml:lang="en">bar over bar</skos:prefLabel>
+				<skos:definition xml:lang="en">Measures are displayed in units called parallels and the beginning of each part's measure is vertically aligned with the beginning of the same measure for the other part(s).</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Used chiefly for keyboard music.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: line by line  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3470"/>
+				<skos:prefLabel xml:lang="en">line by line</skos:prefLabel>
+				<skos:definition xml:lang="en">Lines of text alternate with lines of music for the preceding text.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: line over line  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3466"/>
+				<skos:prefLabel xml:lang="en">line over line</skos:prefLabel>
+				<skos:definition xml:lang="en">Measures are displayed in parallels, but the measures are not necessarily aligned.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: no specified braille music format  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3463"/>
+				<skos:prefLabel xml:lang="en">no specified braille music format</skos:prefLabel>
+				<skos:definition xml:lang="en">Item uses fewer than three specified braille writing formats.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3476"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Not braille music.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: open score  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3471"/>
+				<skos:prefLabel xml:lang="en">open score</skos:prefLabel>
+				<skos:definition xml:lang="en">Music is presented in parallels. Open score is similar to bar over bar, but used for ensemble scores.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3478"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille music format other than no specified braille music format, bar over bar, bar by bar, line over line, paragraph, single line, section by section, line by line, open score, spanner short form scoring, short form scoring, outline, vertical score.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: outline  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3474"/>
+				<skos:prefLabel xml:lang="en">outline</skos:prefLabel>
+				<skos:definition xml:lang="en">Music is in the outline format.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: paragraph  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3467"/>
+				<skos:prefLabel xml:lang="en">paragraph</skos:prefLabel>
+				<skos:definition xml:lang="en">Music is displayed in paragraphs with one part per paragraph.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: section by section  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3469"/>
+				<skos:prefLabel xml:lang="en">section by section</skos:prefLabel>
+				<skos:definition xml:lang="en">Hand or part signs are prominent in the left margin.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: short form scoring  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3473"/>
+				<skos:prefLabel xml:lang="en">short form scoring</skos:prefLabel>
+				<skos:definition xml:lang="en">Words, chord symbols, and melody are presented in parallels, and literary braille is used for the chord symbols.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+				<skos:scopeNote xml:lang="en">Used chiefly for popular and folk music. This format is also referred to as the American or BANA short form scoring format.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: single line  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3468"/>
+				<skos:prefLabel xml:lang="en">single line</skos:prefLabel>
+				<skos:definition xml:lang="en">Music is presented in segments of two to five lines, the initial line displaying a measure number or rehearsal designation.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for single instrumental parts or solos. It is also called solo instrumental format.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: spanner short form scoring  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3472"/>
+				<skos:prefLabel xml:lang="en">spanner short form scoring</skos:prefLabel>
+				<skos:definition xml:lang="en">Chord symbols and melody are presented in paragraphs.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">Used chiefly for popular and folk music, but music braille is used for the chord symbols. Also used to indicate that the music is in the Canadian melody chord system.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3477"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille music format is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: vertical score  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilebmf#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilebmf#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3475"/>
+				<skos:prefLabel xml:lang="en">vertical score</skos:prefLabel>
+				<skos:definition xml:lang="en">Parts are combined and written as chords.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

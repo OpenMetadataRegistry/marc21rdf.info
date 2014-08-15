@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of text -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/textsmd#">
+        <dc:title>MARC21-007: Specific material designation of text</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/textsmd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/textsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4501"/>
+				<skos:prefLabel xml:lang="en">braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille text is embossed characters that have been formed by raised dots in six-dot cells; braille is intended for use by the visually impaired.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: large print  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/textsmd#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/textsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4500"/>
+				<skos:prefLabel xml:lang="en">large print</skos:prefLabel>
+				<skos:definition xml:lang="en">Large print text is oversized print intended for use by the visually impaired.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/textsmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/textsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4504"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than regular print, large print, braille, text in looseleaf binder.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: regular print  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/textsmd#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/textsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4499"/>
+				<skos:prefLabel xml:lang="en">regular print</skos:prefLabel>
+				<skos:definition xml:lang="en">Regular, eye-readable text.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: text in looseleaf binder  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/textsmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/textsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4502"/>
+				<skos:prefLabel xml:lang="en">text in looseleaf binder</skos:prefLabel>
+				<skos:definition xml:lang="en">Text in a loose-leaf binder.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/textsmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/textsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4503"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Special material designation of the text is not specified.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

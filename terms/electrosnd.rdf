@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Sound of electronic resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electrosnd#">
+        <dc:title>MARC21-007: Sound of electronic resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: no sound (silent)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosnd#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosnd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4358"/>
+				<skos:prefLabel xml:lang="en">no sound (silent)</skos:prefLabel>
+				<skos:definition xml:lang="en">Not intended to produce sound.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: sound  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosnd#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosnd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4359"/>
+				<skos:prefLabel xml:lang="en">sound</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes digitally encoded sound or is intended to produce sound.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosnd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosnd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4360"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Presence or absence of sound or the ability of an electronic resource to produce sound is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

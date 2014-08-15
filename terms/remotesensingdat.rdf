@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Data type of remotely sensed images -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/remotesensingdat#">
+        <dc:title>MARC21-007: Data type of remotely sensed images</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: bouger  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#rc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3626"/>
+				<skos:prefLabel xml:lang="en">bouger</skos:prefLabel>
+				<skos:definition xml:lang="en">Bouger</skos:definition>
+				<skos:notation xml:lang="en">rc</skos:notation>
+		</skos:Concept>
+<!-- Concept: combination of various data types  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#mm" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3616"/>
+				<skos:prefLabel xml:lang="en">combination of various data types</skos:prefLabel>
+				<skos:definition xml:lang="en">More than one data type is applicable to the remote-sensing image.</skos:definition>
+				<skos:notation xml:lang="en">mm</skos:notation>
+		</skos:Concept>
+<!-- Concept: combinations  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#dv" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3598"/>
+				<skos:prefLabel xml:lang="en">combinations</skos:prefLabel>
+				<skos:definition xml:lang="en">Combinations.</skos:definition>
+				<skos:notation xml:lang="en">dv</skos:notation>
+		</skos:Concept>
+<!-- Concept: far infrared  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#dc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3594"/>
+				<skos:prefLabel xml:lang="en">far infrared</skos:prefLabel>
+				<skos:definition xml:lang="en">Far infrared.</skos:definition>
+				<skos:notation xml:lang="en">dc</skos:notation>
+		</skos:Concept>
+<!-- Concept: far ultraviolet  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#ja" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3609"/>
+				<skos:prefLabel xml:lang="en">far ultraviolet</skos:prefLabel>
+				<skos:definition xml:lang="en">Far ultraviolet.</skos:definition>
+				<skos:notation xml:lang="en">ja</skos:notation>
+		</skos:Concept>
+<!-- Concept: free-air  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#rb" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3625"/>
+				<skos:prefLabel xml:lang="en">free-air</skos:prefLabel>
+				<skos:definition xml:lang="en">Free-air</skos:definition>
+				<skos:notation xml:lang="en">rb</skos:notation>
+		</skos:Concept>
+<!-- Concept: gravity anomalies (general)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#ra" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3624"/>
+				<skos:prefLabel xml:lang="en">gravity anomalies (general)</skos:prefLabel>
+				<skos:definition xml:lang="en">Gravity anomalies (general)</skos:definition>
+				<skos:notation xml:lang="en">ra</skos:notation>
+		</skos:Concept>
+<!-- Concept: infometric SAR  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#gf" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3605"/>
+				<skos:prefLabel xml:lang="en">infometric SAR</skos:prefLabel>
+				<skos:definition xml:lang="en">Infometric SAR.</skos:definition>
+				<skos:notation xml:lang="en">gf</skos:notation>
+		</skos:Concept>
+<!-- Concept: isostatic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#rd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3627"/>
+				<skos:prefLabel xml:lang="en">isostatic</skos:prefLabel>
+				<skos:definition xml:lang="en">Isostatic</skos:definition>
+				<skos:notation xml:lang="en">rd</skos:notation>
+		</skos:Concept>
+<!-- Concept: magnetic field  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#sa" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3628"/>
+				<skos:prefLabel xml:lang="en">magnetic field</skos:prefLabel>
+				<skos:definition xml:lang="en">Magnetic field</skos:definition>
+				<skos:notation xml:lang="en">sa</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes inclination, declination, and anomalies.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: middle infrared  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#db" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3593"/>
+				<skos:prefLabel xml:lang="en">middle infrared</skos:prefLabel>
+				<skos:definition xml:lang="en">Middle infrared.</skos:definition>
+				<skos:notation xml:lang="en">db</skos:notation>
+		</skos:Concept>
+<!-- Concept: middle ultraviolet  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#jb" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3610"/>
+				<skos:prefLabel xml:lang="en">middle ultraviolet</skos:prefLabel>
+				<skos:definition xml:lang="en">Middle ultraviolet.</skos:definition>
+				<skos:notation xml:lang="en">jb</skos:notation>
+		</skos:Concept>
+<!-- Concept: multi-spectral, multidata  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#ma" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3614"/>
+				<skos:prefLabel xml:lang="en">multi-spectral, multidata</skos:prefLabel>
+				<skos:definition xml:lang="en">Multi-spectral, multidata.</skos:definition>
+				<skos:notation xml:lang="en">ma</skos:notation>
+		</skos:Concept>
+<!-- Concept: multi-temporal  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#mb" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3615"/>
+				<skos:prefLabel xml:lang="en">multi-temporal</skos:prefLabel>
+				<skos:definition xml:lang="en">Multi-temporal.</skos:definition>
+				<skos:notation xml:lang="en">mb</skos:notation>
+		</skos:Concept>
+<!-- Concept: near infrared  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#da" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3592"/>
+				<skos:prefLabel xml:lang="en">near infrared</skos:prefLabel>
+				<skos:definition xml:lang="en">Near infrared.</skos:definition>
+				<skos:notation xml:lang="en">da</skos:notation>
+		</skos:Concept>
+<!-- Concept: near ultraviolet  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#jc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3611"/>
+				<skos:prefLabel xml:lang="en">near ultraviolet</skos:prefLabel>
+				<skos:definition xml:lang="en">Near ultraviolet.</skos:definition>
+				<skos:notation xml:lang="en">jc</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#nn" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3617"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Data type is not applicable to the remote-sensing image being described.</skos:definition>
+				<skos:notation xml:lang="en">nn</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#zz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3631"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Data type other than visible light, near infrared, middle infrared, far infrared, thermal infrared, shortwave infrared (SWIR), reflective infrared, combinations, other infrared data, sidelooking airborne radar (SLAR), synthetic aperture radar (SAR)-single frequency, SAR-multi-frequency (multichannel), SAR-like polarization, SAR-cross polarization, infometric SAR, polarmetric SAR, passive microwave mapping, other microwave data, far ultraviolet, middle ultraviolet, near ultraviolet, ultraviolet combinations, other ultraviolet data, multi-spectral, multidata, multi-temporal, combination of various data types, sonar - water depth, sonar - bottom topography images, sidescan, sonar - bottom topography, near surface, sonar - bottom topography, near bottom, seismic surveys, other acoustical data, gravity anomalies (general), free-air, bouger, isostatic, magnetic field, radiometric surveys.</skos:definition>
+				<skos:notation xml:lang="en">zz</skos:notation>
+		</skos:Concept>
+<!-- Concept: other acoustical data  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#pz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3623"/>
+				<skos:prefLabel xml:lang="en">other acoustical data</skos:prefLabel>
+				<skos:definition xml:lang="en">Other acoustical data</skos:definition>
+				<skos:notation xml:lang="en">pz</skos:notation>
+		</skos:Concept>
+<!-- Concept: other infrared data  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#dz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3599"/>
+				<skos:prefLabel xml:lang="en">other infrared data</skos:prefLabel>
+				<skos:definition xml:lang="en">Other infrared data.</skos:definition>
+				<skos:notation xml:lang="en">dz</skos:notation>
+		</skos:Concept>
+<!-- Concept: other microwave data  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#gz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3608"/>
+				<skos:prefLabel xml:lang="en">other microwave data</skos:prefLabel>
+				<skos:definition xml:lang="en">Other microwave data.</skos:definition>
+				<skos:notation xml:lang="en">gz</skos:notation>
+		</skos:Concept>
+<!-- Concept: other ultraviolet data  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#jz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3613"/>
+				<skos:prefLabel xml:lang="en">other ultraviolet data</skos:prefLabel>
+				<skos:definition xml:lang="en">Other ultraviolet data.</skos:definition>
+				<skos:notation xml:lang="en">jz</skos:notation>
+		</skos:Concept>
+<!-- Concept: passive microwave mapping  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#gu" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3607"/>
+				<skos:prefLabel xml:lang="en">passive microwave mapping</skos:prefLabel>
+				<skos:definition xml:lang="en">Passive microwave mapping.</skos:definition>
+				<skos:notation xml:lang="en">gu</skos:notation>
+		</skos:Concept>
+<!-- Concept: polarmetric SAR  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#gg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3606"/>
+				<skos:prefLabel xml:lang="en">polarmetric SAR</skos:prefLabel>
+				<skos:definition xml:lang="en">Polarmetric SAR.</skos:definition>
+				<skos:notation xml:lang="en">gg</skos:notation>
+		</skos:Concept>
+<!-- Concept: radiometric surveys  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#ta" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3629"/>
+				<skos:prefLabel xml:lang="en">radiometric surveys</skos:prefLabel>
+				<skos:definition xml:lang="en">Radiometric surveys</skos:definition>
+				<skos:notation xml:lang="en">ta</skos:notation>
+		</skos:Concept>
+<!-- Concept: reflective infrared  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#df" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3597"/>
+				<skos:prefLabel xml:lang="en">reflective infrared</skos:prefLabel>
+				<skos:definition xml:lang="en">Reflective infrared.</skos:definition>
+				<skos:notation xml:lang="en">df</skos:notation>
+		</skos:Concept>
+<!-- Concept: SAR-cross polarization  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#ge" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3604"/>
+				<skos:prefLabel xml:lang="en">SAR-cross polarization</skos:prefLabel>
+				<skos:definition xml:lang="en">SAR-cross polarization.</skos:definition>
+				<skos:notation xml:lang="en">ge</skos:notation>
+		</skos:Concept>
+<!-- Concept: SAR-like polarization  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#gd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3603"/>
+				<skos:prefLabel xml:lang="en">SAR-like polarization</skos:prefLabel>
+				<skos:definition xml:lang="en">SAR-like polarization.</skos:definition>
+				<skos:notation xml:lang="en">gd</skos:notation>
+		</skos:Concept>
+<!-- Concept: SAR-multi-frequency (multichannel)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#gc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3602"/>
+				<skos:prefLabel xml:lang="en">SAR-multi-frequency (multichannel)</skos:prefLabel>
+				<skos:definition xml:lang="en">SAR-multi-frequency (multichannel).</skos:definition>
+				<skos:notation xml:lang="en">gc</skos:notation>
+		</skos:Concept>
+<!-- Concept: seismic surveys  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#pe" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3622"/>
+				<skos:prefLabel xml:lang="en">seismic surveys</skos:prefLabel>
+				<skos:definition xml:lang="en">Seismic surveys</skos:definition>
+				<skos:notation xml:lang="en">pe</skos:notation>
+		</skos:Concept>
+<!-- Concept: shortwave infrared (SWIR)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#de" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3596"/>
+				<skos:prefLabel xml:lang="en">shortwave infrared (SWIR)</skos:prefLabel>
+				<skos:definition xml:lang="en">Shortwave infrared (SWIR).</skos:definition>
+				<skos:notation xml:lang="en">de</skos:notation>
+		</skos:Concept>
+<!-- Concept: sidelooking airborne radar (SLAR)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#ga" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3600"/>
+				<skos:prefLabel xml:lang="en">sidelooking airborne radar (SLAR)</skos:prefLabel>
+				<skos:definition xml:lang="en">Sidelooking airborne radar (SLAR).</skos:definition>
+				<skos:notation xml:lang="en">ga</skos:notation>
+		</skos:Concept>
+<!-- Concept: sonar - bottom topography images, sidescan  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#pb" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3619"/>
+				<skos:prefLabel xml:lang="en">sonar - bottom topography images, sidescan</skos:prefLabel>
+				<skos:definition xml:lang="en">Acoustical data type for the remote-sensing image is sidescan imaging.</skos:definition>
+				<skos:notation xml:lang="en">pb</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes both near-surface and near-bottom sensing data.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: sonar - bottom topography, near bottom  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#pd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3621"/>
+				<skos:prefLabel xml:lang="en">sonar - bottom topography, near bottom</skos:prefLabel>
+				<skos:definition xml:lang="en">Acoustical data type for the remote-sensing image is near-bottom (i.e., taken from 10-150 m. (33-494 ft.) from the bottom).</skos:definition>
+				<skos:notation xml:lang="en">pd</skos:notation>
+		</skos:Concept>
+<!-- Concept: sonar - bottom topography, near surface  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#pc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3620"/>
+				<skos:prefLabel xml:lang="en">sonar - bottom topography, near surface</skos:prefLabel>
+				<skos:definition xml:lang="en">Acoustical data type for the remote-sensing image is near-surface.</skos:definition>
+				<skos:notation xml:lang="en">pc</skos:notation>
+		</skos:Concept>
+<!-- Concept: sonar - water depth  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#pa" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3618"/>
+				<skos:prefLabel xml:lang="en">sonar - water depth</skos:prefLabel>
+				<skos:definition xml:lang="en">Acoustical data type for the remote-sensing image for water depth is sonar.</skos:definition>
+				<skos:notation xml:lang="en">pa</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for echo-sounding images.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: synthetic aperture radar (SAR)-Single frequency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#gb" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3601"/>
+				<skos:prefLabel xml:lang="en">synthetic aperture radar (SAR)-Single frequency</skos:prefLabel>
+				<skos:definition xml:lang="en">Synthetic aperture radar (SAR)-Single frequency.</skos:definition>
+				<skos:notation xml:lang="en">gb</skos:notation>
+		</skos:Concept>
+<!-- Concept: thermal infrared  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#dd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3595"/>
+				<skos:prefLabel xml:lang="en">thermal infrared</skos:prefLabel>
+				<skos:definition xml:lang="en">Thermal infrared.</skos:definition>
+				<skos:notation xml:lang="en">dd</skos:notation>
+		</skos:Concept>
+<!-- Concept: ultraviolet combinations  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#jv" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3612"/>
+				<skos:prefLabel xml:lang="en">ultraviolet combinations</skos:prefLabel>
+				<skos:definition xml:lang="en">Ultraviolet combinations.</skos:definition>
+				<skos:notation xml:lang="en">jv</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#uu" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3630"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Data type for the remote-sensing image is not known.</skos:definition>
+				<skos:notation xml:lang="en">uu</skos:notation>
+		</skos:Concept>
+<!-- Concept: visible light  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingdat#aa" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingdat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3591"/>
+				<skos:prefLabel xml:lang="en">visible light</skos:prefLabel>
+				<skos:definition xml:lang="en">Visible light.</skos:definition>
+				<skos:notation xml:lang="en">aa</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

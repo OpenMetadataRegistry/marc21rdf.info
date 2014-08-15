@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of electronic resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electrosmd#">
+        <dc:title>MARC21-007: Specific material designation of electronic resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: chip cartridge  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4409"/>
+				<skos:prefLabel xml:lang="en">chip cartridge</skos:prefLabel>
+				<skos:definition xml:lang="en">Removable module containing a miniaturized electronic circuit, mass-produced on a tiny chip or wafer of silicon, designed to provide additional processing or memory capacity to a computer.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: computer card  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4416"/>
+				<skos:prefLabel xml:lang="en">computer card</skos:prefLabel>
+				<skos:definition xml:lang="en">Computer card.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: computer disc cartridge, type unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4412"/>
+				<skos:prefLabel xml:lang="en">computer disc cartridge, type unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">A disc cartridge whose type is not specified.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: computer disc, type unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4411"/>
+				<skos:prefLabel xml:lang="en">computer disc, type unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">A disc whose type is not specified.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: computer optical disc cartridge  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4410"/>
+				<skos:prefLabel xml:lang="en">computer optical disc cartridge</skos:prefLabel>
+				<skos:definition xml:lang="en">Removable module containing one or more nonmagnetic discs used to store digital information.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: magnetic disk  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4415"/>
+				<skos:prefLabel xml:lang="en">magnetic disk</skos:prefLabel>
+				<skos:definition xml:lang="en">Digital information storage medium usually consisting of a thin Mylar disk coated with a magnetic material that permits the recording of data. Magnetic disks come in various sizes. They are also known as floppy disks, stiffy disks, computer diskettes, or floppy diskettes.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: magneto-optical disc  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4417"/>
+				<skos:prefLabel xml:lang="en">magneto-optical disc</skos:prefLabel>
+				<skos:definition xml:lang="en">Erasable or semi-erasable storage medium, similar to a CD-ROM disc, capable of storing data at a very high density. The disc is written to and read from using a laser beam used to heat the recording surface to a point at which regions of the surface of the disk become magnetically aligned to store bits of data.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: optical disc  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4418"/>
+				<skos:prefLabel xml:lang="en">optical disc</skos:prefLabel>
+				<skos:definition xml:lang="en">Medium that uses a series of laser-burned micron-sized holes (pits) on a special recording surface to store data. Recorded data is read optically. These discs are usually a read-only medium.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+				<skos:scopeNote xml:lang="en">Commonly found computer optical disc formats include: CD-A, CD-I, CD-R, CD-ROM, CD-ROM-XA, DVD-ROM and Photo CD.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4421"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than tape cartridge, chip cartridge, computer optical disc cartridge, computer disc, type unspecified, computer disc cartridge, type unspecified, tape cassette, tape reel, magnetic disk, computer card, magneto-optical disc, optical disc, remote.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: remote  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4419"/>
+				<skos:prefLabel xml:lang="en">remote</skos:prefLabel>
+				<skos:definition xml:lang="en">Electronic resource that is accessed, processed, executed, etc. remotely. In this case the electronic resource is used via input/output devices connected electronically to a computer. Frequently this involves connection through a computer network.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: tape cartridge  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4408"/>
+				<skos:prefLabel xml:lang="en">tape cartridge</skos:prefLabel>
+				<skos:definition xml:lang="en">Removable module containing secondary storage medium such as magnetic tape or magnetic disks.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: tape cassette  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4413"/>
+				<skos:prefLabel xml:lang="en">tape cassette</skos:prefLabel>
+				<skos:definition xml:lang="en">Removable module, somewhat like an audio cassette, that contains magnetic tape that can be written on and read from by a tape drive.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: tape reel  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4414"/>
+				<skos:prefLabel xml:lang="en">tape reel</skos:prefLabel>
+				<skos:definition xml:lang="en">Removable spool containing magnetic tape that can be written to and read from by a tape drive.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrosmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4420"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Special material designation for the electronic resource is not specified.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., it may be an electronic resource that changes its medium over time.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

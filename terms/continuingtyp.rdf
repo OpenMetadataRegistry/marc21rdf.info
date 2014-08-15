@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Type of continuing resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/continuingtyp#">
+        <dc:title>MARC21-008: Type of continuing resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: monographic series  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingtyp#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4590"/>
+				<skos:prefLabel xml:lang="en">monographic series</skos:prefLabel>
+				<skos:definition xml:lang="en">A group of analyzable items (i.e., each piece has a distinctive title) that are related to one another by a collective title. The individual items may or may not be numbered.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for any title that is a series, regardless of its treatment.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: newspaper  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingtyp#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4591"/>
+				<skos:prefLabel xml:lang="en">newspaper</skos:prefLabel>
+				<skos:definition xml:lang="en">Continuing resource that is mainly designed to be a primary source of written information on current events connected with public affairs, either local, national and/or international in scope. It contains a broad range of news on all subjects and activities and is not limited to any specific subject matter. It may include (although not primarily) articles on literary or other subjects as well as advertising, legal notices, vital statistics, and illustrations.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: none of the following  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingtyp#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4587"/>
+				<skos:prefLabel xml:lang="en">none of the following</skos:prefLabel>
+				<skos:definition xml:lang="en">Type of continuing resource other than updating database, updating loose-leaf, monographic series, newspaper, periodical, updating web site.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for yearbooks and annual reports.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: periodical  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingtyp#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4592"/>
+				<skos:prefLabel xml:lang="en">periodical</skos:prefLabel>
+				<skos:definition xml:lang="en">Separate articles, stories, other writings, etc. that are published or distributed generally more frequently than annual.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: updating database  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingtyp#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4588"/>
+				<skos:prefLabel xml:lang="en">updating database</skos:prefLabel>
+				<skos:definition xml:lang="en">Collection of logically interrelated data stored together in one or more computerized files, usually created and managed by a database management system.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: updating loose-leaf  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingtyp#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4589"/>
+				<skos:prefLabel xml:lang="en">updating loose-leaf</skos:prefLabel>
+				<skos:definition xml:lang="en">Bibliographic resource that consists of a base volume(s) updated by separate pages which are inserted, removed, and/or substituted.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: updating web site  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingtyp#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4593"/>
+				<skos:prefLabel xml:lang="en">updating web site</skos:prefLabel>
+				<skos:definition xml:lang="en">Web site that is updated.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for periodical, newspaper, or database.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

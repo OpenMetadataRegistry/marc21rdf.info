@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of sound recording -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#">
+        <dc:title>MARC21-007: Specific material designation of sound recording</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: sound disc  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4483"/>
+				<skos:prefLabel xml:lang="en">sound disc</skos:prefLabel>
+				<skos:definition xml:lang="en">Thin circular objects that vary in diameter (e.g., 7 in., 10 in., 12 in.), on which sound waves, recorded as modulations or pulses, are incised or indented. Compact audio discs are typically 4 3/4 in. in diameter.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: cylinder  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4484"/>
+				<skos:prefLabel xml:lang="en">cylinder</skos:prefLabel>
+				<skos:definition xml:lang="en">Cylindrical objects on which sound waves are incised or indented in a continuous circular groove.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">Mass-produced cylinders are made of plastic. Early cylinders were made of tinfoil or wax.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: sound cartridge  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4485"/>
+				<skos:prefLabel xml:lang="en">sound cartridge</skos:prefLabel>
+				<skos:definition xml:lang="en">Containers holding a single sound tape, run as an endless loop.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: sound-track film  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4486"/>
+				<skos:prefLabel xml:lang="en">sound-track film</skos:prefLabel>
+				<skos:definition xml:lang="en">A sound recording on film that is not intended to accompany visual images.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">Also when it is not known if a sound recording on film is intended to accompany visual images.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: roll  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4487"/>
+				<skos:prefLabel xml:lang="en">roll</skos:prefLabel>
+				<skos:definition xml:lang="en">Roll of paper, for example, for player piano or player organ, on which the notes of a musical composition are represented by perforations in the paper and from which sound can be mechanically produced.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: sound cassette  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4488"/>
+				<skos:prefLabel xml:lang="en">sound cassette</skos:prefLabel>
+				<skos:definition xml:lang="en">A container holding a narrow, usually 1/8 inch, sound tape on two reels, one to feed (and rewind) and the other to take up the sound tape.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: sound-tape reel  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4489"/>
+				<skos:prefLabel xml:lang="en">sound-tape reel</skos:prefLabel>
+				<skos:definition xml:lang="en">An audiotape-transport system with separate supply (feed) and take-up reels. Usually designated an Open Reel or Reel-to-Reel.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4490"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Special material designation for the sound recording is not specified.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: wire recording  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4491"/>
+				<skos:prefLabel xml:lang="en">wire recording</skos:prefLabel>
+				<skos:definition xml:lang="en">A round steel wire on which sound waves are magnetically recorded.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingsmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4492"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than sound disc, cylinder, sound cartridge, sound-track film, roll, sound cassette, sound-tape reel, wire recording.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

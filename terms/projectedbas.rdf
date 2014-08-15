@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Base of emulsion of projected resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/projectedbas#">
+        <dc:title>MARC21-007: Base of emulsion of projected resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: film base, other than safety film  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedbas#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3431"/>
+				<skos:prefLabel xml:lang="en">film base, other than safety film</skos:prefLabel>
+				<skos:definition xml:lang="en">Not safety film.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: glass  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedbas#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3428"/>
+				<skos:prefLabel xml:lang="en">glass</skos:prefLabel>
+				<skos:definition xml:lang="en">Glass.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed collection  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedbas#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3432"/>
+				<skos:prefLabel xml:lang="en">mixed collection</skos:prefLabel>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedbas#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3435"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Base of emulsion other than glass, synthetic, safety film, film base, other than safety film, mixed collection, paper.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: paper  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedbas#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3433"/>
+				<skos:prefLabel xml:lang="en">paper</skos:prefLabel>
+				<skos:definition xml:lang="en">Any kind of cellulose-based paper.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: safety film  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedbas#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3430"/>
+				<skos:prefLabel xml:lang="en">safety film</skos:prefLabel>
+				<skos:definition xml:lang="en">Safety (i.e., not nitrate) film.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: synthetic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedbas#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3429"/>
+				<skos:prefLabel xml:lang="en">synthetic</skos:prefLabel>
+				<skos:definition xml:lang="en">Synthetic material.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., plastics, vinyl, etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedbas#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedbas#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3434"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Material varies for different items in a collection.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+				<skos:scopeNote xml:lang="en">Typically this would be used for groups of projected graphics on various bases.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

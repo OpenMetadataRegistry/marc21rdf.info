@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xml:base="http://marc21rdf.info/elements/65X"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:reg="http://metadataregistry.org/uri/profile/RegAp/">
+
+<!-- Element Set: MARC 21 Elements 65X -->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/65X">
+  <dc:title xml:lang="en">MARC 21 Elements 65X</dc:title>
+  <foaf:homepage rdf:resource="http://www.loc.gov/marc/bibliographic/bd6xx.html"/>
+</rdf:Description>
+
+<!--Property: General subdivision in Subject Added Entry-Geographic Name (Secondary) (Répertoire de vedettes-matière)-->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/65X/M65126x">
+  <rdfs:isDefinedBy rdf:resource="http://marc21rdf.info/elements/65X" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1008" />
+  <reg:name xml:lang="en">hasGeneralSubdivisionInSubjectAddedEntryGeographicNameSecondaryRépertoireDeVedettesMatière</reg:name>
+  <rdfs:label xml:lang="en">General subdivision in Subject Added Entry-Geographic Name (Secondary) (Répertoire de vedettes-matière)</rdfs:label>
+  <skos:definition xml:lang="en">Subject subdivision that is not more appropriately contained in subfields $v (Form subdivision), $y (Chronological subdivision), or $z (Geographic subdivision). Secondary. Répertoire de vedettes-matière.</skos:definition>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <skos:scopeNote xml:lang="en">tag: 651 (Subject Added Entry-Geographic Name)&lt;br /&gt;ind1: 2 (Secondary)&lt;br /&gt;ind2: 6 (Répertoire de vedettes-matière)&lt;br /&gt;sub: x (General subdivision)&lt;br /&gt;</skos:scopeNote>
+</rdf:Description>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1008">
+        <skos:prefLabel xml:lang="en">Deprecated</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

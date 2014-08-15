@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Accompanying matter for music -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/musicacc#">
+        <dc:title>MARC21-007: Accompanying matter for music</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: bibliography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3396"/>
+				<skos:prefLabel xml:lang="en">bibliography</skos:prefLabel>
+				<skos:definition xml:lang="en">Bibliography.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: biography of composer or author  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3399"/>
+				<skos:prefLabel xml:lang="en">biography of composer or author</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant biographical information on a composer or author.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: biography of performer or history of ensemble  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3400"/>
+				<skos:prefLabel xml:lang="en">biography of performer or history of ensemble</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant biographical information on a performer or a history of an ensemble.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: discography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3395"/>
+				<skos:prefLabel xml:lang="en">discography</skos:prefLabel>
+				<skos:definition xml:lang="en">Discography or other bibliography of recorded sound.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: ethnological information  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3405"/>
+				<skos:prefLabel xml:lang="en">ethnological information</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant ethnological information that relates to the musical part of the item.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: historical information  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3403"/>
+				<skos:prefLabel xml:lang="en">historical information</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant historical information.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: historical information other than music [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#jx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3404"/>
+				<skos:prefLabel xml:lang="en">historical information other than music [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: instructional materials  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3407"/>
+				<skos:prefLabel xml:lang="en">instructional materials</skos:prefLabel>
+				<skos:definition xml:lang="en">Instructional materials.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: libretto or text  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3398"/>
+				<skos:prefLabel xml:lang="en">libretto or text</skos:prefLabel>
+				<skos:definition xml:lang="en">Printed transcription of the libretto or other text (e.g., a transcript of verbal contents of a sound recording).</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3408"/>
+				<skos:prefLabel xml:lang="en">music</skos:prefLabel>
+				<skos:definition xml:lang="en">A score or other music format than that of the main item.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: no accompanying matter  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3394"/>
+				<skos:prefLabel xml:lang="en">no accompanying matter</skos:prefLabel>
+				<skos:definition xml:lang="en">No accompanying matter or no indication of accompanying matter appears on the item.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#nx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3406"/>
+				<skos:prefLabel xml:lang="en">not applicable [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3409"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Accompanying matter other than discography, bibliography, thematic index, libretto or text, biography of composer or author, biography of performer or history of ensemble, technical and/or historical information on instruments, technical information on music, historical information, ethnological information
+instructional materials, music.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: technical and/or historical information on instruments  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3401"/>
+				<skos:prefLabel xml:lang="en">technical and/or historical information on instruments</skos:prefLabel>
+				<skos:definition xml:lang="en">Technical and/or historical information on instruments.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: technical information on music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3402"/>
+				<skos:prefLabel xml:lang="en">technical information on music</skos:prefLabel>
+				<skos:definition xml:lang="en">Significant technical information.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">Including instructions for performance.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: thematic index  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musicacc#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musicacc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3397"/>
+				<skos:prefLabel xml:lang="en">thematic index</skos:prefLabel>
+				<skos:definition xml:lang="en">Thematic index.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

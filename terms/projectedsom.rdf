@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Sound on medium or separate of projected graphic -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/projectedsom#">
+        <dc:title>MARC21-007: Sound on medium or separate of projected graphic</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: no sound (silent)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsom#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4365"/>
+				<skos:prefLabel xml:lang="en">no sound (silent)</skos:prefLabel>
+				<skos:definition xml:lang="en">No sound (silent).</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: sound on medium  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsom#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4366"/>
+				<skos:prefLabel xml:lang="en">sound on medium</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound is present and is on the item.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: sound separate from medium  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsom#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4367"/>
+				<skos:prefLabel xml:lang="en">sound separate from medium</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound is on an accompanying item.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsom#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsom#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4368"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Presence of sound on the item is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

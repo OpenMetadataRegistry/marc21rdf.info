@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Kind of disc, cylinder or tape of sound recording -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/soundrecordingkin#">
+        <dc:title>MARC21-007: Kind of disc, cylinder or tape of sound recording</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: disc master (negative)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3929"/>
+				<skos:prefLabel xml:lang="en">disc master (negative)</skos:prefLabel>
+				<skos:definition xml:lang="en">Negative disc master that is used for the preparation of the mother from which more serviceable and longer lasting metal stampers can be made.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">In the early years of recording, discs were pressed from the metal-plated disc master or matrix. As commercial recording developed, the disc master was used, and continues to be used, for the preparation of the mother.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: instantaneous (recorded on the spot)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3930"/>
+				<skos:prefLabel xml:lang="en">instantaneous (recorded on the spot)</skos:prefLabel>
+				<skos:definition xml:lang="en">Original recording of a sound event or performance intended for direct reproduction without further processing.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">In the early years of recording, a single sound event was sometimes recorded simultaneously on several cylinders or discs. All of these recordings would be instantaneous.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: mass produced  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3931"/>
+				<skos:prefLabel xml:lang="en">mass produced</skos:prefLabel>
+				<skos:definition xml:lang="en">Mass produced.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes discs or tapes issued as limited pressing or limited issue for private distribution. Most commercial discs are mass-produced. Mass-produced discs are mechanically pressed for distribution, either commercially or privately; also, tapes reproduced from a tape duplication master for distribution either commercially or privately. Mass-produced discs, cylinders, and tapes usually include the name of the issuing company, the issue number, and bibliographic information on a printed label or on the container in which the disc, tape, or cylinder is packaged.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: master tape  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3927"/>
+				<skos:prefLabel xml:lang="en">master tape</skos:prefLabel>
+				<skos:definition xml:lang="en">Final tape production master that is used to make a disc master or a tape duplication master.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Represents the final mix including special processing such as equalization, compression, phasing, and sound synthesis.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: mother (positive)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3933"/>
+				<skos:prefLabel xml:lang="en">mother (positive)</skos:prefLabel>
+				<skos:definition xml:lang="en">Exact copy of the original disc recording pressed from the disc master. From the metal mother a negative metal stamper is made to press discs for distribution.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">Many stampers may be made from a single mother.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3932"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not a disc, cylinder, or tape.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3937"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Kind of disc, cylinder or tape other than master tape, tape duplication master, disc master (negative), instantaneous (recorded on the spot), mass produced, mother (positive), stamper (negative), test pressing.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: stamper (negative)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3934"/>
+				<skos:prefLabel xml:lang="en">stamper (negative)</skos:prefLabel>
+				<skos:definition xml:lang="en">Negative metal part, produced from the mother in an electroplating procedure, from which 500 to 750 discs may be pressed.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: tape duplication master  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3928"/>
+				<skos:prefLabel xml:lang="en">tape duplication master</skos:prefLabel>
+				<skos:definition xml:lang="en">Sound tape produced from the master tape.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Tape duplication master is played on a tape reproducer to produce the sound tape for cassette, cartridge, or reel.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: test pressing  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3935"/>
+				<skos:prefLabel xml:lang="en">test pressing</skos:prefLabel>
+				<skos:definition xml:lang="en">Either one finished disc or one of a very limited pressing is made, designed to be examined aurally before a decision is made to proceed with a pressing.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingkin#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingkin#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3936"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Type of disc, cylinder, or tape is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+				<skos:scopeNote xml:lang="en">Also used when it cannot be determined whether the item is instantaneous or mass-produced.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

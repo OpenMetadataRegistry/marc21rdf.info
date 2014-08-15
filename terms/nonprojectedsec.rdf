@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Secondary support material of nonprojected graphic -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/nonprojectedsec#">
+        <dc:title>MARC21-007: Secondary support material of nonprojected graphic</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: Bristol board  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4323"/>
+				<skos:prefLabel xml:lang="en">Bristol board</skos:prefLabel>
+				<skos:definition xml:lang="en">Fine, smooth pasteboard used by artists and painters.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: canvas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4322"/>
+				<skos:prefLabel xml:lang="en">canvas</skos:prefLabel>
+				<skos:definition xml:lang="en">Canvas.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: cardboard/illustration board  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4324"/>
+				<skos:prefLabel xml:lang="en">cardboard/illustration board</skos:prefLabel>
+				<skos:definition xml:lang="en">Cardboard/illustration board.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: glass  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4325"/>
+				<skos:prefLabel xml:lang="en">glass</skos:prefLabel>
+				<skos:definition xml:lang="en">Glass.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: hardboard  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4336"/>
+				<skos:prefLabel xml:lang="en">hardboard</skos:prefLabel>
+				<skos:definition xml:lang="en">Hardboard</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: leather  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4341"/>
+				<skos:prefLabel xml:lang="en">leather</skos:prefLabel>
+				<skos:definition xml:lang="en">Animal skin dressed for use.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: metal  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4329"/>
+				<skos:prefLabel xml:lang="en">metal</skos:prefLabel>
+				<skos:definition xml:lang="en">Metal.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed collection  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4332"/>
+				<skos:prefLabel xml:lang="en">mixed collection</skos:prefLabel>
+				<skos:definition xml:lang="en">Secondary support material varies for different items in a collection.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: no secondary support  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4321"/>
+				<skos:prefLabel xml:lang="en">no secondary support</skos:prefLabel>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4343"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Secondary support material other than canvas, bristol board, cardboard/illustration board, glass, synthetic, skin, textile, metal, vinyl, plastic, mixed collection, vellum, paper, plaster, hardboard, porcelain, stone, wood, leather, parchment.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: paper  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4334"/>
+				<skos:prefLabel xml:lang="en">paper</skos:prefLabel>
+				<skos:definition xml:lang="en">Any kind of cellulose-based paper.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: parchment  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4342"/>
+				<skos:prefLabel xml:lang="en">parchment</skos:prefLabel>
+				<skos:definition xml:lang="en">Skin of a sheep or goat prepared for writing on.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+		</skos:Concept>
+<!-- Concept: plaster  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4335"/>
+				<skos:prefLabel xml:lang="en">plaster</skos:prefLabel>
+				<skos:definition xml:lang="en">Plaster</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes mixtures of ground solids and plaster.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: plastic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4330"/>
+				<skos:prefLabel xml:lang="en">plastic</skos:prefLabel>
+				<skos:definition xml:lang="en">Plastic.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: porcelain  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4337"/>
+				<skos:prefLabel xml:lang="en">porcelain</skos:prefLabel>
+				<skos:definition xml:lang="en">Porcelain.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">Used only for clay-based porcelain.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: skin  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4327"/>
+				<skos:prefLabel xml:lang="en">skin</skos:prefLabel>
+				<skos:definition xml:lang="en">Skin.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">Excludes leather, parchment, and vellum.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: stone  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4338"/>
+				<skos:prefLabel xml:lang="en">stone</skos:prefLabel>
+				<skos:definition xml:lang="en">Stone.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: synthetic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4326"/>
+				<skos:prefLabel xml:lang="en">synthetic</skos:prefLabel>
+				<skos:definition xml:lang="en">Man-made substances other than textiles, plastic, and vinyl.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: textile  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4328"/>
+				<skos:prefLabel xml:lang="en">textile</skos:prefLabel>
+				<skos:definition xml:lang="en">Textile.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes all natural or synthetic fibre fabrics except canvas.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4340"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Secondary support material is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: vellum  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4333"/>
+				<skos:prefLabel xml:lang="en">vellum</skos:prefLabel>
+				<skos:definition xml:lang="en">Fine-grained unsplit lambskin, kidskin, or calfskin prepared especially for writing or drawing on.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: vinyl  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4331"/>
+				<skos:prefLabel xml:lang="en">vinyl</skos:prefLabel>
+				<skos:definition xml:lang="en">Vinyl.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: wood  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedsec#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4339"/>
+				<skos:prefLabel xml:lang="en">wood</skos:prefLabel>
+				<skos:definition xml:lang="en">Material that is based on wood particles or fibers may or may not be considered wood.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+				<skos:scopeNote xml:lang="en">Consider particle board wood.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

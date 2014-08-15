@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Level of compression of electronic resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electroloc#">
+        <dc:title>MARC21-007: Level of compression of electronic resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: lossless  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroloc#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroloc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3953"/>
+				<skos:prefLabel xml:lang="en">lossless</skos:prefLabel>
+				<skos:definition xml:lang="en">Lossless compression will allow an electronic resource to be compressed and decompressed with absolute fidelity each time. To be considered lossless, no informational loss may occur during this process.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">An example of a lossless compression scheme would be TIFF Group 4 compression employed on bitonal image files.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: lossy  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroloc#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroloc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3954"/>
+				<skos:prefLabel xml:lang="en">lossy</skos:prefLabel>
+				<skos:definition xml:lang="en">Lossy compression schemes employ techniques which average or discard some of the encoded digital information. When the file is decompressed, it will not be an exact replica of the original file.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Examples of lossy compression schemes include JPEG, and Kodak ImagePac (Photo CD), AC-3 (Dolby Digital) and MPEG.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroloc#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroloc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3955"/>
+				<skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">Mixture of techniques has been used to compress various parts of the electronic resource.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: uncompressed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroloc#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroloc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3952"/>
+				<skos:prefLabel xml:lang="en">uncompressed</skos:prefLabel>
+				<skos:definition xml:lang="en">Electronic resource has not been compressed through the use of any compression technique.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroloc#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroloc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3956"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Compression techniques are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Type of cartographic material -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/maptyp#">
+        <dc:title>MARC21-008: Type of cartographic material</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: atlas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4569"/>
+				<skos:prefLabel xml:lang="en">atlas</skos:prefLabel>
+				<skos:definition xml:lang="en">Atlas.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes atlas series, and serially issued atlases.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: bound as part of another work  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4571"/>
+				<skos:prefLabel xml:lang="en">bound as part of another work</skos:prefLabel>
+				<skos:definition xml:lang="en">Bound as part of another work</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+				<skos:scopeNote xml:lang="en">Other work included does not have to be cartographic material.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: globe  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4568"/>
+				<skos:prefLabel xml:lang="en">globe</skos:prefLabel>
+				<skos:definition xml:lang="en">Globe.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: map serial  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4567"/>
+				<skos:prefLabel xml:lang="en">map serial</skos:prefLabel>
+				<skos:definition xml:lang="en">Issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for serially issued atlases.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: map series  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4566"/>
+				<skos:prefLabel xml:lang="en">map series</skos:prefLabel>
+				<skos:definition xml:lang="en">Number of related but physically separate and bibliographically distinct cartographic units intended by the producer(s) or issuing body(s) to form a single group.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for atlas series.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4573"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Type of cartographic material other than single map, map series, map serial, globe, atlas, separate map supplement to another work, map bound as part of another work.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: separate supplement to another work  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4570"/>
+				<skos:prefLabel xml:lang="en">separate supplement to another work</skos:prefLabel>
+				<skos:definition xml:lang="en">Separate supplement to another work</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">Other work being supplemented does not have to be cartographic material.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: single map  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4565"/>
+				<skos:prefLabel xml:lang="en">single map</skos:prefLabel>
+				<skos:definition xml:lang="en">Single map.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/maptyp#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/maptyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4572"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Unknown.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

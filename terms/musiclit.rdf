@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Literary text of sound recordings -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/musiclit#">
+        <dc:title>MARC21-007: Literary text of sound recordings</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: autobiography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3977"/>
+				<skos:prefLabel xml:lang="en">autobiography</skos:prefLabel>
+				<skos:definition xml:lang="en">Autobiography</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: biography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3978"/>
+				<skos:prefLabel xml:lang="en">biography</skos:prefLabel>
+				<skos:definition xml:lang="en">Biography</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: comedy  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3987"/>
+				<skos:prefLabel xml:lang="en">comedy</skos:prefLabel>
+				<skos:definition xml:lang="en">Spoken comedy.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: conference proceedings  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3979"/>
+				<skos:prefLabel xml:lang="en">conference proceedings</skos:prefLabel>
+				<skos:definition xml:lang="en">Conference proceedings</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: drama  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3980"/>
+				<skos:prefLabel xml:lang="en">drama</skos:prefLabel>
+				<skos:definition xml:lang="en">Drama</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: essays  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3981"/>
+				<skos:prefLabel xml:lang="en">essays</skos:prefLabel>
+				<skos:definition xml:lang="en">Essays.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: fiction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3982"/>
+				<skos:prefLabel xml:lang="en">fiction</skos:prefLabel>
+				<skos:definition xml:lang="en">Fiction.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes novels, short stories, etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: folktales  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3991"/>
+				<skos:prefLabel xml:lang="en">folktales</skos:prefLabel>
+				<skos:definition xml:lang="en">Folktales.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: history  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3984"/>
+				<skos:prefLabel xml:lang="en">history</skos:prefLabel>
+				<skos:definition xml:lang="en">History.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: instruction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3985"/>
+				<skos:prefLabel xml:lang="en">instruction</skos:prefLabel>
+				<skos:definition xml:lang="en">Instruction.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes instructions on how to accomplish a task, learn an art, etc. (e.g., how to replace a light switch). Not used for language instruction.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: interviews  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3995"/>
+				<skos:prefLabel xml:lang="en">interviews</skos:prefLabel>
+				<skos:definition xml:lang="en">Interviews.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: item is a musical sound recording  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3976"/>
+				<skos:prefLabel xml:lang="en">item is a musical sound recording</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is a musical sound recording</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: language instruction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3986"/>
+				<skos:prefLabel xml:lang="en">language instruction</skos:prefLabel>
+				<skos:definition xml:lang="en">Language instruction.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: lectures, speeches  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3988"/>
+				<skos:prefLabel xml:lang="en">lectures, speeches</skos:prefLabel>
+				<skos:definition xml:lang="en">Lectures, speeches.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: memoirs  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3989"/>
+				<skos:prefLabel xml:lang="en">memoirs</skos:prefLabel>
+				<skos:definition xml:lang="en">Memoirs.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3990"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Not a sound recording (e.g., printed or manuscript music).</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3996"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Literary text for sound recordings other than autobiography, biography, conference proceedings, drama, essays, fiction, reporting, history, instruction, language instruction, comedy, lectures, speeches, memoirs, folktales, poetry, rehearsals, sounds, interviews.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: poetry  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3992"/>
+				<skos:prefLabel xml:lang="en">poetry</skos:prefLabel>
+				<skos:definition xml:lang="en">Poetry.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: rehearsals  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3993"/>
+				<skos:prefLabel xml:lang="en">rehearsals</skos:prefLabel>
+				<skos:definition xml:lang="en">Performances of any of a variety of nonmusical productions.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: reporting  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3983"/>
+				<skos:prefLabel xml:lang="en">reporting</skos:prefLabel>
+				<skos:definition xml:lang="en">Reporting.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: sounds  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musiclit#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musiclit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3994"/>
+				<skos:prefLabel xml:lang="en">sounds</skos:prefLabel>
+				<skos:definition xml:lang="en">Sounds.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Dimensions of motion picture -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/motionpicturedim#">
+        <dc:title>MARC21-007: Dimensions of motion picture</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 16 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3667"/>
+				<skos:prefLabel xml:lang="en">16 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the motion picture film is 16 mm.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: 28 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3668"/>
+				<skos:prefLabel xml:lang="en">28 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the motion picture film is 28 mm.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: 35 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3669"/>
+				<skos:prefLabel xml:lang="en">35 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the motion picture film is 35 mm.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: 70 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3670"/>
+				<skos:prefLabel xml:lang="en">70 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the motion picture film is 70 mm.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: 9.5 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3666"/>
+				<skos:prefLabel xml:lang="en">9.5 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the motion picture film is 9.5 mm.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3672"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions other than standard 8 mm., super 8 mm./single 8 mm., 9.5 mm., 16 mm., 28 mm., 35 mm., 70 mm.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: standard 8 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3664"/>
+				<skos:prefLabel xml:lang="en">standard 8 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the motion picture film is standard 8 mm.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes motion pictures termed Mauer 8 mm.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: super 8 mm./single 8 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3665"/>
+				<skos:prefLabel xml:lang="en">super 8 mm./single 8 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the motion picture film is super 8 mm.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Single 8 mm. motion picture film is a Japanese equivalent of super 8 mm. motion picture film.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturedim#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturedim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3671"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

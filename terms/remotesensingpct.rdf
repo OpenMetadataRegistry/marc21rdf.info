@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Platform construction type of remote sensing device -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/remotesensingpct#">
+        <dc:title>MARC21-007: Platform construction type of remote sensing device</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: aircraft - high altitude  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4157"/>
+				<skos:prefLabel xml:lang="en">aircraft - high altitude</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was an dynamic lift aircraft designed for high altitude flight (above 49,000 ft. (14,810 m.)).</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: aircraft - low altitude  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4155"/>
+				<skos:prefLabel xml:lang="en">aircraft - low altitude</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was an dynamic lift aircraft designed for low altitude flight (below 29,500 ft. (8,962 m.)).</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: aircraft - medium altitude  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4156"/>
+				<skos:prefLabel xml:lang="en">aircraft - medium altitude</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was an dynamic lift aircraft designed for medium altitude flight (between 29,500 ft. (8,962 m.) and 49,000 ft. (14,810 m.)).</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: balloon  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4154"/>
+				<skos:prefLabel xml:lang="en">balloon</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was a balloon or similar lighter-than-air platform.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: land-based remote-sensing device  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4160"/>
+				<skos:prefLabel xml:lang="en">land-based remote-sensing device</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was a land-based.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: manned spacecraft  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4158"/>
+				<skos:prefLabel xml:lang="en">manned spacecraft</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was a manned spacecraft.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4163"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Not applicable.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4165"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Platform construction type other than balloon, aircraft - low altitude, aircraft - medium altitude, aircraft - high altitude, manned spacecraft, unmanned spacecraft, land-based remote-sensing device, water surface-based remote-sensing device, submersible remote-sensing device.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: submersible remote-sensing device  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4162"/>
+				<skos:prefLabel xml:lang="en">submersible remote-sensing device</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was designed to be submerged beneath the surface of a body of water</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., a submersible vessel or platform</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4164"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Construction type of the platform from which the remote-sensing image was made is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: unmanned spacecraft  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4159"/>
+				<skos:prefLabel xml:lang="en">unmanned spacecraft</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was an unmanned spacecraft.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: water surface-based remote-sensing device  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingpct#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingpct#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4161"/>
+				<skos:prefLabel xml:lang="en">water surface-based remote-sensing device</skos:prefLabel>
+				<skos:definition xml:lang="en">Base for the remote-sensing device was designed to remain on the surface of a body of water.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., a ship or floating platform</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

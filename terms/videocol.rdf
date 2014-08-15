@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Color characteristics of a videorecording -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/videocol#">
+        <dc:title>MARC21-007: Color characteristics of a videorecording</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: black-and-white  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocol#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3562"/>
+				<skos:prefLabel xml:lang="en">black-and-white</skos:prefLabel>
+				<skos:definition xml:lang="en">Executed in black-and-white.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocol#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3564"/>
+				<skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">Work or collection is a combination of black-and-white, colored, and/or other images.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: multicolored  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocol#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3563"/>
+				<skos:prefLabel xml:lang="en">multicolored</skos:prefLabel>
+				<skos:definition xml:lang="en">Executed in more than one color.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocol#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3565"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item has no images.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., a videorecording with sound only.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: one color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocol#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3561"/>
+				<skos:prefLabel xml:lang="en">one color</skos:prefLabel>
+				<skos:definition xml:lang="en">One color.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used with videorecordings.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocol#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3567"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Color other than one color, black-and-white, multicolored, mixed.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocol#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3566"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Color characteristics of an item are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

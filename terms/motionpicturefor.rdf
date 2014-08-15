@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Motion picture presentation format -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/motionpicturefor#">
+        <dc:title>MARC21-007: Motion picture presentation format</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 3D  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturefor#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturefor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4035"/>
+				<skos:prefLabel xml:lang="en">3D</skos:prefLabel>
+				<skos:definition xml:lang="en">Films which achieve a three-dimensional effect originally through the use of two projectors which superimpose two images of the film on the screen (usually a wide screen). It is usually associated with 35 mm. film. Polarized lenses worn by viewers help to create the impression of depth and dimension.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: anamorphic (wide-screen)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturefor#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturefor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4036"/>
+				<skos:prefLabel xml:lang="en">anamorphic (wide-screen)</skos:prefLabel>
+				<skos:definition xml:lang="en">Films which achieve the wide-screen effect through the use of an image which is optically compressed or squeezed horizontally. It is then expanded to the correct proportions by projection on a wide screen with the use of special lenses that give greater magnification laterally than vertically.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Introduced and adopted for commercial use in 1953 under the name of Cinemascope, followed by Techniscope (1963), Naturama, Panavision, etc. Also used for 16 mm. film which employs this process.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: nonanamorphic (wide-screen)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturefor#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturefor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4034"/>
+				<skos:prefLabel xml:lang="en">nonanamorphic (wide-screen)</skos:prefLabel>
+				<skos:definition xml:lang="en">Wide-screen effect without optically compressing the image or requiring the use of special projection techniques.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Nonanamorphic wide-screen process is primarily associated with 35 mm. and larger film gauges where the image on the film is natural (not optically compressed) and of smaller frame height, which is expanded by projection on a wide screen through the use of normal lenses and the appropriate aperture plate to give the required aspect ratio.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturefor#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturefor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4040"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Motion picture presentation format other than standard sound aperture (reduced frame), nonanamorphic (wide-screen), 3d, anamorphic (wide-screen), other wide-screen format, standard silent aperture (full frame).</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+				<skos:scopeNote xml:lang="en">An example of this is the 70 mm. Imax format which is a non-rectangular, circular 180 degree limited use format that is not standardized. Imax may not technically be considered a wide-screen format because it does not have an aspect ratio, but it does achieve a wide-screen effect.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other wide-screen format  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturefor#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturefor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4037"/>
+				<skos:prefLabel xml:lang="en">other wide-screen format</skos:prefLabel>
+				<skos:definition xml:lang="en">Any other wide-screen process not covered by other codes.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes Cinerama, Viterama, Cinemiracle, Circarama and other formats that achieve a wide-screen effect though the use of simultaneous projection of separate prints on very large, sometimes deeply curved screens through the use of multiprojectors that build up the projected picture by a series of images, generally side-by-side.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: standard silent aperture (full frame)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturefor#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturefor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4038"/>
+				<skos:prefLabel xml:lang="en">standard silent aperture (full frame)</skos:prefLabel>
+				<skos:definition xml:lang="en">35 mm. film on which the exposed picture is approximately the width of the space between the perforation holes of the frame.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">Standard format for silent film from about 1899 until the late 1920's when sound film was introduced and the frame size decreased to make room for the sound track.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: standard sound aperture (reduced frame)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturefor#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturefor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4033"/>
+				<skos:prefLabel xml:lang="en">standard sound aperture (reduced frame)</skos:prefLabel>
+				<skos:definition xml:lang="en">Standard sound aperture (reduced frame).</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for non-wide-screen formats. Includes all standard sound 35 mm., 16 mm., and super 8 mm. film. Should be used even for silent films in which a space has been left for the inclusion of a sound track, i.e., where a full frame silent picture has been cropped to allow space for a sound track.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturefor#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturefor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4039"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Presentation format of the motion picture is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

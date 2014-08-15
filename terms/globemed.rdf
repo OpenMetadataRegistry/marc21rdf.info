@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Physical medium of globe -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/globemed#">
+        <dc:title>MARC21-007: Physical medium of globe</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: leather  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4130"/>
+				<skos:prefLabel xml:lang="en">leather</skos:prefLabel>
+				<skos:definition xml:lang="en">Animal skin dressed for use.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: metal  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4122"/>
+				<skos:prefLabel xml:lang="en">metal</skos:prefLabel>
+				<skos:definition xml:lang="en">Metal.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4132"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Physical medium other than paper, wood, stone, metal, synthetic, skin, textile, vinyl, vellum, plaster, leather, parchment.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: paper  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4119"/>
+				<skos:prefLabel xml:lang="en">paper</skos:prefLabel>
+				<skos:definition xml:lang="en">Any kind of cellulose-based paper.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: parchment  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4131"/>
+				<skos:prefLabel xml:lang="en">parchment</skos:prefLabel>
+				<skos:definition xml:lang="en">Skin of a sheep or goat prepared for writing on.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+		</skos:Concept>
+<!-- Concept: plaster  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4128"/>
+				<skos:prefLabel xml:lang="en">plaster</skos:prefLabel>
+				<skos:definition xml:lang="en">Plaster.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for mixtures of ground solids and plaster.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: skin  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4124"/>
+				<skos:prefLabel xml:lang="en">skin</skos:prefLabel>
+				<skos:definition xml:lang="en">Skin.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">Excludes leather, parchment, and vellum.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: stone  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4121"/>
+				<skos:prefLabel xml:lang="en">stone</skos:prefLabel>
+				<skos:definition xml:lang="en">Stone.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: synthetic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4123"/>
+				<skos:prefLabel xml:lang="en">synthetic</skos:prefLabel>
+				<skos:definition xml:lang="en">Man-made substances other than textiles, plastic, and vinyl.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: textile  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4125"/>
+				<skos:prefLabel xml:lang="en">textile</skos:prefLabel>
+				<skos:definition xml:lang="en">Textile.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for all fabrics, whether made from natural or synthetic fibers.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4129"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Physical medium of which the globe is made is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: vellum  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4127"/>
+				<skos:prefLabel xml:lang="en">vellum</skos:prefLabel>
+				<skos:definition xml:lang="en">Fine-grained unsplit lambskin, kidskin, or calfskin prepared especially for writing or drawing on.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: vinyl  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4126"/>
+				<skos:prefLabel xml:lang="en">vinyl</skos:prefLabel>
+				<skos:definition xml:lang="en">Physical medium other than paper, wood, stone, metal, synthetic, skin, textile, plaster.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: wood  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globemed#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globemed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4120"/>
+				<skos:prefLabel xml:lang="en">wood</skos:prefLabel>
+				<skos:definition xml:lang="en">Wood.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">A material that is based on wood particles or fibers may or may not be considered wood. Consider particle board wood.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

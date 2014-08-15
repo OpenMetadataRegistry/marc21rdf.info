@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Type of computer file -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/computertyp#">
+        <dc:title>MARC21-008: Type of computer file</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: bibliographic data  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4578"/>
+				<skos:prefLabel xml:lang="en">bibliographic data</skos:prefLabel>
+				<skos:definition xml:lang="en">Data with bibliographic citations.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes data from library catalogs or citation databases. The data may be in a structured or unstructured form. Search software may be present, but the purpose of the record is description of the content of the bibliographic data or database, rather than description of the online system or service.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: combination  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4584"/>
+				<skos:prefLabel xml:lang="en">combination</skos:prefLabel>
+				<skos:definition xml:lang="en">Combination of two or more types of files.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: computer program  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4575"/>
+				<skos:prefLabel xml:lang="en">computer program</skos:prefLabel>
+				<skos:definition xml:lang="en">Ordered set of instructions directing the computer to perform basic operations and identifying the information and mechanisms required. Includes videogames and microcomputer software and computer models.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for game, font.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: document  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4577"/>
+				<skos:prefLabel xml:lang="en">document</skos:prefLabel>
+				<skos:definition xml:lang="en">Textual, consisting mostly of alphabetic information (words or sentences) converted into a coded format that can be processed, sorted, and manipulated by machine, and then retrieved in many optional formats.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes language material intended to constitute a textual document, whether represented as ASCII or image data. Includes both single bibliographic entities or a collection of bibliographic entities. Includes documents whose primary purpose is textual, even if search software is present.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: font  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4579"/>
+				<skos:prefLabel xml:lang="en">font</skos:prefLabel>
+				<skos:definition xml:lang="en">Information for a computer to produce fonts.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: game  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4580"/>
+				<skos:prefLabel xml:lang="en">game</skos:prefLabel>
+				<skos:definition xml:lang="en">Intended for recreational or educational use. Generally games consist of text and software.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for a videogame.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: interactive multimedia  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4582"/>
+				<skos:prefLabel xml:lang="en">interactive multimedia</skos:prefLabel>
+				<skos:definition xml:lang="en">Supports navigation through and manipulation of many kinds of media (i.e., audio, video, etc.). Interactive multimedia usually gives the user a high level of control, often allowing almost conversational interaction with the computer and data.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: numeric data  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4574"/>
+				<skos:prefLabel xml:lang="en">numeric data</skos:prefLabel>
+				<skos:definition xml:lang="en">Mostly numbers or representation by numbers, such as records containing all information on student test scores, all information on football team statistics, etc. Information may be original surveys and/or information that has been summarized or statistically manipulated.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: online system or service  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4583"/>
+				<skos:prefLabel xml:lang="en">online system or service</skos:prefLabel>
+				<skos:definition xml:lang="en">Supports system-based user interaction.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+				<skos:scopeNote xml:lang="en">May contain nonbibliographic information. Examples are: online library systems (consisting of a variety of databases), FTP sites, electronic bulletin boards, network information centers.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4586"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Type of computer file other than numeric data, computer program, representational, document, bibliographic data, font, game, sound, interactive multimedia, online system or service, combination.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: representational  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4576"/>
+				<skos:prefLabel xml:lang="en">representational</skos:prefLabel>
+				<skos:definition xml:lang="en">Pictorial or graphic information that can be manipulated in conjunction with other types of files to produce graphic patterns that can be used to interpret and give meaning to the information.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Does not include a document in image format.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: sound  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4581"/>
+				<skos:prefLabel xml:lang="en">sound</skos:prefLabel>
+				<skos:definition xml:lang="en">Data encoding sounds producible by the computer.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/computertyp#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/computertyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4585"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Type of file is unknown.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

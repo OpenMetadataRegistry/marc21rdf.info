@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Nature of entire work of continuing resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/continuingwor#">
+        <dc:title>MARC21-008: Nature of entire work of continuing resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: abstracts or summaries  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4078"/>
+				<skos:prefLabel xml:lang="en">abstracts or summaries</skos:prefLabel>
+				<skos:definition xml:lang="en">Abstracts or summaries of other publications.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: bibliographies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4079"/>
+				<skos:prefLabel xml:lang="en">bibliographies</skos:prefLabel>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: biography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4085"/>
+				<skos:prefLabel xml:lang="en">biography</skos:prefLabel>
+				<skos:definition xml:lang="en">Biographical material, whether autobiography, individual biography, or collective biography.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for genealogy.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: calendars  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#5" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4075"/>
+				<skos:prefLabel xml:lang="en">calendars</skos:prefLabel>
+				<skos:definition xml:lang="en">Published systems of organizing days. These may be academic calendars or almanacs, calendars published by bodies, such as labor organizations, library associations, etc.</skos:definition>
+				<skos:notation xml:lang="en">5</skos:notation>
+		</skos:Concept>
+<!-- Concept: catalogs  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4080"/>
+				<skos:prefLabel xml:lang="en">catalogs</skos:prefLabel>
+				<skos:definition xml:lang="en">List of items in a collection, such as a collection of books, a collection of art objects, etc.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: comics or graphic novels  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#6" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4076"/>
+				<skos:prefLabel xml:lang="en">comics or graphic novels</skos:prefLabel>
+				<skos:definition xml:lang="en">Instances of "sequential art" in which a story (whether fact or fiction) is told primarily through a set of images (often in the form of multiple "panels" per page) presented concurrently but meant to be "read" sequentially by the viewer. The accompanying narrative and/or dialog text, when it occurs, works integrally with the images to tell the story.</skos:definition>
+				<skos:notation xml:lang="en">6</skos:notation>
+		</skos:Concept>
+<!-- Concept: dictionaries  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4081"/>
+				<skos:prefLabel xml:lang="en">dictionaries</skos:prefLabel>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Also includes glossaries or gazetteers. Not used for concordances or serial biographical dictionaries.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: directories  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4095"/>
+				<skos:prefLabel xml:lang="en">directories</skos:prefLabel>
+				<skos:definition xml:lang="en">Directory or register of persons or corporate bodies.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for serial biographical dictionaries.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: discographies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4087"/>
+				<skos:prefLabel xml:lang="en">discographies</skos:prefLabel>
+				<skos:definition xml:lang="en">Discography or other bibliography of recorded sound.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: encyclopedias  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4082"/>
+				<skos:prefLabel xml:lang="en">encyclopedias</skos:prefLabel>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: filmographies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4094"/>
+				<skos:prefLabel xml:lang="en">filmographies</skos:prefLabel>
+				<skos:definition xml:lang="en">Filmography or other bibliography of moving images.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: handbooks  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4083"/>
+				<skos:prefLabel xml:lang="en">handbooks</skos:prefLabel>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: indexes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4086"/>
+				<skos:prefLabel xml:lang="en">indexes</skos:prefLabel>
+				<skos:definition xml:lang="en">Index to bibliographical material other than itself (e.g., an indexing journal).</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: law reports and digests  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4100"/>
+				<skos:prefLabel xml:lang="en">law reports and digests</skos:prefLabel>
+				<skos:definition xml:lang="en">Texts of decisions of courts or administrative agencies.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+				<skos:scopeNote xml:lang="en">Also used when a work consists of texts of digests of such decisions.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: legal articles  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4084"/>
+				<skos:prefLabel xml:lang="en">legal articles</skos:prefLabel>
+				<skos:definition xml:lang="en">Substantive articles on legal topics, such as those published in law school reviews.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: legal cases and case notes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4099"/>
+				<skos:prefLabel xml:lang="en">legal cases and case notes</skos:prefLabel>
+				<skos:definition xml:lang="en">Discussions, such as those in the case comments section of law school reviews, of particular legal cases that have been decided by, or that are pending before, courts or administrative agencies.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: legal cases and case notes [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#nx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4091"/>
+				<skos:prefLabel xml:lang="en">legal cases and case notes [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: legislation  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4088"/>
+				<skos:prefLabel xml:lang="en">legislation</skos:prefLabel>
+				<skos:definition xml:lang="en">Full or partial texts of enactments of legislative bodies or texts of rules and regulations issued by executive or administrative agencies.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+				<skos:scopeNote xml:lang="en">Also used when a work consists of texts of rules and regulations issued by executive or administrative agencies.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: no specified nature of entire work  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4077"/>
+				<skos:prefLabel xml:lang="en">no specified nature of entire work</skos:prefLabel>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: programmed texts  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4093"/>
+				<skos:prefLabel xml:lang="en">programmed texts</skos:prefLabel>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: reviews  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4092"/>
+				<skos:prefLabel xml:lang="en">reviews</skos:prefLabel>
+				<skos:definition xml:lang="en">Critical reviews of published or performed works (e.g., books, films, sound recordings, theater, etc.).</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: standards or specifications  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4098"/>
+				<skos:prefLabel xml:lang="en">standards or specifications</skos:prefLabel>
+				<skos:definition xml:lang="en">Either an international, national, or industry standard or a specification which gives a precise statement of a process or service requirement.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: statistics  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4096"/>
+				<skos:prefLabel xml:lang="en">statistics</skos:prefLabel>
+				<skos:definition xml:lang="en">Collection of statistical data on a subject.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for works about statistical methodology.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: surveys of literature in a subject area  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4090"/>
+				<skos:prefLabel xml:lang="en">surveys of literature in a subject area</skos:prefLabel>
+				<skos:definition xml:lang="en">Authored surveys that summarize what has been published about a subject.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: technical reports  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4097"/>
+				<skos:prefLabel xml:lang="en">technical reports</skos:prefLabel>
+				<skos:definition xml:lang="en">The result of scientific investigation or technical development, testing, or evaluation, presented in a form suitable for dissemination to the technical community.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: theses  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4089"/>
+				<skos:prefLabel xml:lang="en">theses</skos:prefLabel>
+				<skos:definition xml:lang="en">Thesis, dissertation, or work identified as having been created to satisfy the requirements for an academic certification or degree.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: treaties  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4103"/>
+				<skos:prefLabel xml:lang="en">treaties</skos:prefLabel>
+				<skos:definition xml:lang="en">Treaties or accords negotiated between two or more parties to settle a disagreement, establish a relationship, grant rights, etc.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: yearbook [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#yx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4101"/>
+				<skos:prefLabel xml:lang="en">yearbook [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">y</skos:notation>
+		</skos:Concept>
+<!-- Concept: yearbooks  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingwor#y" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingwor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4102"/>
+				<skos:prefLabel xml:lang="en">yearbooks</skos:prefLabel>
+				<skos:definition xml:lang="en">Reference publication issued on an annual or less frequent basis that contains articles summarizing the accomplishments or events of a particular year within a specific discipline or area of endeavor.</skos:definition>
+				<skos:notation xml:lang="en">y</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for annual reports, which are administrative overviews of an organization.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

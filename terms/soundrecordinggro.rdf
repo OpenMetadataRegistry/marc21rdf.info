@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Groove width/groove pitch of sound recording -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/soundrecordinggro#">
+        <dc:title>MARC21-007: Groove width/groove pitch of sound recording</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: coarse/standard  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordinggro#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordinggro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3897"/>
+				<skos:prefLabel xml:lang="en">coarse/standard</skos:prefLabel>
+				<skos:definition xml:lang="en">Coarse or standard groove.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+				<skos:scopeNote xml:lang="en">Discs issued at 78 rpm are usually coarse. Cylinders issued at 120 rpm (which have 100 grooves per inch) are usually standard.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: microgroove/fine  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordinggro#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordinggro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3895"/>
+				<skos:prefLabel xml:lang="en">microgroove/fine</skos:prefLabel>
+				<skos:definition xml:lang="en">Microgroove disc or a fine cylinder.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">Discs issued at 16, 33 1/3, and 45 rpm are usually issued as microgroove. Cylinders issued at 160 rpm (which have 200 grooves per inch) are usually issued as fine.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordinggro#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordinggro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3896"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item does not contain grooves.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for tapes and compact audio discs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordinggro#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordinggro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3899"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Groove width/groove pitch other than microgroove/fine, coarse/standard.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordinggro#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordinggro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3898"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Groove width/groove pitch is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

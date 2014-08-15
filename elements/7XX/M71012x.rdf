@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xml:base="http://marc21rdf.info/elements/7XX"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:reg="http://metadataregistry.org/uri/profile/RegAp/">
+
+<!-- Element Set: MARC 21 Elements 7XX -->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/7XX">
+  <dc:title xml:lang="en">MARC 21 Elements 7XX</dc:title>
+  <foaf:homepage rdf:resource="http://www.loc.gov/marc/bibliographic/bd70x75x.html, http://www.loc.gov/marc/bibliographic/bd76x78x.html"/>
+</rdf:Description>
+
+<!--Property: International Standard Serial Number in Added Entry-Corporate Name (Jurisdiction name) (Analytical entry)-->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/7XX/M71012x">
+  <rdfs:isDefinedBy rdf:resource="http://marc21rdf.info/elements/7XX" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">hasInternationalStandardSerialNumberInAddedEntryCorporateNameJurisdictionNameAnalyticalEntry</reg:name>
+  <rdfs:label xml:lang="en">International Standard Serial Number in Added Entry-Corporate Name (Jurisdiction name) (Analytical entry)</rdfs:label>
+  <skos:definition xml:lang="en">ISSN for a serial contained in the title portion of a name/title field. Jurisdiction name. Analytical entry.</skos:definition>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <skos:scopeNote xml:lang="en">tag: 710 (Added Entry-Corporate Name)&lt;br /&gt;ind1: 1 (Jurisdiction name)&lt;br /&gt;ind2: 2 (Analytical entry)&lt;br /&gt;sub: x (International Standard Serial Number)&lt;br /&gt;</skos:scopeNote>
+</rdf:Description>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

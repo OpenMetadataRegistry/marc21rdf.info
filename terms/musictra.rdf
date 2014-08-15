@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Transposition and arrangement of music -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/musictra#">
+        <dc:title>MARC21-007: Transposition and arrangement of music</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: arrangement  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musictra#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musictra#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4561"/>
+				<skos:prefLabel xml:lang="en">arrangement</skos:prefLabel>
+				<skos:definition xml:lang="en">Item has been adapted as regards medium and/or texture.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: both transposed and arranged  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musictra#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musictra#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4562"/>
+				<skos:prefLabel xml:lang="en">both transposed and arranged</skos:prefLabel>
+				<skos:definition xml:lang="en">Item has been both transposed to a different pitch from the original and has been adapted as regards medium and/or texture.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musictra#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musictra#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4563"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not notated music.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: not arrangement or transposition or not specified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musictra#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musictra#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4559"/>
+				<skos:prefLabel xml:lang="en">not arrangement or transposition or not specified</skos:prefLabel>
+				<skos:definition xml:lang="en">Not arrangements or the transposition of the item is not specified.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: transposition  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musictra#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musictra#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4560"/>
+				<skos:prefLabel xml:lang="en">transposition</skos:prefLabel>
+				<skos:definition xml:lang="en">Item has been transposed to a different pitch from the original.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/musictra#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/musictra#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4564"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Unknown whether the item is a transposition or arrangement.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Production elements of motion picture -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/motionpicturepro#">
+        <dc:title>MARC21-007: Production elements of motion picture</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: mixing tracks  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4209"/>
+				<skos:prefLabel xml:lang="en">mixing tracks</skos:prefLabel>
+				<skos:definition xml:lang="en">Separate sound tracks that are combined for the final film sound track.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4212"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not a production element.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4213"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Production elements other than workprint, trims, outtakes, rushes, mixing tracks, title bands/intertitle rolls, production rolls.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: outtakes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4207"/>
+				<skos:prefLabel xml:lang="en">outtakes</skos:prefLabel>
+				<skos:definition xml:lang="en">Shots discarded in the editing of a film.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: production rolls  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4211"/>
+				<skos:prefLabel xml:lang="en">production rolls</skos:prefLabel>
+				<skos:definition xml:lang="en">Various types of production elements (film usually wound on cores) before they are cut and assembled into reels.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: rushes  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4208"/>
+				<skos:prefLabel xml:lang="en">rushes</skos:prefLabel>
+				<skos:definition xml:lang="en">First positive prints from the laboratory of the previous day's shooting.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: title bands/intertitle rolls  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4210"/>
+				<skos:prefLabel xml:lang="en">title bands/intertitle rolls</skos:prefLabel>
+				<skos:definition xml:lang="en">Printed captions or titles separated from their corresponding picture.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: trims  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4206"/>
+				<skos:prefLabel xml:lang="en">trims</skos:prefLabel>
+				<skos:definition xml:lang="en">Sections of shots remaining after the desired portions have been incorporated into the workprint.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: workprint  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturepro#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturepro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4205"/>
+				<skos:prefLabel xml:lang="en">workprint</skos:prefLabel>
+				<skos:definition xml:lang="en">Print from the original camera footage which is edited to a fine degree to achieve the final version.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

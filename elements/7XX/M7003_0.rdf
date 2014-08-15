@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xml:base="http://marc21rdf.info/elements/7XX"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:reg="http://metadataregistry.org/uri/profile/RegAp/">
+
+<!-- Element Set: MARC 21 Elements 7XX -->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/7XX">
+  <dc:title xml:lang="en">MARC 21 Elements 7XX</dc:title>
+  <foaf:homepage rdf:resource="http://www.loc.gov/marc/bibliographic/bd70x75x.html, http://www.loc.gov/marc/bibliographic/bd76x78x.html"/>
+</rdf:Description>
+
+<!--Property: Authority record control number in Added Entry-Personal Name (Family name) (No information provided)-->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/7XX/M7003_0">
+  <rdfs:isDefinedBy rdf:resource="http://marc21rdf.info/elements/7XX" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">hasAuthorityRecordControlNumberInAddedEntryPersonalNameFamilyNameNoInformationProvided</reg:name>
+  <rdfs:label xml:lang="en">Authority record control number in Added Entry-Personal Name (Family name) (No information provided)</rdfs:label>
+  <skos:definition xml:lang="en">System control number of the related authority record, or a standard identifier such as an International Standard Name Identifier (ISNI). The control number or identifier is preceded by the appropriate MARC Organization code (for a related authority record) or the Standard Identifier source code (for a standard identifier scheme), enclosed in parentheses. Family name. No information provided.</skos:definition>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <skos:scopeNote xml:lang="en">tag: 700 (Added Entry-Personal Name)&lt;br /&gt;ind1: 3 (Family name)&lt;br /&gt;ind2: # (No information provided)&lt;br /&gt;</skos:scopeNote>
+</rdf:Description>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

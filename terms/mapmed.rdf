@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Physical medium of map -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/mapmed#">
+        <dc:title>MARC21-007: Physical medium of map</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: flexible base photographic, negative  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4146"/>
+				<skos:prefLabel xml:lang="en">flexible base photographic, negative</skos:prefLabel>
+				<skos:definition xml:lang="en">Flexible base photographic medium designed to render a negative image.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: flexible base photographic, positive  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4145"/>
+				<skos:prefLabel xml:lang="en">flexible base photographic, positive</skos:prefLabel>
+				<skos:definition xml:lang="en">Flexible base photographic medium designed to render a positive image.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: glass  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4141"/>
+				<skos:prefLabel xml:lang="en">glass</skos:prefLabel>
+				<skos:definition xml:lang="en">Glass.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: leather  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4150"/>
+				<skos:prefLabel xml:lang="en">leather</skos:prefLabel>
+				<skos:definition xml:lang="en">Animal skin dressed for use.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: metal  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4136"/>
+				<skos:prefLabel xml:lang="en">metal</skos:prefLabel>
+				<skos:definition xml:lang="en">Metal.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: non-flexible base photographic, negative  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4148"/>
+				<skos:prefLabel xml:lang="en">non-flexible base photographic, negative</skos:prefLabel>
+				<skos:definition xml:lang="en">Non-flexible base photographic medium designed to render a negative image.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: non-flexible base photographic, positive  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4147"/>
+				<skos:prefLabel xml:lang="en">non-flexible base photographic, positive</skos:prefLabel>
+				<skos:definition xml:lang="en">Non-flexible base photographic medium designed to render a positive image.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4153"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Physical medium other than paper, wood, stone, metal, synthetic, skin, textile, plastic, glass, vinyl, vellum, plaster, flexible base photographic, positive, flexible base photographic, negative, non-flexible base photographic, positive, non-flexible base photographic, negative, leather, parchment, other photographic medium.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: other photographic medium  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#y" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4152"/>
+				<skos:prefLabel xml:lang="en">other photographic medium</skos:prefLabel>
+				<skos:definition xml:lang="en">Photographic medium other than flexible base photographic, positive, flexible base photographic, negative, non-flexible base photographic, positive, non-flexible base photographic, negative.</skos:definition>
+				<skos:notation xml:lang="en">y</skos:notation>
+		</skos:Concept>
+<!-- Concept: paper  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4133"/>
+				<skos:prefLabel xml:lang="en">paper</skos:prefLabel>
+				<skos:definition xml:lang="en">Any kind of cellulose-based paper.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: parchment  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4151"/>
+				<skos:prefLabel xml:lang="en">parchment</skos:prefLabel>
+				<skos:definition xml:lang="en">Skin of a sheep or goat prepared for writing on.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+		</skos:Concept>
+<!-- Concept: plaster  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4144"/>
+				<skos:prefLabel xml:lang="en">plaster</skos:prefLabel>
+				<skos:definition xml:lang="en">Plaster.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes mixtures of ground solids and plaster.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: plastic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4140"/>
+				<skos:prefLabel xml:lang="en">plastic</skos:prefLabel>
+				<skos:definition xml:lang="en">Plastic.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: skin  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4138"/>
+				<skos:prefLabel xml:lang="en">skin</skos:prefLabel>
+				<skos:definition xml:lang="en">Skin.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">Excludes leather, parchment, and vellum.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: stone  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4135"/>
+				<skos:prefLabel xml:lang="en">stone</skos:prefLabel>
+				<skos:definition xml:lang="en">Stone.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: synthetic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4137"/>
+				<skos:prefLabel xml:lang="en">synthetic</skos:prefLabel>
+				<skos:definition xml:lang="en">Man-made substances other than textiles, plastic, and vinyl.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: textile  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4139"/>
+				<skos:prefLabel xml:lang="en">textile</skos:prefLabel>
+				<skos:definition xml:lang="en">Textile.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for all fabrics, whether made from natural or synthetic fibers.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4149"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Unknown.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: vellum  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4143"/>
+				<skos:prefLabel xml:lang="en">vellum</skos:prefLabel>
+				<skos:definition xml:lang="en">Fine-grained unsplit lambskin, kidskin, or calfskin prepared especially for writing or drawing on.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: vinyl  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4142"/>
+				<skos:prefLabel xml:lang="en">vinyl</skos:prefLabel>
+				<skos:definition xml:lang="en">Vinyl.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: wood  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapmed#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapmed#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4134"/>
+				<skos:prefLabel xml:lang="en">wood</skos:prefLabel>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Material which is based on wood particles or fibers may or may not be considered wood. Consider particle board wood.</skos:scopeNote>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

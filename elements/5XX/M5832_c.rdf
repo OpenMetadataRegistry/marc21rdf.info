@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xml:base="http://marc21rdf.info/elements/5XX"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:reg="http://metadataregistry.org/uri/profile/RegAp/">
+
+<!-- Element Set: MARC 21 Elements 5XX -->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/5XX">
+  <dc:title xml:lang="en">MARC 21 Elements 5XX</dc:title>
+  <foaf:homepage rdf:resource="http://www.loc.gov/marc/bibliographic/bd5xx.html"/>
+</rdf:Description>
+
+<!--Property: Time/date of action in Action Note (Not private)-->
+<rdf:Description rdf:about="http://marc21rdf.info/elements/5XX/M5832_c">
+  <rdfs:isDefinedBy rdf:resource="http://marc21rdf.info/elements/5XX" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">hasTimeDateOfActionInActionNoteNotPrivate</reg:name>
+  <rdfs:label xml:lang="en">Time/date of action in Action Note (Not private)</rdfs:label>
+  <skos:definition xml:lang="en">Concrete time or date of a future or past action. In conjunction with the appropriate action this may indicate date of accessioning, acquisition, classification, transfer, or description. The date and time are recorded according to Representations of Dates and Times (ISO 8601). The date requires 8 numeric characters in the pattern yyyymmdd (4 for the year, 2 for the month, and 2 for the day). The time requires 8 numeric characters in the pattern hhmmss.f (2 for the hour, 2 for the minute, 2 for the second, and 2 for a decimal fraction of the second, including the decimal point). The 24-hour clock (00-23) is used. Not private.</skos:definition>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+  <skos:scopeNote xml:lang="en">tag: 583 (Action Note)&lt;br /&gt;ind1: 2 (Not private)&lt;br /&gt;ind2: # (no caption)&lt;br /&gt;sub: c (Time/date of action)&lt;br /&gt;</skos:scopeNote>
+</rdf:Description>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

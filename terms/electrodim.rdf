@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Dimensions of electronic image -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electrodim#">
+        <dc:title>MARC21-007: Dimensions of electronic image</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 1 1/8 x 2 3/8 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3646"/>
+				<skos:prefLabel xml:lang="en">1 1/8 x 2 3/8 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the container used for the medium are 1 1/8 x 2 3/8 inches.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">Usually refers to cartridges.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 12 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3644"/>
+				<skos:prefLabel xml:lang="en">12 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">Diameter of the medium is 12 inches.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">Usually refers to optical or magneto-optical disc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 3 1/2 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3643"/>
+				<skos:prefLabel xml:lang="en">3 1/2 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">Diameter of the medium is 3 1/2 inches.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Usually refers to the diameter of a magnetic disk.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 3 7/8 x 2 1/2 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3647"/>
+				<skos:prefLabel xml:lang="en">3 7/8 x 2 1/2 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the container used for the medium are 3 7/8 x 2 1/2 inches.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+				<skos:scopeNote xml:lang="en">Usually refers to cartridges.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 4 3/4 in. or 12 cm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3645"/>
+				<skos:prefLabel xml:lang="en">4 3/4 in. or 12 cm.</skos:prefLabel>
+				<skos:definition xml:lang="en">Diameter of the medium is 4 3/4 inches (or 12 cm.).</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+				<skos:scopeNote xml:lang="en">Usually refers to optical or magneto-optical disc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 5 1/4 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3649"/>
+				<skos:prefLabel xml:lang="en">5 1/4 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">Diameter of the medium is 5 1/4 inches.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+				<skos:scopeNote xml:lang="en">Usually refers to the dimensions of a magnetic disk.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 8 in.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3651"/>
+				<skos:prefLabel xml:lang="en">8 in.</skos:prefLabel>
+				<skos:definition xml:lang="en">Diameter of the medium is 8 inches.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+				<skos:scopeNote xml:lang="en">Usually refers to the diameter of a magnetic disk or optical disc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3648"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Physical dimensions are not applicable to the electronic resource.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">Appropriate for remote electronic resources and electronic resources whose specific medium varies.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3652"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions other than 3 1/2 in., 12 in., 4 3/4 in. or 12 cm., 1 1/8 x 2 3/8 in., 3 7/8 x 2 1/2 in., 5 1/4 in., 8 in.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrodim#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrodim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3650"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the medium used for the electronic resource are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

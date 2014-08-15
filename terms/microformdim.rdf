@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Dimensions of microform -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/microformdim#">
+        <dc:title>MARC21-007: Dimensions of microform</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 105 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3657"/>
+				<skos:prefLabel xml:lang="en">105 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">105 mm.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: 16 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3654"/>
+				<skos:prefLabel xml:lang="en">16 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">16 mm.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: 3 1/4 x 7 3/8 in. or 9x19 cm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3661"/>
+				<skos:prefLabel xml:lang="en">3 1/4 x 7 3/8 in. or 9x19 cm.</skos:prefLabel>
+				<skos:definition xml:lang="en">3 1/4 x 7 3/8 in. or 9x19 cm.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: 35 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3655"/>
+				<skos:prefLabel xml:lang="en">35 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">35 mm.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: 3x5 in. or 8x13 cm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3658"/>
+				<skos:prefLabel xml:lang="en">3x5 in. or 8x13 cm.</skos:prefLabel>
+				<skos:definition xml:lang="en">3x5 in. or 8x13 cm.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: 4x6 in. or 11x15 cm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3659"/>
+				<skos:prefLabel xml:lang="en">4x6 in. or 11x15 cm.</skos:prefLabel>
+				<skos:definition xml:lang="en">4x6 in. or 11x15 cm.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: 6x9 in. or 16x23 cm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3660"/>
+				<skos:prefLabel xml:lang="en">6x9 in. or 16x23 cm.</skos:prefLabel>
+				<skos:definition xml:lang="en">6x9 in. or 16x23 cm.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: 70 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3656"/>
+				<skos:prefLabel xml:lang="en">70 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">70 mm.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: 8 mm.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3653"/>
+				<skos:prefLabel xml:lang="en">8 mm.</skos:prefLabel>
+				<skos:definition xml:lang="en">8 mm.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3663"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions other than 8 mm., 16 mm., 35 mm., 70 mm., 105 mm., 3x5 in. or 8x13 cm., 4x6 in. or 11x15 cm., 6x9 in. or 16x23 cm., 3 1/4 x 7 3/8 in. or 9x19 cm.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformdim#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformdim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3662"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

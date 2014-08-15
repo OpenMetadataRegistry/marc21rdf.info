@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: File formats of electronic resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electrofil#">
+        <dc:title>MARC21-007: File formats of electronic resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: multiple file formats  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrofil#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrofil#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3722"/>
+				<skos:prefLabel xml:lang="en">multiple file formats</skos:prefLabel>
+				<skos:definition xml:lang="en">Files which comprise the electronic resource are of at least 2 different formats.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., .jpg and .tif; .tif and .txt; .sgml and .wav; etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: one file format  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrofil#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrofil#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3721"/>
+				<skos:prefLabel xml:lang="en">one file format</skos:prefLabel>
+				<skos:definition xml:lang="en">File(s) which comprise(s)the electronic resource are of the same format or type.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., all .jpg; all .tif; all .txt; all .wav; all .mpg; etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrofil#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrofil#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3723"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Format(s) of the file(s) which comprise(s) the electronic resource are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Playback speed of sound recording -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/soundrecordingspd#">
+        <dc:title>MARC21-007: Playback speed of sound recording</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 1 7/8 ips  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4520"/>
+				<skos:prefLabel xml:lang="en">1 7/8 ips</skos:prefLabel>
+				<skos:definition xml:lang="en">1 7/8 ips.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, on standard cassettes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 1.4 m. per second  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4516"/>
+				<skos:prefLabel xml:lang="en">1.4 m. per second</skos:prefLabel>
+				<skos:definition xml:lang="en">1.4 m. per second. Speed is calculated from the distance the playback mechanism covers on the surface of the disc per second, and not the number of revolutions of the disc.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">Associated with compact discs (CDs).</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 120 rpm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4517"/>
+				<skos:prefLabel xml:lang="en">120 rpm</skos:prefLabel>
+				<skos:definition xml:lang="en">120 rpm.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for cylinders.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 15 ips  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4523"/>
+				<skos:prefLabel xml:lang="en">15 ips</skos:prefLabel>
+				<skos:definition xml:lang="en">15 ips.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, on reel-to-reel, studio tapes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 15/16 ips  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4519"/>
+				<skos:prefLabel xml:lang="en">15/16 ips</skos:prefLabel>
+				<skos:definition xml:lang="en">15/16 ips.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, on half-speed mini-cassettes used in small portable recorders.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 16 rpm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4511"/>
+				<skos:prefLabel xml:lang="en">16 rpm</skos:prefLabel>
+				<skos:definition xml:lang="en">16 rpm.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for discs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 160 rpm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4518"/>
+				<skos:prefLabel xml:lang="en">160 rpm</skos:prefLabel>
+				<skos:definition xml:lang="en">160 rpm.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for cylinders.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 3 3/4 ips  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4521"/>
+				<skos:prefLabel xml:lang="en">3 3/4 ips</skos:prefLabel>
+				<skos:definition xml:lang="en">3 3/4 ips.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, on consumer and nonprofessional reel-to-reel tapes, cartridges and very unusual cassette tapes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 30 ips  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4524"/>
+				<skos:prefLabel xml:lang="en">30 ips</skos:prefLabel>
+				<skos:definition xml:lang="en">30 ips.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, on reel-to-reel, studio tapes, but is rarely used.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 33 1/3 rpm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4512"/>
+				<skos:prefLabel xml:lang="en">33 1/3 rpm</skos:prefLabel>
+				<skos:definition xml:lang="en">33 1/3 rpm.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for discs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 45 rpm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4513"/>
+				<skos:prefLabel xml:lang="en">45 rpm</skos:prefLabel>
+				<skos:definition xml:lang="en">45 rpm.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for discs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 7 1/2 ips  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4522"/>
+				<skos:prefLabel xml:lang="en">7 1/2 ips</skos:prefLabel>
+				<skos:definition xml:lang="en">7 1/2 ips.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, in reel-to-reel, nonprofessional, and studio tapes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 78 rpm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4514"/>
+				<skos:prefLabel xml:lang="en">78 rpm</skos:prefLabel>
+				<skos:definition xml:lang="en">78 rpm.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for discs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 8 rpm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4515"/>
+				<skos:prefLabel xml:lang="en">8 rpm</skos:prefLabel>
+				<skos:definition xml:lang="en">8 rpm.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for discs.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4526"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Speed other than 16 rpm, 33 1/3 rpm, 45 rpm, 78 rpm, 8 rpm, 1.4 m. per second, 120 rpm, 160 rpm, 15/16 ips, 1 7/8 ips, 3 3/4 ips, 7 1/2 ips, 15 ips, 30 ips.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingspd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingspd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4525"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Unknown.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

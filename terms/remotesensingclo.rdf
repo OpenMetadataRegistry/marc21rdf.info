@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Cloud cover in remotely sensed image -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/remotesensingclo#">
+        <dc:title>MARC21-007: Cloud cover in remotely sensed image</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 0-9%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#0" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3510"/>
+				<skos:prefLabel xml:lang="en">0-9%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 0 and 9%.</skos:definition>
+		</skos:Concept>
+<!-- Concept: 10-19%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#1" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3511"/>
+				<skos:prefLabel xml:lang="en">10-19%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 10 and 19%.</skos:definition>
+				<skos:notation xml:lang="en">1</skos:notation>
+		</skos:Concept>
+<!-- Concept: 20-29%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#2" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3512"/>
+				<skos:prefLabel xml:lang="en">20-29%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 20 and 29%.</skos:definition>
+				<skos:notation xml:lang="en">2</skos:notation>
+		</skos:Concept>
+<!-- Concept: 30-39%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#3" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3513"/>
+				<skos:prefLabel xml:lang="en">30-39%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 30 and 39%.</skos:definition>
+				<skos:notation xml:lang="en">3</skos:notation>
+		</skos:Concept>
+<!-- Concept: 40-49%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#4" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3514"/>
+				<skos:prefLabel xml:lang="en">40-49%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 40 and 49%.</skos:definition>
+				<skos:notation xml:lang="en">4</skos:notation>
+		</skos:Concept>
+<!-- Concept: 50-59%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#5" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3515"/>
+				<skos:prefLabel xml:lang="en">50-59%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 50 and 59%.</skos:definition>
+				<skos:notation xml:lang="en">5</skos:notation>
+		</skos:Concept>
+<!-- Concept: 60-69%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#6" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3516"/>
+				<skos:prefLabel xml:lang="en">60-69%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 60 and 69%.</skos:definition>
+				<skos:notation xml:lang="en">6</skos:notation>
+		</skos:Concept>
+<!-- Concept: 70-79%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#7" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3517"/>
+				<skos:prefLabel xml:lang="en">70-79%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 70 and 79%.</skos:definition>
+				<skos:notation xml:lang="en">7</skos:notation>
+		</skos:Concept>
+<!-- Concept: 80-89%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#8" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3518"/>
+				<skos:prefLabel xml:lang="en">80-89%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 80 and 89%.</skos:definition>
+				<skos:notation xml:lang="en">8</skos:notation>
+		</skos:Concept>
+<!-- Concept: 90-100%  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#9" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3519"/>
+				<skos:prefLabel xml:lang="en">90-100%</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover present when an image was taken was between 90 and 100%.</skos:definition>
+				<skos:notation xml:lang="en">9</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3520"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Cloud cover is not applicable to the image.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingclo#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingclo#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3521"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Amount of cloud cover is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

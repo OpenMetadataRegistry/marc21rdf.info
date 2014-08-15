@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Color of the image for microforms -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/microformcol#">
+        <dc:title>MARC21-007: Color of the image for microforms</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: black-and-white  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformcol#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3534"/>
+				<skos:prefLabel xml:lang="en">black-and-white</skos:prefLabel>
+				<skos:definition xml:lang="en">Image is in black-and-white (usually black-and-transparent).</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes only one color or hue other than black, for example, blue-and-white (blue-and-transparent). Always used for microopaques.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformcol#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3536"/>
+				<skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">Combination of one-color and multicolored images.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: multicolored  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformcol#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3535"/>
+				<skos:prefLabel xml:lang="en">multicolored</skos:prefLabel>
+				<skos:definition xml:lang="en">Has more than one color.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformcol#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3538"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Color other than black-and-white, multicolored, mixed.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformcol#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3537"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Color of the microform is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

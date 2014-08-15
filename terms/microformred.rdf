@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Reduction ratio range of microform -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/microformred#">
+        <dc:title>MARC21-007: Reduction ratio range of microform</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: high reduction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformred#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformred#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4271"/>
+				<skos:prefLabel xml:lang="en">high reduction</skos:prefLabel>
+				<skos:definition xml:lang="en">Between 31:1 and 60:1.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: low reduction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformred#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformred#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4269"/>
+				<skos:prefLabel xml:lang="en">low reduction</skos:prefLabel>
+				<skos:definition xml:lang="en">Less than 16:1 ratio.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: normal reduction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformred#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformred#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4270"/>
+				<skos:prefLabel xml:lang="en">normal reduction</skos:prefLabel>
+				<skos:definition xml:lang="en">Between 16:1 and 30:1.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: reduction rate varies  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformred#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformred#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4275"/>
+				<skos:prefLabel xml:lang="en">reduction rate varies</skos:prefLabel>
+				<skos:definition xml:lang="en">Not all parts of the microform have the same reduction ratio.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: ultra high reduction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformred#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformred#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4273"/>
+				<skos:prefLabel xml:lang="en">ultra high reduction</skos:prefLabel>
+				<skos:definition xml:lang="en">Over 90:1.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformred#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformred#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4274"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Reduction ratio is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: very high reduction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformred#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformred#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4272"/>
+				<skos:prefLabel xml:lang="en">very high reduction</skos:prefLabel>
+				<skos:definition xml:lang="en">Between 61:1 and 90:1.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

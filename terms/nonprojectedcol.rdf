@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Color characteristics of the nonprojected graphic -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/nonprojectedcol#">
+        <dc:title>MARC21-007: Color characteristics of the nonprojected graphic</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: black-and-white  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedcol#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3547"/>
+				<skos:prefLabel xml:lang="en">black-and-white</skos:prefLabel>
+				<skos:definition xml:lang="en">Printed or executed in black-and-white.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Refers to monochrome photographic materials executed in black-and-white.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: hand colored  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedcol#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3549"/>
+				<skos:prefLabel xml:lang="en">hand colored</skos:prefLabel>
+				<skos:definition xml:lang="en">Image, produced by a printing or photographic process, is hand colored.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">Rarely used with commercial visual materials since these are not typically issued with hand coloring.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedcol#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3550"/>
+				<skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">Work or collection is a combination of one color, black-and-white, multicolored, hand colored, and/or other images.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: multicolored  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedcol#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3548"/>
+				<skos:prefLabel xml:lang="en">multicolored</skos:prefLabel>
+				<skos:definition xml:lang="en">Printed or executed in more than one color.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for color photographic processes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: one color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedcol#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3546"/>
+				<skos:prefLabel xml:lang="en">one color</skos:prefLabel>
+				<skos:definition xml:lang="en">Printed or executed in a single color.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for monochrome art works. It is not used with photographic materials. Does not include black.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedcol#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3552"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Color other than one color, black-and-white, multicolored, hand colored, mixed.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes stained, tinted, or toned items(e.g., sepia toned photographic items).</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/nonprojectedcol#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/nonprojectedcol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3551"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Color characteristics of the item are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

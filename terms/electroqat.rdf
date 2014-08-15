@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Quality assurance target(s) of electronic resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electroqat#">
+        <dc:title>MARC21-007: Quality assurance target(s) of electronic resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: absent  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroqat#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroqat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4265"/>
+				<skos:prefLabel xml:lang="en">absent</skos:prefLabel>
+				<skos:definition xml:lang="en">Quality assurance targets were not included at the time of reformatting and/or are not present in the electronic resource.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroqat#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroqat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4266"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Inclusion of quality assurance targets is not applicable to this electronic resource.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: present  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroqat#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroqat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4267"/>
+				<skos:prefLabel xml:lang="en">present</skos:prefLabel>
+				<skos:definition xml:lang="en">One or more quality assurance targets were appropriately included at the time of reformatting and are present in the electronic resource.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+				<skos:scopeNote xml:lang="en">Commonly found quality control targets for scanning include the Kodak Q13 or Q14 Color Separation Guide and Gray Scale; Kodak Q60 Color Input Target; AIIM Scanning Test Chart #2; and the RIT Alphanumeric Resolution Test Object. Commonly found quality assurance targets for re-recording/transfer of audio files include reference and azimuth tones.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroqat#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroqat#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4268"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Presence of quality assurance targets in the electronic resource is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of projected graphic -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/projectedsmd#">
+        <dc:title>MARC21-007: Specific material designation of projected graphic</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: filmslip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4476"/>
+				<skos:prefLabel xml:lang="en">filmslip</skos:prefLabel>
+				<skos:definition xml:lang="en">A short filmstrip not in a roll.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: filmstrip cartridge  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsmd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4475"/>
+				<skos:prefLabel xml:lang="en">filmstrip cartridge</skos:prefLabel>
+				<skos:definition xml:lang="en">A filmstrip which is encased in a cartridge and which has the ends joined to form a loop. A cartridge denotes a permanently encased single reel of film or tape that has the ends joined together to form a loop that provides playback without rewinding.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: filmstrip roll  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsmd#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4478"/>
+				<skos:prefLabel xml:lang="en">filmstrip roll</skos:prefLabel>
+				<skos:definition xml:lang="en">A roll of film on which still images are recorded, presenting an integrated communication. It is intended for projection frame by frame.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4482"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than filmstrip cartridge, filmslip, other filmstrip type, filmstrip roll, slide, transparency.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: other filmstrip type  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsmd#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4477"/>
+				<skos:prefLabel xml:lang="en">other filmstrip type</skos:prefLabel>
+				<skos:definition xml:lang="en">A filmstrip other than a filmstrip cartridge, filmslip or filmstrip roll or is an unspecified type of filmstrip.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: slide  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsmd#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4479"/>
+				<skos:prefLabel xml:lang="en">slide</skos:prefLabel>
+				<skos:definition xml:lang="en">Transparent material on which there is a two-dimensional image, usually held in a mount, and designed for use in a projector or viewer.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes modern stereographs, e.g., Viewmaster reels.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: transparency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsmd#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4480"/>
+				<skos:prefLabel xml:lang="en">transparency</skos:prefLabel>
+				<skos:definition xml:lang="en">Transparent material on which an image is recorded. They are designed for use with a projector or a light box.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes X-rays.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4481"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

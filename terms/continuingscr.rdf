@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Original alphabet or script of title of continuing resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/continuingscr#">
+        <dc:title>MARC21-008: Original alphabet or script of title of continuing resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: arabic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4110"/>
+				<skos:prefLabel xml:lang="en">arabic</skos:prefLabel>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: basic roman  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4105"/>
+				<skos:prefLabel xml:lang="en">basic roman</skos:prefLabel>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: chinese  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4109"/>
+				<skos:prefLabel xml:lang="en">chinese</skos:prefLabel>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: cyrillic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4107"/>
+				<skos:prefLabel xml:lang="en">cyrillic</skos:prefLabel>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: devanagari  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4114"/>
+				<skos:prefLabel xml:lang="en">devanagari</skos:prefLabel>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: extended roman  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4106"/>
+				<skos:prefLabel xml:lang="en">extended roman</skos:prefLabel>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: greek  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4111"/>
+				<skos:prefLabel xml:lang="en">greek</skos:prefLabel>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: hebrew  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4112"/>
+				<skos:prefLabel xml:lang="en">hebrew</skos:prefLabel>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: japanese  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4108"/>
+				<skos:prefLabel xml:lang="en">japanese</skos:prefLabel>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: korean  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4115"/>
+				<skos:prefLabel xml:lang="en">korean</skos:prefLabel>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: no alphabet or script given/no key title  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4104"/>
+				<skos:prefLabel xml:lang="en">no alphabet or script given/no key title</skos:prefLabel>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4118"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Original alphabet or script of title other than basic Roman, extended Roman, cyrillic, Japanese, Chinese, Arabic, Greek, Hebrew, Thai, Devanagari,Korean, Tamil.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: tamil  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4116"/>
+				<skos:prefLabel xml:lang="en">tamil</skos:prefLabel>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: thai  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4113"/>
+				<skos:prefLabel xml:lang="en">thai</skos:prefLabel>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/continuingscr#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/continuingscr#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4117"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

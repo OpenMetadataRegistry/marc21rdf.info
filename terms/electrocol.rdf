@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Color of the electronic resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electrocol#">
+        <dc:title>MARC21-007: Color of the electronic resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: black-and-white  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrocol#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3523"/>
+				<skos:prefLabel xml:lang="en">black-and-white</skos:prefLabel>
+				<skos:definition xml:lang="en">Images are intended to be produced in black and white.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: gray scale  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrocol#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3525"/>
+				<skos:prefLabel xml:lang="en">gray scale</skos:prefLabel>
+				<skos:definition xml:lang="en">Image is produced with degrees of dark to light from black to gray to white.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrocol#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3526"/>
+				<skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">A combination of one color, black-and-white, multicolored, hand colored, and/or other images.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: multicolored  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrocol#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3524"/>
+				<skos:prefLabel xml:lang="en">multicolored</skos:prefLabel>
+				<skos:definition xml:lang="en">Image is printed or executed in more than one color.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrocol#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3527"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Color is not applicable to the electronic resource, usually because it does not involve anything visual</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g., digitally encoded audio data.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: one color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrocol#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3522"/>
+				<skos:prefLabel xml:lang="en">one color</skos:prefLabel>
+				<skos:definition xml:lang="en">Images are intended to be produced in a single color other than black (e.g. pink and white, brown and white).</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrocol#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3529"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Color other than one color, black-and-white, multicolored, gray scale, mixed.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electrocol#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electrocol#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3528"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Color characteristics of an item are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

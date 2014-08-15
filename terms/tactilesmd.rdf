@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of tactile resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/tactilesmd#">
+        <dc:title>MARC21-007: Specific material designation of tactile resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilesmd#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4494"/>
+				<skos:prefLabel xml:lang="en">braille</skos:prefLabel>
+				<skos:definition xml:lang="en">A system of writing for the blind in which letters, numerals, and punctuation are made of raised dots distinguishable by the fingers.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: combination  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilesmd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4495"/>
+				<skos:prefLabel xml:lang="en">combination</skos:prefLabel>
+				<skos:definition xml:lang="en">Combination of two or more types.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: moon  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilesmd#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4493"/>
+				<skos:prefLabel xml:lang="en">moon</skos:prefLabel>
+				<skos:definition xml:lang="en">An abstraction of the print.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilesmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4498"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than moon, braille, combination, tactile, with no writing system.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: tactile, with no writing system  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilesmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4496"/>
+				<skos:prefLabel xml:lang="en">tactile, with no writing system</skos:prefLabel>
+				<skos:definition xml:lang="en">No text and only communicated as graphic, i.e. a raised line diagram or drawing.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/tactilesmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/tactilesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4497"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Special material designation for the tactile material is not specified.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

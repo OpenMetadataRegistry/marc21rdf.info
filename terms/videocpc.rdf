@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Configuration of playback channels of video -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/videocpc#">
+        <dc:title>MARC21-007: Configuration of playback channels of video</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: mixed  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocpc#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocpc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3584"/>
+				<skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+				<skos:definition xml:lang="en">More than one configuration of playback channels for the sound portion is available on a single videorecording.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+				<skos:scopeNote xml:lang="en">An example would be a tape with both monaural and stereophonic sound tracks.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: monaural  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocpc#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocpc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3585"/>
+				<skos:prefLabel xml:lang="en">monaural</skos:prefLabel>
+				<skos:definition xml:lang="en">Configured to be played back on one channel.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocpc#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocpc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3586"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Videorecording has no sound or sound is on separate medium.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocpc#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocpc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3590"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Configuration of playback channels other than mixed, monaural, not applicable
+quadraphonic, multichannel, or surround, stereophonic.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: quadraphonic, multichannel, or surround  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocpc#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocpc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3587"/>
+				<skos:prefLabel xml:lang="en">quadraphonic, multichannel, or surround</skos:prefLabel>
+				<skos:definition xml:lang="en">Configured to be played back on more than two channels.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+				<skos:scopeNote xml:lang="en">Use for Dolby surround sound tracks and other multichannel techniques.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: stereophonic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocpc#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocpc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3588"/>
+				<skos:prefLabel xml:lang="en">stereophonic</skos:prefLabel>
+				<skos:definition xml:lang="en">Configured to be played back on two separate channels.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videocpc#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videocpc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3589"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Configuration of playback channels for the sound portion of a videorecording is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

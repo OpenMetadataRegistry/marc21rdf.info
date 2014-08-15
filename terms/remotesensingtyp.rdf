@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Sensor type of remote sensor -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/remotesensingtyp#">
+        <dc:title>MARC21-007: Sensor type of remote sensor</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: active  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingtyp#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4354"/>
+				<skos:prefLabel xml:lang="en">active</skos:prefLabel>
+				<skos:definition xml:lang="en">Sensor measures the strength of reflections of its transmissions sent to a remote target.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingtyp#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4357"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Sensor type other than active, passive.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: passive  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingtyp#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4355"/>
+				<skos:prefLabel xml:lang="en">passive</skos:prefLabel>
+				<skos:definition xml:lang="en">Sensor measures the strength of transmissions (e.g., radiation) emitted by a remote target without stimulation by the sensor.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/remotesensingtyp#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/remotesensingtyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4356"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Involvement of remote-sensing device in the creation of the transmission it measured is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

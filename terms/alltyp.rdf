@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Type of date or publication status -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/alltyp#">
+        <dc:title>MARC21-008: Type of date or publication status</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: actual date and copyright date [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4595"/>
+				<skos:prefLabel xml:lang="en">actual date and copyright date [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: continuing resource ceased publication  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4596"/>
+				<skos:prefLabel xml:lang="en">continuing resource ceased publication</skos:prefLabel>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:definition xml:lang="en">New issues of a continuing resource have ceased to be published or that a change in author or title has caused a successive entry record to be created. When a new title supersedes a previously existing one, the earlier title is considered dead and coded d in field 008/06. An item is considered to have ceased publication only when there is clear evidence that it has. Generally, a period of more than three years during which no new issue of a continuing resource has been published is considered evidence that it has ceased publication.</skos:definition>
+		</skos:Concept>
+<!-- Concept: continuing resource status unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4607"/>
+				<skos:prefLabel xml:lang="en">continuing resource status unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Used for continuing resources when there is no clear indication that publication of the item has ceased. A beginning date of publication; and the characters uuuu since no ending date is known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: date of distribution or release or issue and production or recording  session when different  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4602"/>
+				<skos:prefLabel xml:lang="en">date of distribution or release or issue and production or recording  session when different</skos:prefLabel>
+				<skos:definition xml:lang="en">Both a date of distribution/release/issue (008/07-10) and a date of production/recording (008/11-14) are present because there is a difference between the two dates. For computer files, code p is used when there is a difference between the date the file first became operational for analysis and processing in machine-readable form (i.e., production date) and the date the file became available to the public, usually through an established agency (i.e., distribution date). For moving images, if a work with identical content but in a different medium has a later release date than the original work, code p is used (e.g., a videorecording released in 1978 that was originally produced as a motion picture in 1965).</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: dates unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4601"/>
+				<skos:prefLabel xml:lang="en">dates unknown</skos:prefLabel>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: detailed date  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4597"/>
+				<skos:prefLabel xml:lang="en">detailed date</skos:prefLabel>
+				<skos:definition xml:lang="en">Detailed date which contains the month (and possibly the day) in addition to the year is present. For visual materials, this code may be used with televised material to give the date of the original broadcast.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: inclusive dates of collection  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4598"/>
+				<skos:prefLabel xml:lang="en">inclusive dates of collection</skos:prefLabel>
+				<skos:definition xml:lang="en">Inclusive dates applicable to a collection. If the inclusive dates are represented by a single year, that date is given in both places.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: multiple dates  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4600"/>
+				<skos:prefLabel xml:lang="en">multiple dates</skos:prefLabel>
+				<skos:definition xml:lang="en">The range of years of publication of a multipart item, excluding the case when both dates for a multipart item are represented by a single year.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: no dates given; b.c. date involved  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4594"/>
+				<skos:prefLabel xml:lang="en">no dates given; b.c. date involved</skos:prefLabel>
+				<skos:definition xml:lang="en">One or more dates associated with the item are Before Common Era (B.C.) dates.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: publication date and copyright date  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4606"/>
+				<skos:prefLabel xml:lang="en">publication date and copyright date</skos:prefLabel>
+				<skos:definition xml:lang="en">Date of publication/release/production/execution and a copyright or phonogram copyright date.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: questionable date  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4603"/>
+				<skos:prefLabel xml:lang="en">questionable date</skos:prefLabel>
+				<skos:definition xml:lang="en">Exact date for a single date item is not known but a range of years for the date can be specified (e.g., between 1824 and 1846).</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: range of years of bulk of collection  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4599"/>
+				<skos:prefLabel xml:lang="en">range of years of bulk of collection</skos:prefLabel>
+				<skos:definition xml:lang="en">The range of years applicable to most of the material in a collection. If the bulk dates are represented by only a single year, that date is given in both places.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: reprint/reissue date and original date  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4604"/>
+				<skos:prefLabel xml:lang="en">reprint/reissue date and original date</skos:prefLabel>
+				<skos:definition xml:lang="en">The date of reproduction or reissue;the date of the original, if known.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: single known date/probable date  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/alltyp#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/alltyp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4605"/>
+				<skos:prefLabel xml:lang="en">single known date/probable date</skos:prefLabel>
+				<skos:definition xml:lang="en">One known single date of distribution, publication, release, production, execution, writing, or a probable date that can be represented by four digits. The single date associated with the item may be actual, approximate, or conjectural (e.g., if the single date is uncertain). Also used for a single unpublished item such as an original or historical graphic when there is a single date associated with the execution of the item.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

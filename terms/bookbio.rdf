@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Biography -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/bookbio#">
+        <dc:title>MARC21-008: Biography</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: autobiography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookbio#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookbio#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3459"/>
+				<skos:prefLabel xml:lang="en">autobiography</skos:prefLabel>
+				<skos:definition xml:lang="en">Autobiography.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: collective biography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookbio#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookbio#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3461"/>
+				<skos:prefLabel xml:lang="en">collective biography</skos:prefLabel>
+				<skos:definition xml:lang="en">Biographical material about more than one individual.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: contains biographical information  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookbio#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookbio#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3462"/>
+				<skos:prefLabel xml:lang="en">contains biographical information</skos:prefLabel>
+				<skos:definition xml:lang="en">Contains biographical information.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: individual biography  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookbio#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookbio#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3460"/>
+				<skos:prefLabel xml:lang="en">individual biography</skos:prefLabel>
+				<skos:definition xml:lang="en">Biography of one individual.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: no biographical material  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/bookbio#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/bookbio#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3458"/>
+				<skos:prefLabel xml:lang="en">no biographical material</skos:prefLabel>
+				<skos:definition xml:lang="en">No biographical or autobiographical material.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

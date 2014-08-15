@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-006: Form of material -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/formofmaterial#">
+        <dc:title>MARC21-006: Form of material</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: cartographic material  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3813"/>
+				<skos:prefLabel xml:lang="en">cartographic material</skos:prefLabel>
+				<skos:definition xml:lang="en">Nonmanuscript cartographic material.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: computer file or electronic resource  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3819"/>
+				<skos:prefLabel xml:lang="en">computer file or electronic resource</skos:prefLabel>
+				<skos:definition xml:lang="en">Computer file or an electronic resource in form.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: kit  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3820"/>
+				<skos:prefLabel xml:lang="en">kit</skos:prefLabel>
+				<skos:definition xml:lang="en">Kit.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: language material  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3810"/>
+				<skos:prefLabel xml:lang="en">language material</skos:prefLabel>
+				<skos:definition xml:lang="en">Nonserial language material.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: manuscript cartographic material  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3814"/>
+				<skos:prefLabel xml:lang="en">manuscript cartographic material</skos:prefLabel>
+				<skos:definition xml:lang="en">Manuscript cartographic material .</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: manuscript language material  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3824"/>
+				<skos:prefLabel xml:lang="en">manuscript language material</skos:prefLabel>
+				<skos:definition xml:lang="en">Manuscript language material.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: manuscript notated music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3812"/>
+				<skos:prefLabel xml:lang="en">manuscript notated music</skos:prefLabel>
+				<skos:definition xml:lang="en">Manuscript notated music.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed material  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3821"/>
+				<skos:prefLabel xml:lang="en">mixed material</skos:prefLabel>
+				<skos:definition xml:lang="en">Mixed material.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: musical sound recording  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3817"/>
+				<skos:prefLabel xml:lang="en">musical sound recording</skos:prefLabel>
+				<skos:definition xml:lang="en">Musical sound recording.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: nonmusical sound recording  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3816"/>
+				<skos:prefLabel xml:lang="en">nonmusical sound recording</skos:prefLabel>
+				<skos:definition xml:lang="en">Nonmusical sound recording.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: notated music  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3811"/>
+				<skos:prefLabel xml:lang="en">notated music</skos:prefLabel>
+				<skos:definition xml:lang="en">Notated music.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: projected medium  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3815"/>
+				<skos:prefLabel xml:lang="en">projected medium</skos:prefLabel>
+				<skos:definition xml:lang="en">Projected medium.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: serial or integrating resource  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3823"/>
+				<skos:prefLabel xml:lang="en">serial or integrating resource</skos:prefLabel>
+				<skos:definition xml:lang="en">Control aspects of a non-printed continuing resource.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: three-dimensional artifact or naturally occurring object  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3822"/>
+				<skos:prefLabel xml:lang="en">three-dimensional artifact or naturally occurring object</skos:prefLabel>
+				<skos:definition xml:lang="en">Three-dimensional artifact or naturally occurring object.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: two-dimensional nonprojectable graphic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/formofmaterial#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/formofmaterial#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3818"/>
+				<skos:prefLabel xml:lang="en">two-dimensional nonprojectable graphic</skos:prefLabel>
+				<skos:definition xml:lang="en">Two-dimensional nonprojectable graphic.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

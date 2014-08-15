@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Positive/negative aspect of microform -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/microformpna#">
+        <dc:title>MARC21-007: Positive/negative aspect of microform</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: mixed polarity  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformpna#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformpna#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4179"/>
+				<skos:prefLabel xml:lang="en">mixed polarity</skos:prefLabel>
+				<skos:definition xml:lang="en">Mixture of positive and negative images.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: negative  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformpna#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformpna#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4178"/>
+				<skos:prefLabel xml:lang="en">negative</skos:prefLabel>
+				<skos:definition xml:lang="en">Lines and characters appear light against a dark background.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: positive  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformpna#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformpna#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4177"/>
+				<skos:prefLabel xml:lang="en">positive</skos:prefLabel>
+				<skos:definition xml:lang="en">Lines and characters appear dark against a light background.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for microopaques.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformpna#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformpna#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4180"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Polarity of the microform is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

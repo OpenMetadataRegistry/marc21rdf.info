@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Refined categories of color of motion picture -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/motionpicturercc#">
+        <dc:title>MARC21-007: Refined categories of color of motion picture</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 2 color, single strip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4277"/>
+				<skos:prefLabel xml:lang="en">2 color, single strip</skos:prefLabel>
+				<skos:definition xml:lang="en">Single strip of film was exposed with pairs of images by means of a beam-splitter prism. One of the pairs of images was exposed through a red filter and one through a green filter. The resulting negative was used to produce both prints consisting of two strips cemented together, and, later in the history of the process, two color dye transfer prints.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Also known as red and green Technicolor, the process was used exclusively by Technicolor and had its heyday between 1922 and 1933, although it was used until 1936 for animated cartoons.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 2 strip color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4281"/>
+				<skos:prefLabel xml:lang="en">2 strip color</skos:prefLabel>
+				<skos:definition xml:lang="en">Color system in which two strips of film, one to record red light and one to record blue, were run through the camera simultaneously and exposed through the base of the front piece of film. These two strips of negatives were then used to produce prints of duplitized film stock (film stock with emulsion on both sides of the base), with a red-dyed image on one side, and a blue-dyed or -toned image on the other.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+				<skos:scopeNote xml:lang="en">Although extensively used in early color film processes, the inherent inability of two components to reproduce the visible color spectrum rendered all such systems obsolete when three-color processes became readily available. The process used from about 1929 to about 1950 by, among others, the following companies: Cinecolor, Magnacolor, and Multicolor.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 3 layer color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4276"/>
+				<skos:prefLabel xml:lang="en">3 layer color</skos:prefLabel>
+				<skos:definition xml:lang="en">Three layers of emulsion: cyan, magenta, and yellow. Each layer is sensitive to its own primary color.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Beginning in the early 1950's, color film work has been done primarily on 3 layer, also called multilayer, film. This process is also known as integral tri-pack.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: 3 strip color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4280"/>
+				<skos:prefLabel xml:lang="en">3 strip color</skos:prefLabel>
+				<skos:definition xml:lang="en">Color system in which three color-separation negatives were produced on black-and-white film.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">3 strip color is often used synonymously with the trademark Technicolor. In the Technicolor three-component system, light reflected from the subject matter is transmitted through the single lens of a special camera where it strikes a prism. One part of the light is passed through the prism and a green filter to produce a green record. The remainder of the light is reflected from the prism and absorbed by negatives to produce red and blue records. Each of the negatives is developed to produce new negatives which resemble black-and-white negatives.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: blue or green strip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4283"/>
+				<skos:prefLabel xml:lang="en">blue or green strip</skos:prefLabel>
+				<skos:definition xml:lang="en">Cinecolor process and the Super Cinecolor process, in which the blue strip is the color separation record of red light which prints as blue-green (called "blue" by Cinecolor). In the two-color Technicolor process, the green strip is the color separation record of magenta-red light which prints as green.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: cyan strip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4284"/>
+				<skos:prefLabel xml:lang="en">cyan strip</skos:prefLabel>
+				<skos:definition xml:lang="en">Color separation record of red light which prints as cyan.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: hand colored  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4296"/>
+				<skos:prefLabel xml:lang="en">hand colored</skos:prefLabel>
+				<skos:definition xml:lang="en">Image, produced by a photographic process, is hand colored.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: magenta strip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4285"/>
+				<skos:prefLabel xml:lang="en">magenta strip</skos:prefLabel>
+				<skos:definition xml:lang="en">Color separation record of green light which prints as magenta.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4289"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not a color film.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4297"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Refined categories of color other than 3 layer color, 2 color, single strip, undetermined 2 color, undetermined 3 color, 3 strip color 2 strip color, red strip, blue or green strip, cyan strip, magenta strip, yellow strip, S E N 2, S E N 3, sepia tone, other tone, tint, tinted and toned, stencil color, hand colored.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: other tone  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4291"/>
+				<skos:prefLabel xml:lang="en">other tone</skos:prefLabel>
+				<skos:definition xml:lang="en">Color created by chemically altering the color, for example, uranium produces red, or increasing the brilliance of a print. Toning differs from tinting in that the clear portions of the film remain unaffected. Only the silver image of the positive film becomes colored.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: red strip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4282"/>
+				<skos:prefLabel xml:lang="en">red strip</skos:prefLabel>
+				<skos:definition xml:lang="en">Cinecolor process, in which the color separation record of blue-green light prints as red. In the Super Cinecolor process, the color separation record of green light which prints as magenta (called "red" by Cinecolor). In the two-color Technicolor process, the color separation record of green light which prints as red.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: S E N 2  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4287"/>
+				<skos:prefLabel xml:lang="en">S E N 2</skos:prefLabel>
+				<skos:definition xml:lang="en">Successive exposure negative 2. S E N 2 is a method of motion picture color photography in which two color separation negative images were recorded on one strip of film by photographing each frame two times successively through red and blue filters. The resultant negative was subsequently optically printed by the use of a skip-frame mechanism.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+				<skos:scopeNote xml:lang="en">The process was restricted to the photography of animated cartoon and puppet subjects in which the movement from frame to frame could be controlled. The successive exposure process was rendered obsolete by the introduction of 3 layer (multilayer) color negative film.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: S E N 3  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4288"/>
+				<skos:prefLabel xml:lang="en">S E N 3</skos:prefLabel>
+				<skos:definition xml:lang="en">Successive exposure negative 3. S E N 3 is a method of motion picture color photography in which three color separation negative images were recorded on one strip of film by photographing each frame three times successively through red, blue, and green filters. The resultant negative was subsequently optically printed by the use of a skip-frame mechanism.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">he process was usually restricted to the photography of animated cartoon and puppet subjects in which the movement from frame to frame could be controlled. The successive exposure process was rarely used after the introduction of 3 layer (multilayer) color negative film.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: sepia tone  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4290"/>
+				<skos:prefLabel xml:lang="en">sepia tone</skos:prefLabel>
+				<skos:definition xml:lang="en">Sepia tone which is a conversion of a black-and-white image in silver to sepia (a brownish grey to dark olive brown) by metallic compounds.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+				<skos:scopeNote xml:lang="en">Sepia was the most common tone used, and was used in black-and-white prints of films for special sequences to enhance the dramatic or pictorial effect.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: stencil color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4294"/>
+				<skos:prefLabel xml:lang="en">stencil color</skos:prefLabel>
+				<skos:definition xml:lang="en">Color is added using stencils, one cut for each color.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+				<skos:scopeNote xml:lang="en">Stencil color replaced the hand-coloring used in earlier years.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: tint  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4292"/>
+				<skos:prefLabel xml:lang="en">tint</skos:prefLabel>
+				<skos:definition xml:lang="en">Early in the history of tinting, a tint was created by dipping film in a bath of chemical dyes to get a dominant hue. Later raw stock became available already tinted in eleven stock shades: peach blow, blue for moonlight, amber for firelight, etc.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">The tinting of a film may be in whole or in part. Tinting was common until the advent of sound.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: tinted and toned  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4293"/>
+				<skos:prefLabel xml:lang="en">tinted and toned</skos:prefLabel>
+				<skos:definition xml:lang="en">Color has been added to a film by using a tinted base and a toned emulsion.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: undetermined 2 color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4278"/>
+				<skos:prefLabel xml:lang="en">undetermined 2 color</skos:prefLabel>
+				<skos:definition xml:lang="en">System of color reproduction, which cannot be specifically identified, in which the visible spectrum is divided either into blue and red regions or into green and red regions for recording and presentation.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Although extensively used in early color film processes, the inherent inability of two components to reproduce a satisfactory range of hues rendered all such systems obsolete when three-color processes became readily available and relatively inexpensive.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: undetermined 3 color  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4279"/>
+				<skos:prefLabel xml:lang="en">undetermined 3 color</skos:prefLabel>
+				<skos:definition xml:lang="en">System of color reproduction, which cannot be specifically identified, in which the visible spectrum is divided into three sections, normally red, green, and blue, for the purposes of recording and presentation.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4295"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Refined category of color is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: yellow strip  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturercc#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturercc#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4286"/>
+				<skos:prefLabel xml:lang="en">yellow strip</skos:prefLabel>
+				<skos:definition xml:lang="en">Color separation record of blue light which prints as yellow.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

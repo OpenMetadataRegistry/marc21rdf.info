@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Dimensions of projected graphic -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/projecteddim#">
+        <dc:title>MARC21-007: Dimensions of projected graphic</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: 10x10 in. or 26x26 cm. transparency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#x" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3687"/>
+				<skos:prefLabel xml:lang="en">10x10 in. or 26x26 cm. transparency</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the transparency are either 10x10 in. or 26x26 cm.</skos:definition>
+				<skos:notation xml:lang="en">x</skos:notation>
+		</skos:Concept>
+<!-- Concept: 16 mm. film width  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3676"/>
+				<skos:prefLabel xml:lang="en">16 mm. film width</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the film is 16 mm.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: 2 1/4 x 2 1/4 in. or 6x6 cm. slide  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3681"/>
+				<skos:prefLabel xml:lang="en">2 1/4 x 2 1/4 in. or 6x6 cm. slide</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the slide in its mounting are either 2 1/4 x 2 1/4 in. or 6x6 cm.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: 28 mm. film width  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3677"/>
+				<skos:prefLabel xml:lang="en">28 mm. film width</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the film is 28 mm.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: 2x2 in. or 5x5 cm. slide  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3680"/>
+				<skos:prefLabel xml:lang="en">2x2 in. or 5x5 cm. slide</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the slide in its mounting are either 2x2 in. or 5x5 cm.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: 35 mm. film width  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3678"/>
+				<skos:prefLabel xml:lang="en">35 mm. film width</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the film is 35 mm.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: 4x5 in. or 10x13 cm. transparency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3682"/>
+				<skos:prefLabel xml:lang="en">4x5 in. or 10x13 cm. transparency</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the transparency are either 4x5 in. or 10x13 cm.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: 5x7 in. or 13x18 cm. transparency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#t" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3683"/>
+				<skos:prefLabel xml:lang="en">5x7 in. or 13x18 cm. transparency</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the transparency are either 5x7 in. or 13x18 cm.</skos:definition>
+				<skos:notation xml:lang="en">t</skos:notation>
+		</skos:Concept>
+<!-- Concept: 70 mm. film width  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3679"/>
+				<skos:prefLabel xml:lang="en">70 mm. film width</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the film is 70 mm.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: 7x7 in. or 18x18 cm. transparency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#y" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3688"/>
+				<skos:prefLabel xml:lang="en">7x7 in. or 18x18 cm. transparency</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the transparency are either 7x7 in. or 18x18 cm.</skos:definition>
+				<skos:notation xml:lang="en">y</skos:notation>
+		</skos:Concept>
+<!-- Concept: 8x10 in. or 21x26 cm. transparency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#v" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3685"/>
+				<skos:prefLabel xml:lang="en">8x10 in. or 21x26 cm. transparency</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the transparency are either 8x10 in. or 21x26 cm.</skos:definition>
+				<skos:notation xml:lang="en">v</skos:notation>
+		</skos:Concept>
+<!-- Concept: 9.5 mm. film width  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3675"/>
+				<skos:prefLabel xml:lang="en">9.5 mm. film width</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the film is 9.5 mm.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: 9x9 in. or 23x23 cm. transparency  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#w" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3686"/>
+				<skos:prefLabel xml:lang="en">9x9 in. or 23x23 cm. transparency</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions of the transparency are either 9x9 in. or 23x23 cm.</skos:definition>
+				<skos:notation xml:lang="en">w</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3689"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions other than standard 8 mm. film width, super 8 mm./single 8 mm. film width, 9.5 mm. film width, 16 mm. film width, 28 mm. film width, 35 mm. film width, 70 mm. film width, 2x2 in. or 5x5 cm. slide, 2 1/4 x 2 1/4 in. or 6x6 cm. slide, 4x5 in. or 10x13 cm. transparency, 5x7 in. or 13x18 cm. transparency, 8x10 in. or 21x26 cm. transparency, 9x9 in. or 23x23 cm. transparency, 10x10 in. or 26x26 cm. transparency, 7x7 in. or 18x18 cm. transparency.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: standard 8 mm. film width  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3673"/>
+				<skos:prefLabel xml:lang="en">standard 8 mm. film width</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the film is standard 8 mm.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes film termed Mauer 8 mm.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: super 8 mm./single 8 mm. film width  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3674"/>
+				<skos:prefLabel xml:lang="en">super 8 mm./single 8 mm. film width</skos:prefLabel>
+				<skos:definition xml:lang="en">Width of the film is super 8 mm.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Single 8 mm. film is a Japanese equivalent of super 8 mm. film.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projecteddim#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projecteddim#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3684"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimensions are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

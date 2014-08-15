@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Production/reproduction details of map -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/mappor#">
+        <dc:title>MARC21-007: Production/reproduction details of map</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: film  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappor#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4217"/>
+				<skos:prefLabel xml:lang="en">film</skos:prefLabel>
+				<skos:definition xml:lang="en">Film copy of the original.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappor#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4219"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Production or reproduction details other than photocopy, blueline print, photocopy, pre-production, film.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: photocopy  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappor#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4215"/>
+				<skos:prefLabel xml:lang="en">photocopy</skos:prefLabel>
+				<skos:definition xml:lang="en">Photocopy.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: photocopy, blueline print  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappor#a
+" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4214"/>
+				<skos:prefLabel xml:lang="en">photocopy, blueline print</skos:prefLabel>
+				<skos:definition xml:lang="en">A blueline image on a white background and reproduced by the whiteprint process.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Bluelines are made from vellum, film positives, or any translucent or transparent original on which an image has been made.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: pre-production  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappor#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4216"/>
+				<skos:prefLabel xml:lang="en">pre-production</skos:prefLabel>
+				<skos:definition xml:lang="en">Pre-production (proof) copy intended for review.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappor#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4218"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Production/reproduction details are not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

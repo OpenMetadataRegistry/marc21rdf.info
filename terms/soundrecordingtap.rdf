@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Tape configuration of sound recording -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/soundrecordingtap#">
+        <dc:title>MARC21-007: Tape configuration of sound recording</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: eight track  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4530"/>
+				<skos:prefLabel xml:lang="en">eight track</skos:prefLabel>
+				<skos:definition xml:lang="en">Eight track configuration is used with monaural, stereophonic, and quadraphonic recordings.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: full (1) track  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4527"/>
+				<skos:prefLabel xml:lang="en">full (1) track</skos:prefLabel>
+				<skos:definition xml:lang="en">Full or single track.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: half (2) track  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4528"/>
+				<skos:prefLabel xml:lang="en">half (2) track</skos:prefLabel>
+				<skos:definition xml:lang="en">Half track configuration is used to permit two tracks (channels) to be recorded on one tape.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">It is used with audio cassettes to permit monoaural recordings in two directions and with stereophonic recordings in one direction.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4533"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not a tape or does not include a tape.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, if the item is a disc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4535"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Tape configuration other than half (2) track, quarter (4) track, eight track, twelve track, sixteen track.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: quarter (4) track  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4529"/>
+				<skos:prefLabel xml:lang="en">quarter (4) track</skos:prefLabel>
+				<skos:definition xml:lang="en">Quarter track configuration is used to permit four tracks (channels) to be recorded on one tape.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">It is used with standard audio cassettes to permit stereophonic recordings in two directions, and with quadraphonic recordings in one direction.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: sixteen track  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4532"/>
+				<skos:prefLabel xml:lang="en">sixteen track</skos:prefLabel>
+				<skos:definition xml:lang="en">Sixteen track configuration is used in professional recording studios to permit separate control of various tracks which are later mixed to produce a stereophonic or quadraphonic recording.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: twelve track  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4531"/>
+				<skos:prefLabel xml:lang="en">twelve track</skos:prefLabel>
+				<skos:definition xml:lang="en">Twelve track configuration is used in professional recording studios to permit separate control of various tracks which are later mixed to produce a stereophonic or quadraphonic recording.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/soundrecordingtap#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/soundrecordingtap#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4534"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Tape configuration is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Special format characteristics of map -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/mapspe#">
+        <dc:title>MARC21-008: Special format characteristics of map</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: braille [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#mx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4385"/>
+				<skos:prefLabel xml:lang="en">braille [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: calendar  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4383"/>
+				<skos:prefLabel xml:lang="en">calendar</skos:prefLabel>
+				<skos:definition xml:lang="en">Calendar.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: facsimile [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#fx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4379"/>
+				<skos:prefLabel xml:lang="en">facsimile [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: film negative [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#dx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4377"/>
+				<skos:prefLabel xml:lang="en">film negative [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: game  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4386"/>
+				<skos:prefLabel xml:lang="en">game</skos:prefLabel>
+				<skos:definition xml:lang="en">Game.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: large print [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#qx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4389"/>
+				<skos:prefLabel xml:lang="en">large print [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: loose-leaf  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4390"/>
+				<skos:prefLabel xml:lang="en">loose-leaf</skos:prefLabel>
+				<skos:definition xml:lang="en">Separate leaves intended to be stored in a binder or case.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+				<skos:scopeNote xml:lang="en">Loose-leaf items are often meant to be updated.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: manuscript  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4378"/>
+				<skos:prefLabel xml:lang="en">manuscript</skos:prefLabel>
+				<skos:definition xml:lang="en">Manuscript.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: negative photocopy [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#cx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4376"/>
+				<skos:prefLabel xml:lang="en">negative photocopy [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: no specified special format characteristics  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4373"/>
+				<skos:prefLabel xml:lang="en">no specified special format characteristics</skos:prefLabel>
+				<skos:definition xml:lang="en">No specified special format characteristics.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4391"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Special format characteristics other than manuscript, picture card, post card, calendar, puzzle, game, wall map, playing cards, loose-leaf.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: photocopy [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#bx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4375"/>
+				<skos:prefLabel xml:lang="en">photocopy [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: photocopy, blue line print [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#ax" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4374"/>
+				<skos:prefLabel xml:lang="en">photocopy, blue line print [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: picture card, post card  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4382"/>
+				<skos:prefLabel xml:lang="en">picture card, post card</skos:prefLabel>
+				<skos:definition xml:lang="en">Picture card, post card.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: playing cards  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4388"/>
+				<skos:prefLabel xml:lang="en">playing cards</skos:prefLabel>
+				<skos:definition xml:lang="en">Playing cards.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: puzzle  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4384"/>
+				<skos:prefLabel xml:lang="en">puzzle</skos:prefLabel>
+				<skos:definition xml:lang="en">Puzzle.</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: rare [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#hx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4381"/>
+				<skos:prefLabel xml:lang="en">rare [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: relief model [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#gx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4380"/>
+				<skos:prefLabel xml:lang="en">relief model [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: wall map  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapspe#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapspe#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4387"/>
+				<skos:prefLabel xml:lang="en">wall map</skos:prefLabel>
+				<skos:definition xml:lang="en">Wall map.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

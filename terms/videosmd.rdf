@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of video -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/videosmd#">
+        <dc:title>MARC21-007: Specific material designation of video</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videosmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4510"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than videocartridge, videodisc, videocassette, videoreel.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videosmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4509"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Special material designation for the videorecording is not specified.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: videocartridge  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videosmd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4505"/>
+				<skos:prefLabel xml:lang="en">videocartridge</skos:prefLabel>
+				<skos:definition xml:lang="en">Videorecording on tape encased in a cartridge and which has the ends joined together to form a continuous loop.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: videocassette  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videosmd#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4507"/>
+				<skos:prefLabel xml:lang="en">videocassette</skos:prefLabel>
+				<skos:definition xml:lang="en">Videorecording on tape encased in a cassette which runs reel-to-reel.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: videodisc  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videosmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4506"/>
+				<skos:prefLabel xml:lang="en">videodisc</skos:prefLabel>
+				<skos:definition xml:lang="en">Flat disc of plastic or other material on which video signals, with or without sound, are recorded.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+				<skos:scopeNote xml:lang="en">Various videodisc systems have been developed (e.g., laser-optical, capacitance, magnetic, etc.).</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: videoreel  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/videosmd#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/videosmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4508"/>
+				<skos:prefLabel xml:lang="en">videoreel</skos:prefLabel>
+				<skos:definition xml:lang="en">Videorecording on a spool of tape mounted on a reel and designed to play from reel-to-reel across a playback pick-up device.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

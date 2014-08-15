@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Literary form of book -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/booklit#">
+        <dc:title>MARC21-008: Literary form of book</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: comic strips  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3965"/>
+				<skos:prefLabel xml:lang="en">comic strips</skos:prefLabel>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: dramas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3966"/>
+				<skos:prefLabel xml:lang="en">dramas</skos:prefLabel>
+				<skos:definition xml:lang="en">Dramas.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: essays  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3967"/>
+				<skos:prefLabel xml:lang="en">essays</skos:prefLabel>
+				<skos:definition xml:lang="en">Essays.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: fiction (not further specified)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#1" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3964"/>
+				<skos:prefLabel xml:lang="en">fiction (not further specified)</skos:prefLabel>
+				<skos:definition xml:lang="en">Work of fiction but no further identification of the literary form is desired.</skos:definition>
+				<skos:notation xml:lang="en">1</skos:notation>
+		</skos:Concept>
+<!-- Concept: humor, satires, etc.  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3969"/>
+				<skos:prefLabel xml:lang="en">humor, satires, etc.</skos:prefLabel>
+				<skos:definition xml:lang="en">Humorous work, satire, or of similar literary form.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: letters  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#i" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3970"/>
+				<skos:prefLabel xml:lang="en">letters</skos:prefLabel>
+				<skos:definition xml:lang="en">Single letter or collection of correspondence.</skos:definition>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed forms  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3972"/>
+				<skos:prefLabel xml:lang="en">mixed forms</skos:prefLabel>
+				<skos:definition xml:lang="en">Represents a variety of literary forms (e.g., poetry and short stories).</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+		</skos:Concept>
+<!-- Concept: not fiction (not further specified)  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#0" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3963"/>
+				<skos:prefLabel xml:lang="en">not fiction (not further specified)</skos:prefLabel>
+				<skos:definition xml:lang="en">Not a work of fiction and no further identification of the literary form is desired.</skos:definition>
+		</skos:Concept>
+<!-- Concept: novels  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3968"/>
+				<skos:prefLabel xml:lang="en">novels</skos:prefLabel>
+				<skos:definition xml:lang="en">Novels.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: poetry  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3973"/>
+				<skos:prefLabel xml:lang="en">poetry</skos:prefLabel>
+				<skos:definition xml:lang="en">Poem or collection of poems.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+		</skos:Concept>
+<!-- Concept: short stories  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3971"/>
+				<skos:prefLabel xml:lang="en">short stories</skos:prefLabel>
+				<skos:definition xml:lang="en">Short story or collection of short stories.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: speeches  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3974"/>
+				<skos:prefLabel xml:lang="en">speeches</skos:prefLabel>
+				<skos:definition xml:lang="en">Speech or collection of speeches.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/booklit#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/booklit#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3975"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Literary form of the item is unknown.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

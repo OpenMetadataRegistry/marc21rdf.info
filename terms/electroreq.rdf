@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Reformatting quality of electronic resource -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/electroreq#">
+        <dc:title>MARC21-007: Reformatting quality of electronic resource</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: access  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroreq#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroreq#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4298"/>
+				<skos:prefLabel xml:lang="en">access</skos:prefLabel>
+				<skos:definition xml:lang="en">Electronic resource is of a quality that will support current, electronic access to the original item (reference use), but is not sufficient to serve as a preservation copy.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">Examples of electronic resources created for access purposes may include images created for a temporary, online exhibition (possibly to mirror an in-house installation); compressed, lower resolution versions of higher-quality master files that allow for easier transmission and access over the Internet; video converted to MPEG-2 for Internet access; photos which have been scanned at lower resolutions to create an online browsing tool for a collection; or articles scanned as a part of an E-Reserve collection which will be discarded in accordance with previous copyright agreements which specify a time limit on the retention of the electronic resource.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroreq#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroreq#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4299"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Reformatting quality is not applicable to the electronic resource.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: preservation  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroreq#p" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroreq#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4300"/>
+				<skos:prefLabel xml:lang="en">preservation</skos:prefLabel>
+				<skos:definition xml:lang="en">Electronic resource was created via reformatting to help preserve the original item.</skos:definition>
+				<skos:notation xml:lang="en">p</skos:notation>
+				<skos:scopeNote xml:lang="en">Capture and storage techniques associated with preservation files ensure high-quality, long-term electronic resources that warrant long-term protection.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: replacement  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroreq#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroreq#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4301"/>
+				<skos:prefLabel xml:lang="en">replacement</skos:prefLabel>
+				<skos:definition xml:lang="en">Electronic resource is of very high quality and, when printed out, viewed on screen or played via a listening device could serve as a replacement should the original be lost, damaged, or destroyed.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/electroreq#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/electroreq#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4302"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Reformatting quality of the electronic resource is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

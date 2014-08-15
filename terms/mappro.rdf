@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Projection of map -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/mappro#">
+        <dc:title>MARC21-008: Projection of map</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: Aitoff  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#aa" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4221"/>
+				<skos:prefLabel xml:lang="en">Aitoff</skos:prefLabel>
+				<skos:definition xml:lang="en">Aitoff.</skos:definition>
+				<skos:notation xml:lang="en">aa</skos:notation>
+		</skos:Concept>
+<!-- Concept: Alber's equal area  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ca" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4248"/>
+				<skos:prefLabel xml:lang="en">Alber's equal area</skos:prefLabel>
+				<skos:definition xml:lang="en">Alber's equal area.</skos:definition>
+				<skos:notation xml:lang="en">ca</skos:notation>
+		</skos:Concept>
+<!-- Concept: armadillo  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#da" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4255"/>
+				<skos:prefLabel xml:lang="en">armadillo</skos:prefLabel>
+				<skos:definition xml:lang="en">Armadillo.</skos:definition>
+				<skos:notation xml:lang="en">da</skos:notation>
+		</skos:Concept>
+<!-- Concept: azimuthal equidistant  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ae" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4225"/>
+				<skos:prefLabel xml:lang="en">azimuthal equidistant</skos:prefLabel>
+				<skos:definition xml:lang="en">Azimuthal equidistant.</skos:definition>
+				<skos:notation xml:lang="en">ae</skos:notation>
+		</skos:Concept>
+<!-- Concept: azimuthal, other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#az" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4232"/>
+				<skos:prefLabel xml:lang="en">azimuthal, other</skos:prefLabel>
+				<skos:definition xml:lang="en">Azimuthal, other.</skos:definition>
+				<skos:notation xml:lang="en">az</skos:notation>
+		</skos:Concept>
+<!-- Concept: azimuthal, specific type unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#au" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4231"/>
+				<skos:prefLabel xml:lang="en">azimuthal, specific type unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Azimuthal, specific type unknown. Only the projection type (azimuthal) is known, not the specific projection.</skos:definition>
+				<skos:notation xml:lang="en">au</skos:notation>
+		</skos:Concept>
+<!-- Concept: Bonne  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#cb" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4249"/>
+				<skos:prefLabel xml:lang="en">Bonne</skos:prefLabel>
+				<skos:definition xml:lang="en">Bonne.</skos:definition>
+				<skos:notation xml:lang="en">cb</skos:notation>
+		</skos:Concept>
+<!-- Concept: butterfly  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#db" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4256"/>
+				<skos:prefLabel xml:lang="en">butterfly</skos:prefLabel>
+				<skos:definition xml:lang="en">Butterfly.</skos:definition>
+				<skos:notation xml:lang="en">db</skos:notation>
+		</skos:Concept>
+<!-- Concept: Chamberlin trimetric  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#an" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4229"/>
+				<skos:prefLabel xml:lang="en">Chamberlin trimetric</skos:prefLabel>
+				<skos:definition xml:lang="en">Chamberlin trimetric.</skos:definition>
+				<skos:notation xml:lang="en">an</skos:notation>
+		</skos:Concept>
+<!-- Concept: conic, other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#cz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4254"/>
+				<skos:prefLabel xml:lang="en">conic, other</skos:prefLabel>
+				<skos:definition xml:lang="en">Conic, other.</skos:definition>
+				<skos:notation xml:lang="en">cz</skos:notation>
+		</skos:Concept>
+<!-- Concept: conic, specific type unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#cu" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4253"/>
+				<skos:prefLabel xml:lang="en">conic, specific type unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Conic, specific type unknown. Only the projection type (conic) is known, not the specific projection.</skos:definition>
+				<skos:notation xml:lang="en">cu</skos:notation>
+		</skos:Concept>
+<!-- Concept: cordiform  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#dh" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4262"/>
+				<skos:prefLabel xml:lang="en">cordiform</skos:prefLabel>
+				<skos:definition xml:lang="en">Cordiform.</skos:definition>
+				<skos:notation xml:lang="en">dh</skos:notation>
+		</skos:Concept>
+<!-- Concept: cylindrical, other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4247"/>
+				<skos:prefLabel xml:lang="en">cylindrical, other</skos:prefLabel>
+				<skos:definition xml:lang="en">Cylindrical, other.</skos:definition>
+				<skos:notation xml:lang="en">bz</skos:notation>
+		</skos:Concept>
+<!-- Concept: cylindrical, specific type unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bu" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4246"/>
+				<skos:prefLabel xml:lang="en">cylindrical, specific type unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Cylindrical, specific type unknown. Only the projection type (cylindrical) is known, not the specific projection.</skos:definition>
+				<skos:notation xml:lang="en">bu</skos:notation>
+		</skos:Concept>
+<!-- Concept: dimaxion  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#dg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4261"/>
+				<skos:prefLabel xml:lang="en">dimaxion</skos:prefLabel>
+				<skos:definition xml:lang="en">Dimaxion.</skos:definition>
+				<skos:notation xml:lang="en">dg</skos:notation>
+		</skos:Concept>
+<!-- Concept: Eckert  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#dc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4257"/>
+				<skos:prefLabel xml:lang="en">Eckert</skos:prefLabel>
+				<skos:definition xml:lang="en">Eckert.</skos:definition>
+				<skos:notation xml:lang="en">dc</skos:notation>
+		</skos:Concept>
+<!-- Concept: equidistant conic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ce" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4251"/>
+				<skos:prefLabel xml:lang="en">equidistant conic</skos:prefLabel>
+				<skos:definition xml:lang="en">Equidistant conic.</skos:definition>
+				<skos:notation xml:lang="en">ce</skos:notation>
+		</skos:Concept>
+<!-- Concept: equirectangular  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bj" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4242"/>
+				<skos:prefLabel xml:lang="en">equirectangular</skos:prefLabel>
+				<skos:definition xml:lang="en">Equirectangular.</skos:definition>
+				<skos:notation xml:lang="en">bj</skos:notation>
+		</skos:Concept>
+<!-- Concept: Gall  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ba" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4233"/>
+				<skos:prefLabel xml:lang="en">Gall</skos:prefLabel>
+				<skos:definition xml:lang="en">Gall.</skos:definition>
+				<skos:notation xml:lang="en">ba</skos:notation>
+		</skos:Concept>
+<!-- Concept: Gauss-Kruger  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bi" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4241"/>
+				<skos:prefLabel xml:lang="en">Gauss-Kruger</skos:prefLabel>
+				<skos:definition xml:lang="en">Gauss-Kruger.</skos:definition>
+				<skos:notation xml:lang="en">bi</skos:notation>
+		</skos:Concept>
+<!-- Concept: general vertical near-sided  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ag" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4227"/>
+				<skos:prefLabel xml:lang="en">general vertical near-sided</skos:prefLabel>
+				<skos:definition xml:lang="en">General vertical near-sided.</skos:definition>
+				<skos:notation xml:lang="en">ag</skos:notation>
+		</skos:Concept>
+<!-- Concept: Gnomic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ab" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4222"/>
+				<skos:prefLabel xml:lang="en">Gnomic</skos:prefLabel>
+				<skos:definition xml:lang="en">Gnomic.</skos:definition>
+				<skos:notation xml:lang="en">ab</skos:notation>
+		</skos:Concept>
+<!-- Concept: Goode's homolographic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bb" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4234"/>
+				<skos:prefLabel xml:lang="en">Goode's homolographic</skos:prefLabel>
+				<skos:definition xml:lang="en">Goode's homolographic.</skos:definition>
+				<skos:notation xml:lang="en">bb</skos:notation>
+		</skos:Concept>
+<!-- Concept: Goode's homolosine  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#dd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4258"/>
+				<skos:prefLabel xml:lang="en">Goode's homolosine</skos:prefLabel>
+				<skos:definition xml:lang="en">Goode's homolosine.</skos:definition>
+				<skos:notation xml:lang="en">dd</skos:notation>
+		</skos:Concept>
+<!-- Concept: Lambert conformal  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#dl" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4263"/>
+				<skos:prefLabel xml:lang="en">Lambert conformal</skos:prefLabel>
+				<skos:definition xml:lang="en">Lambert conformal.</skos:definition>
+				<skos:notation xml:lang="en">dl</skos:notation>
+		</skos:Concept>
+<!-- Concept: Lambert's azimuthal equal area  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ac" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4223"/>
+				<skos:prefLabel xml:lang="en">Lambert's azimuthal equal area</skos:prefLabel>
+				<skos:definition xml:lang="en">Lambert's azimuthal equal area.</skos:definition>
+				<skos:notation xml:lang="en">ac</skos:notation>
+		</skos:Concept>
+<!-- Concept: Lambert's conformal conic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#cc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4250"/>
+				<skos:prefLabel xml:lang="en">Lambert's conformal conic</skos:prefLabel>
+				<skos:definition xml:lang="en">Lambert's conformal conic.</skos:definition>
+				<skos:notation xml:lang="en">cc</skos:notation>
+		</skos:Concept>
+<!-- Concept: Lambert's cylindrical equal area  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bc" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4235"/>
+				<skos:prefLabel xml:lang="en">Lambert's cylindrical equal area</skos:prefLabel>
+				<skos:definition xml:lang="en">Lambert's cylindrical equal area.</skos:definition>
+				<skos:notation xml:lang="en">bc</skos:notation>
+		</skos:Concept>
+<!-- Concept: Mercator  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bd" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4236"/>
+				<skos:prefLabel xml:lang="en">Mercator</skos:prefLabel>
+				<skos:definition xml:lang="en">Mercator.</skos:definition>
+				<skos:notation xml:lang="en">bd</skos:notation>
+		</skos:Concept>
+<!-- Concept: Miller  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#be" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4237"/>
+				<skos:prefLabel xml:lang="en">Miller</skos:prefLabel>
+				<skos:definition xml:lang="en">Miller.</skos:definition>
+				<skos:notation xml:lang="en">be</skos:notation>
+		</skos:Concept>
+<!-- Concept: Miller's bipolar oblique conformal conic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#de" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4259"/>
+				<skos:prefLabel xml:lang="en">Miller's bipolar oblique conformal conic</skos:prefLabel>
+				<skos:definition xml:lang="en">Miller's bipolar oblique conformal conic.</skos:definition>
+				<skos:notation xml:lang="en">de</skos:notation>
+		</skos:Concept>
+<!-- Concept: modified stereographic for Alaska  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#am" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4228"/>
+				<skos:prefLabel xml:lang="en">modified stereographic for Alaska</skos:prefLabel>
+				<skos:definition xml:lang="en">Modified stereographic for Alaska.</skos:definition>
+				<skos:notation xml:lang="en">am</skos:notation>
+		</skos:Concept>
+<!-- Concept: Mollweide  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bf" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4238"/>
+				<skos:prefLabel xml:lang="en">Mollweide</skos:prefLabel>
+				<skos:definition xml:lang="en">Mollweide.</skos:definition>
+				<skos:notation xml:lang="en">bf</skos:notation>
+		</skos:Concept>
+<!-- Concept: oblique Mercator  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bo" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4243"/>
+				<skos:prefLabel xml:lang="en">oblique Mercator</skos:prefLabel>
+				<skos:definition xml:lang="en">Oblique Mercator.</skos:definition>
+				<skos:notation xml:lang="en">bo</skos:notation>
+		</skos:Concept>
+<!-- Concept: orthographic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ad" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4224"/>
+				<skos:prefLabel xml:lang="en">orthographic</skos:prefLabel>
+				<skos:definition xml:lang="en">Orthographic.</skos:definition>
+				<skos:notation xml:lang="en">ad</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#zz" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4264"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Projection other than Aitoff, gnomic, Lambert's azimuthal equal area, orthographic, azimuthal equidistant, stereographic, general vertical near-sided, modified stereographic for Alaska, Chamberlin trimetric, polar stereographic, azimuthal, specific type unknown, azimuthal, other, Gall, Goode's homolographic, Lambert's cylindrical equal area, Mercator, Miller, Mollweide, sinusoidal, transverse mercator, Gauss-Kruger, equirectangular, oblique Mercator, Robinson, space oblique Mercator, cylindrical, specific type unknown, cylindrical, other, Alber's equal area, Bonne, Lambert's conformal conic, equidistant conic, polyconic, conic, specific type unknown, conic, other, armadillo, butterfly, Eckert, Goode's homolosine, Miller's bipolar oblique conformal conic, Van der Grinten, dimaxion, cordiform, Lambert conformal.</skos:definition>
+				<skos:notation xml:lang="en">zz</skos:notation>
+		</skos:Concept>
+<!-- Concept: polar stereographic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#ap" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4230"/>
+				<skos:prefLabel xml:lang="en">polar stereographic</skos:prefLabel>
+				<skos:definition xml:lang="en">Polar stereographic.</skos:definition>
+				<skos:notation xml:lang="en">ap</skos:notation>
+		</skos:Concept>
+<!-- Concept: polyconic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#cp" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4252"/>
+				<skos:prefLabel xml:lang="en">polyconic</skos:prefLabel>
+				<skos:definition xml:lang="en">Polyconic.</skos:definition>
+				<skos:notation xml:lang="en">cp</skos:notation>
+		</skos:Concept>
+<!-- Concept: projection not specified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#%23%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4220"/>
+				<skos:prefLabel xml:lang="en">projection not specified</skos:prefLabel>
+				<skos:definition xml:lang="en">Projection not specified.</skos:definition>
+				<skos:notation xml:lang="en">##</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for most globes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: Robinson  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#br" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4244"/>
+				<skos:prefLabel xml:lang="en">Robinson</skos:prefLabel>
+				<skos:definition xml:lang="en">Robinson.</skos:definition>
+				<skos:notation xml:lang="en">br</skos:notation>
+		</skos:Concept>
+<!-- Concept: sinusoidal  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bg" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4239"/>
+				<skos:prefLabel xml:lang="en">sinusoidal</skos:prefLabel>
+				<skos:definition xml:lang="en">Sinusoidal.</skos:definition>
+				<skos:notation xml:lang="en">bg</skos:notation>
+		</skos:Concept>
+<!-- Concept: space oblique Mercator  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bs" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4245"/>
+				<skos:prefLabel xml:lang="en">space oblique Mercator</skos:prefLabel>
+				<skos:definition xml:lang="en">Space oblique Mercator.</skos:definition>
+				<skos:notation xml:lang="en">bs</skos:notation>
+		</skos:Concept>
+<!-- Concept: stereographic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#af" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4226"/>
+				<skos:prefLabel xml:lang="en">stereographic</skos:prefLabel>
+				<skos:definition xml:lang="en">Stereographic.</skos:definition>
+				<skos:notation xml:lang="en">af</skos:notation>
+		</skos:Concept>
+<!-- Concept: transverse Mercator  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#bh" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4240"/>
+				<skos:prefLabel xml:lang="en">transverse Mercator</skos:prefLabel>
+				<skos:definition xml:lang="en">Transverse Mercator.</skos:definition>
+				<skos:notation xml:lang="en">bh</skos:notation>
+		</skos:Concept>
+<!-- Concept: Van Der Grinten  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mappro#df" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mappro#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4260"/>
+				<skos:prefLabel xml:lang="en">Van Der Grinten</skos:prefLabel>
+				<skos:definition xml:lang="en">Van Der Grinten.</skos:definition>
+				<skos:notation xml:lang="en">df</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

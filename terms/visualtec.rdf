@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Technique of visual material -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/visualtec#">
+        <dc:title>MARC21-007: Technique of visual material</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: animation  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtec#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4553"/>
+				<skos:prefLabel xml:lang="en">animation</skos:prefLabel>
+				<skos:definition xml:lang="en">Animated films are produced using a variety of techniques including 1) cartoons; 2) graphic film (with paint or other media directly applied to the surface of the film); 3) model, clay, or puppet animation (where three-dimensional objects are photographed one frame at a time to achieve the effect of animation); and 4) other techniques.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: animation and live action  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtec#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4554"/>
+				<skos:prefLabel xml:lang="en">animation and live action</skos:prefLabel>
+				<skos:definition xml:lang="en">Combination of animation and live action.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: live action  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtec#l" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4555"/>
+				<skos:prefLabel xml:lang="en">live action</skos:prefLabel>
+				<skos:definition xml:lang="en">Live action</skos:definition>
+				<skos:notation xml:lang="en">l</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtec#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4556"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not a motion picture or a videorecording.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: not applicable [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtec#%23x" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4552"/>
+				<skos:prefLabel xml:lang="en">not applicable [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">#</skos:notation>
+		</skos:Concept>
+<!-- Concept: other technique  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtec#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4558"/>
+				<skos:prefLabel xml:lang="en">other technique</skos:prefLabel>
+				<skos:definition xml:lang="en">Technique other than animation, animation and live action, live action.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/visualtec#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/visualtec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4557"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Technique for creating motion is unknown.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

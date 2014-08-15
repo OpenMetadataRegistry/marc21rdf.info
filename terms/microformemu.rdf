@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Emulsion on film of microform -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/microformemu#">
+        <dc:title>MARC21-007: Emulsion on film of microform</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: diazo  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformemu#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformemu#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3712"/>
+				<skos:prefLabel xml:lang="en">diazo</skos:prefLabel>
+				<skos:definition xml:lang="en">Sensitized layers composed of diazonium salts that react with couplers to form dye images. The color of the image is determined by the composition of the diazonium compound as well as the couplers used in the process.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed emulsion  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformemu#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformemu#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3714"/>
+				<skos:prefLabel xml:lang="en">mixed emulsion</skos:prefLabel>
+				<skos:definition xml:lang="en">Mixed emulsion.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">For example, a microfilm may have slices of film with one type of emulsion and other slices with another type of emulsion.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformemu#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformemu#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3715"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item does not have emulsion on film.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+				<skos:scopeNote xml:lang="en">Used for microopaques.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformemu#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformemu#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3717"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Emulsion on film other than silver halide, diazo, vesicular, mixed emulsion.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: silver halide  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformemu#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformemu#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3711"/>
+				<skos:prefLabel xml:lang="en">silver halide</skos:prefLabel>
+				<skos:definition xml:lang="en">A compound of silver and halogens.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformemu#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformemu#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3716"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Emulsion on the film is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: vesicular  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/microformemu#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/microformemu#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3713"/>
+				<skos:prefLabel xml:lang="en">vesicular</skos:prefLabel>
+				<skos:definition xml:lang="en">Light-sensitive component is suspended in a plastic layer. On exposure, the component creates optical vesicules (bubbles) in the layers. These bubbles form the latent image. The latent image becomes visible and fixed by heating the plastic layer and then allowing it to cool.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

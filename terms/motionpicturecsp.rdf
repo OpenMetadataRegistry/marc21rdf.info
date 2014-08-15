@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Kind of color stock or print of motion picture -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/motionpicturecsp#">
+        <dc:title>MARC21-007: Kind of color stock or print of motion picture</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: duplitized stock  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecsp#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecsp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3919"/>
+				<skos:prefLabel xml:lang="en">duplitized stock</skos:prefLabel>
+				<skos:definition xml:lang="en">Color print stock with emulsion on both sides. Usually one side is dyed red, and the other side is dyed or toned blue.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: imbibition dye transfer prints  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecsp#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecsp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3916"/>
+				<skos:prefLabel xml:lang="en">imbibition dye transfer prints</skos:prefLabel>
+				<skos:definition xml:lang="en">Film color prints created by the transfer of two or more differently colored dye images to a single strip of blank film. The dye transfer process was used only to produce prints. Imbibition dye transfer prints can be produced from film originally shot on either multi-strip or multi-layer film.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+				<skos:scopeNote xml:lang="en">The process was used only by the Technicolor Company from ca. 1928 to ca. 1975. The patents were sold to the People's Republic of China, and since ca. 1980, the process has been available only in China.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: not applicable  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecsp#n" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecsp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3920"/>
+				<skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not a color film.</skos:definition>
+				<skos:notation xml:lang="en">n</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecsp#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecsp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3922"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Kind of color stock or print other than imbibition dye transfer prints, three layer stock, three layer stock, low fade, duplitized stock.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: three layer stock  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecsp#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecsp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3917"/>
+				<skos:prefLabel xml:lang="en">three layer stock</skos:prefLabel>
+				<skos:definition xml:lang="en">Color film stock with three layers of emulsion: cyan, magenta and yellow. Each layer is sensitive to its own primary color.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+				<skos:scopeNote xml:lang="en">Since the early 1950's, most color films have been both shot and printed on this stock. It is also called multilayer film stock.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: three layer stock, low fade  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecsp#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecsp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3918"/>
+				<skos:prefLabel xml:lang="en">three layer stock, low fade</skos:prefLabel>
+				<skos:definition xml:lang="en">Color film stock with three layers of emulsion: cyan, magenta and yellow. Each layer is sensitive to its own primary color and stabilized to reduce color fading as much as possible.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">It has been available since ca. 1983.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/motionpicturecsp#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/motionpicturecsp#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3921"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Item is not a color film.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

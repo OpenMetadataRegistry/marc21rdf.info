@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of map -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/mapsmd#">
+        <dc:title>MARC21-007: Specific material designation of map</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: atlas  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4428"/>
+				<skos:prefLabel xml:lang="en">atlas</skos:prefLabel>
+				<skos:definition xml:lang="en">Atlases generally contain maps, related text, and other cartographic information.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: diagram  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#g" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4429"/>
+				<skos:prefLabel xml:lang="en">diagram</skos:prefLabel>
+				<skos:definition xml:lang="en">Map characterized by simplified, or schematic, representation. Diagrams are graphic representations of numerical data, or of the course or results of an action or process.</skos:definition>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: map  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4430"/>
+				<skos:prefLabel xml:lang="en">map</skos:prefLabel>
+				<skos:definition xml:lang="en">Two-dimensional map. Defined as a representation normally to scale and on a flat medium, of a selection of material or abstract features on, or in relation to, the surface of the earth or of another celestial body.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: model  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4432"/>
+				<skos:prefLabel xml:lang="en">model</skos:prefLabel>
+				<skos:definition xml:lang="en">Three-dimensional representation of a real object. Object may be the exact size of the original or to scale.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4437"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than atlas, diagram, map, profile, model, remote-sensing image, section, view.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: profile  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4431"/>
+				<skos:prefLabel xml:lang="en">profile</skos:prefLabel>
+				<skos:definition xml:lang="en">Scale representation of the intersection of a vertical surface (which may or may not be a plane) with the surface of the ground or with that of a conceptual three-dimensional model of phenomena having continuous distribution (e.g., rainfall).</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+		</skos:Concept>
+<!-- Concept: remote-sensing image  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4433"/>
+				<skos:prefLabel xml:lang="en">remote-sensing image</skos:prefLabel>
+				<skos:definition xml:lang="en">Image produced by a recording device that is not in physical or intimate contact with the object under study.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+<!-- Concept: section  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4434"/>
+				<skos:prefLabel xml:lang="en">section</skos:prefLabel>
+				<skos:definition xml:lang="en">Scaled representation of a vertical surface (commonly a plane) displaying both the the intersection profile or some conceptual model, and the underlying structures, e.g., geological section.</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4435"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:definition xml:lang="en">Unspecified.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+<!-- Concept: view  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/mapsmd#y" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/mapsmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4436"/>
+				<skos:prefLabel xml:lang="en">view</skos:prefLabel>
+				<skos:definition xml:lang="en">Perspective representation of the landscape shown as if it were projected onto an oblique plane.</skos:definition>
+				<skos:notation xml:lang="en">y</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

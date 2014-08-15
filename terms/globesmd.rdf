@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Specific material designation of globe -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/globesmd#">
+        <dc:title>MARC21-007: Specific material designation of globe</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: celestial globe  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globesmd#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4422"/>
+				<skos:prefLabel xml:lang="en">celestial globe</skos:prefLabel>
+				<skos:definition xml:lang="en">Model relating to the sky of visible heavens (sun, stars, etc.) depicted on the surface of a sphere.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: earth moon globe  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globesmd#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4425"/>
+				<skos:prefLabel xml:lang="en">earth moon globe</skos:prefLabel>
+				<skos:definition xml:lang="en">Model of the Earth's moon depicted on the surface of a sphere.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globesmd#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4427"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Specific material designation other than celestial globe, planetary or lunar globe, terrestrial globe, Earth moon globe.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: planetary or lunar globe  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globesmd#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4423"/>
+				<skos:prefLabel xml:lang="en">planetary or lunar globe</skos:prefLabel>
+				<skos:definition xml:lang="en">Lunar globe (other than Earth) or a moon depicted on the surface of a sphere.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: terrestrial globe  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globesmd#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4424"/>
+				<skos:prefLabel xml:lang="en">terrestrial globe</skos:prefLabel>
+				<skos:definition xml:lang="en">Model of the Earth depicted on the surface of a sphere.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: unspecified  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/globesmd#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/globesmd#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4426"/>
+				<skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

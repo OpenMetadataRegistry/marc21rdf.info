@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-007: Secondary support material of projected graphic -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/projectedsec#">
+        <dc:title>MARC21-007: Secondary support material of projected graphic</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: cardboard  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4345"/>
+				<skos:prefLabel xml:lang="en">cardboard</skos:prefLabel>
+				<skos:definition xml:lang="en">Cardboard mount.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+				<skos:scopeNote xml:lang="en">Slides and transparencies cataloged from data sheets are assumed to have cardboard mounts unless otherwise known.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: glass  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4346"/>
+				<skos:prefLabel xml:lang="en">glass</skos:prefLabel>
+				<skos:definition xml:lang="en">Glass mount that usually covers the film base but should not be the primary support for the film emulsion.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: metal  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#h" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4348"/>
+				<skos:prefLabel xml:lang="en">metal</skos:prefLabel>
+				<skos:definition xml:lang="en">Metal.</skos:definition>
+				<skos:notation xml:lang="en">h</skos:notation>
+				<skos:scopeNote xml:lang="en">Usually used to frame larger projected graphics which need better support.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: metal and glass  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#j" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4349"/>
+				<skos:prefLabel xml:lang="en">metal and glass</skos:prefLabel>
+				<skos:definition xml:lang="en">Metal portion is usually a frame that holds one or two pieces of glass to support the film base. Glass should not be the primary support for the film emulsion.</skos:definition>
+				<skos:notation xml:lang="en">j</skos:notation>
+		</skos:Concept>
+<!-- Concept: mixed collection  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#m" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4351"/>
+				<skos:prefLabel xml:lang="en">mixed collection</skos:prefLabel>
+				<skos:definition xml:lang="en">Secondary support material varies for different items in a collection.</skos:definition>
+				<skos:notation xml:lang="en">m</skos:notation>
+				<skos:scopeNote xml:lang="en">Typically this is used for groups of projected graphics on various secondary support materials.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: no secondary support  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4344"/>
+				<skos:prefLabel xml:lang="en">no secondary support</skos:prefLabel>
+				<skos:definition xml:lang="en">No secondary support.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+				<skos:scopeNote xml:lang="en">Includes filmstrips.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: other  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#z" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4353"/>
+				<skos:prefLabel xml:lang="en">other</skos:prefLabel>
+				<skos:definition xml:lang="en">Secondary support material other than cardboard, glass, synthetic, metal, metal and glass, synthetic and glass, mixed collection.</skos:definition>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: synthetic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#e" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4347"/>
+				<skos:prefLabel xml:lang="en">synthetic</skos:prefLabel>
+				<skos:definition xml:lang="en">Synthetic material.</skos:definition>
+				<skos:notation xml:lang="en">e</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g. plastics, vinyl, etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: synthetic and glass  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#k" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4350"/>
+				<skos:prefLabel xml:lang="en">synthetic and glass</skos:prefLabel>
+				<skos:definition xml:lang="en">Synthetic material is usually used as a frame to hold one or two pieces of glass to support the film base. Glass should not be the primary support for the film emulsion.</skos:definition>
+				<skos:notation xml:lang="en">k</skos:notation>
+				<skos:scopeNote xml:lang="en">E.g. plastics, vinyl, etc.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: unknown  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/projectedsec#u" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/projectedsec#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="4352"/>
+				<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+				<skos:definition xml:lang="en">Secondary support material is not known.</skos:definition>
+				<skos:notation xml:lang="en">u</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

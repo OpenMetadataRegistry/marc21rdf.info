@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: MARC21-008: Form of item -->
+    <skos:ConceptScheme rdf:about="http://marc21rdf.info/terms/commonfor#">
+        <dc:title>MARC21-008: Form of item</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: braille  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#f" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3801"/>
+				<skos:prefLabel xml:lang="en">braille</skos:prefLabel>
+				<skos:definition xml:lang="en">Braille.</skos:definition>
+				<skos:notation xml:lang="en">f</skos:notation>
+		</skos:Concept>
+<!-- Concept: direct electronic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#q" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3803"/>
+				<skos:prefLabel xml:lang="en">direct electronic</skos:prefLabel>
+				<skos:definition xml:lang="en">Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway device, flashdrive, portable hard drive, etc.</skos:definition>
+				<skos:notation xml:lang="en">q</skos:notation>
+		</skos:Concept>
+<!-- Concept: electronic  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#s" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3805"/>
+				<skos:prefLabel xml:lang="en">electronic</skos:prefLabel>
+				<skos:definition xml:lang="en">Intended for manipulation by a computer. May reside in a carrier accessed either directly or remotely, in some cases requiring the use of peripheral devices attached to the computer (e.g., a CD-ROM player).</skos:definition>
+				<skos:notation xml:lang="en">s</skos:notation>
+				<skos:scopeNote xml:lang="en">Not used for items that do not require the use of a computer (e.g., music compact discs, videodiscs).</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: large print  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#d" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3800"/>
+				<skos:prefLabel xml:lang="en">large print</skos:prefLabel>
+				<skos:definition xml:lang="en">Large print.</skos:definition>
+				<skos:notation xml:lang="en">d</skos:notation>
+		</skos:Concept>
+<!-- Concept: magnetic tape [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#hx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3807"/>
+				<skos:prefLabel xml:lang="en">magnetic tape [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">h</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfiche  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#b" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3798"/>
+				<skos:prefLabel xml:lang="en">microfiche</skos:prefLabel>
+				<skos:definition xml:lang="en">Microfiche.</skos:definition>
+				<skos:notation xml:lang="en">b</skos:notation>
+		</skos:Concept>
+<!-- Concept: microfilm  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#a" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3797"/>
+				<skos:prefLabel xml:lang="en">microfilm</skos:prefLabel>
+				<skos:definition xml:lang="en">Microfilm.</skos:definition>
+				<skos:notation xml:lang="en">a</skos:notation>
+		</skos:Concept>
+<!-- Concept: microopaque  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#c" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3799"/>
+				<skos:prefLabel xml:lang="en">microopaque</skos:prefLabel>
+				<skos:definition xml:lang="en">Microopaque.</skos:definition>
+				<skos:notation xml:lang="en">c</skos:notation>
+		</skos:Concept>
+<!-- Concept: multimedia [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#ix" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3808"/>
+				<skos:prefLabel xml:lang="en">multimedia [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">i</skos:notation>
+		</skos:Concept>
+<!-- Concept: none of the following  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#%23" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3796"/>
+				<skos:prefLabel xml:lang="en">none of the following</skos:prefLabel>
+				<skos:definition xml:lang="en">Form of item other than microfilm, microfiche, microopaque, large print, braille, online, direct electronic, regular print reproduction, electronic.</skos:definition>
+				<skos:notation xml:lang="en">#</skos:notation>
+				<skos:scopeNote xml:lang="en">Not specified by one of the other codes.</skos:scopeNote>
+		</skos:Concept>
+<!-- Concept: online  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#o" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3802"/>
+				<skos:prefLabel xml:lang="en">online</skos:prefLabel>
+				<skos:definition xml:lang="en">Accessed by means of hardware and software connections to a communications network.</skos:definition>
+				<skos:notation xml:lang="en">o</skos:notation>
+		</skos:Concept>
+<!-- Concept: other form of reproduction [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#zx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3809"/>
+				<skos:prefLabel xml:lang="en">other form of reproduction [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">z</skos:notation>
+		</skos:Concept>
+<!-- Concept: punched paper tape [obsolete]  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#gx" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3806"/>
+				<skos:prefLabel xml:lang="en">punched paper tape [obsolete]</skos:prefLabel>
+				<skos:notation xml:lang="en">g</skos:notation>
+		</skos:Concept>
+<!-- Concept: regular print reproduction  -->
+		<skos:Concept rdf:about="http://marc21rdf.info/terms/commonfor#r" xml:lang="en">
+				<skos:inScheme rdf:resource="http://marc21rdf.info/terms/commonfor#"/>
+				<reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+				<reg:identifier rdf:resource="3804"/>
+				<skos:prefLabel xml:lang="en">regular print reproduction</skos:prefLabel>
+				<skos:definition xml:lang="en">Eye-readable print, such as a photocopy.</skos:definition>
+				<skos:notation xml:lang="en">r</skos:notation>
+		</skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>
