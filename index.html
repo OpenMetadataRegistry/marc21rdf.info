@@ -1,80 +1,2036 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Marc21rdf.info by OpenMetadataRegistry</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/Product" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="text/css" http-equiv="Content-Style-Type">
+  <meta content="The Registry! :: MARC21" name="title">
+  <meta content="index,follow" name="robots">
+  <meta content="The Metadata Management Associates Project MARC21 Vocabularies" name="description">
+  <meta content="semantic web, registry, rdf, skos, metadata, MARC21" name="keywords">
+  <meta content="en" name="language">
+  <meta name="google-site-verification" content="2fQRm-N-GLnjDYHqKt4HgZ7FajyP80TSTrpQFxobxHE">
+  <meta name="alexaVerifyID" content="GDmXpHUQtGq5-13-kyNF46NF7lo">
+  <meta itemprop="name" content="MARC 21 Elements and Vocabularies">
+  <meta itemprop="description" content="Properties and concepts from MARC 21 documentation, available in human-readable and machine readable forms with URIs">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>The Registry! :: MARC21</title>
+  <link href="http://marc21rdf.info/registry_favicon_beta.ico" rel="shortcut icon">
+  <link href="http://metadataregistry.org/blog/category/registry-development/the-registry/feed/rdf" rel="alternate" title="Registry News RSS 1.0 (RDF)" type="application/rss+xml">
+  <link href="http://metadataregistry.org/blog/category/registry-development/the-registry/feed" rel="alternate" title="Registry News RSS 2.0" type="application/rss+xml">
+  <link href="http://metadataregistry.org/blog/category/registry-development/the-registry/feed/atom" rel="alternate" title="Registry News Atom 1.0" type="application/atom+xml">
+  <link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/layout.css" media="screen" rel="stylesheet" type="text/css">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Marc21rdf.info</h1>
-        <p>A translation of marc21 semantics into rdfs/owl vocabularies</p>
-        <p class="view"><a href="https://github.com/OpenMetadataRegistry/marc21rdf.info">View the Project on GitHub <small>OpenMetadataRegistry/marc21rdf.info</small></a></p>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=217675834954665&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="indicator" style="display: none"></div>
+<div id="header">
+  <ul>
+    <li><a href="http://metadataregistry.org/login.html">sign in / register</a></li>
+    <li class="last"><a href="http://metadataregistry.org/about.html">about</a></li>
+  </ul>
+  <div style="padding-left: 10px;">
+    <a href="http://metadataregistry.org/"><img alt="registry" src="/images/open_metadata_logo_with_interoperability.png" align="left"></a>
+  </div>
+  <div id="search">
+    <table>
+      <tbody>
+      <tr>
+        <form action="http://metadataregistry.org/conceptprop/search" method="get"></form>
+        <td><input class="searchterm" id="concept_term" name="concept_term" type="text"></td>
+        <td align="left"><input class="small" name="commit" value="Search Vocabularies" type="submit"></td>
+
+      </tr>
+      <tr>
+        <form action="http://metadataregistry.org/schemaprop/search" method="get"></form>
+        <td><input class="searchterm" id="sq" name="sq" type="text"></td>
+        <td align="left"><input class="small" name="commit" value="Search Element Sets" type="submit"></td>
+
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div id="content">
+<table class="layout">
+<tbody>
+<tr>
+<td class="left">
+<div class="Left" id="content_main">
+<div id="home" style="margin-left:auto;margin-right:auto;">
+<h1>The MARC21 Vocabularies from Metadata Management Associates</h1>
+This page provides quick links for the Registered MARC21 Level0 Element Sets and Value Vocabularies. <br>
+Each set of elements or vocabulary concepts has a link
+to the general description as well as a link to a list of elements or
+concepts.
+<table cellpadding="0" cellspacing="3" border="0">
+<tbody>
+<tr>
+  <td colspan="6"><h3 style="margin-top:10px; padding: 0;">MARC21 Element Sets</h3></td>
+</tr>
+
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/38.html">MARC 21 Elements 00X</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/38.html">Element list (371)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/00X.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/38.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/38.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/38.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/39.html">MARC 21 Elements 0XX</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/39.html">Element list (617)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/0XX.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/39.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/39.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/39.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/40.html">MARC 21 Elements 1XX</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/40.html">Element list (323)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/1XX.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/40.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/40.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/40.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/41.html">MARC 21 Elements 2XX</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/41.html">Element list (1726)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/2XX.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/41.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/41.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/41.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/42.html">MARC 21 Elements 3XX</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/42.html">Element list (638)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/3XX.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/42.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/42.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/42.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/43.html">MARC 21 Elements 4XX</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/43.html">Element list (104)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/4XX.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/43.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/43.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/43.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/44.html">MARC 21 Elements 5XX</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/44.html">Element list (534)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/5XX.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/44.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/44.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/44.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/45.html">MARC 21 Elements 60X</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/45.html">Element list (720)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/60X.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/45.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/45.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/45.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/46.html">MARC 21 Elements 61X</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/46.html">Element list (1296)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/61X.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/46.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/46.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/46.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/47.html">MARC 21 Elements 63X</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/47.html">Element list (2000)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/63X.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/47.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/47.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/47.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/48.html">MARC 21 Elements 64X</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/48.html">Element list (80)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/64X.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/48.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/48.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/48.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/49.html">MARC 21 Elements 65X</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/49.html">Element list (1171)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/65X.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/49.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/49.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/49.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/50.html">MARC 21 Elements 7XX</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/50.html">Element list (1035)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/7XX.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/50.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/50.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/50.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/schema/show/id/51.html">MARC 21 Elements 8XX</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/schemaprop/list/schema_id/51.html">Element list (463)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/elements/8XX.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/51.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/51.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/schemahistory/feed/schema_id/51.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td colspan="6"><h3 style="margin-top: 10px; padding: 0;">MARC21 Vocabularies</h3></td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/211.html">MARC21-006: Form of material</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/211.html">Concept list (15)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/formofmaterial.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/211.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/211.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/211.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/173.html">MARC21-007: Accompanying matter for music</a></td>
+  <td>
+    <img alt="note" title="Indicate the contents of program notes and other accompanying material for sound recording, music manuscripts, or notated music." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/173.html">Concept list (16)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/musicacc.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/173.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/173.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/173.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/174.html">MARC21-007: Altitude of remote sensor</a></td>
+  <td>
+    <img alt="note" title="General position of the sensor relative to to the object under study." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/174.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/remotesensingalt.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/174.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/174.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/174.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/175.html">MARC21-007: Antecedent/Source of electronic resource</a></td>
+  <td>
+    <img alt="note" title="Information about the source of a digital file important to the creation, use and management of digitally reformatted materials." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/175.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electroant.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/175.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/175.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/175.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/176.html">MARC21-007: Attitude of remote sensor</a></td>
+  <td>
+    <img alt="note" title="General angle of the device from which the remote-sensing image is made." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/176.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/remotesensingatt.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/176.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/176.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/176.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/177.html">MARC21-007: Base of emulsion of projected resource</a></td>
+  <td>
+    <img alt="note" title="Type of material for the base of the emulsion of a photonegative, filmstrip, slide, or transparency." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/177.html">Concept list (8)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/projectedbas.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/177.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/177.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/177.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/178.html">MARC21-007: Base of film of microform</a></td>
+  <td><img alt="note" title="Base of the film." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top"></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/178.html">Concept list (11)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/microformbas.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/178.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/178.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/178.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/179.html">MARC21-007: Base of film of motion pictures</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/179.html">Concept list (11)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturebas.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/179.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/179.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/179.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/181.html">MARC21-007: Braille music format</a></td>
+  <td>
+    <img alt="note" title="The braille music format of the item. The music formats are the way measures, sections, parts, and related information, such as words, are presented in relation to each other." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/181.html">Concept list (16)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/tactilebmf.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/181.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/181.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/181.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/182.html">MARC21-007: Capture and storage technique of sound recording</a></td>
+  <td>
+    <img alt="note" title="How the sound was originally captured and stored." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/182.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingcap.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/182.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/182.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/182.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/183.html">MARC21-007: Category of material</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/183.html">Concept list (15)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/cat.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/183.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/183.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/183.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/184.html">MARC21-007: Class of braille writing</a></td>
+  <td>
+    <img alt="note" title="Family of braille to which the item belongs. This is not the particular braille code, but the type of braille code used, representing different types of written symbols." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/184.html">Concept list (10)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/tactilecla.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/184.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/184.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/184.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/185.html">MARC21-007: Cloud cover in remotely sensed image</a></td>
+  <td>
+    <img alt="note" title="Amount of cloud cover that was present when a remote-sensing image was made." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/185.html">Concept list (12)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/remotesensingclo.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/185.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/185.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/185.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/190.html">MARC21-007: Color characteristics of a motion picture</a></td>
+  <td>
+    <img alt="note" title="Color characteristics of a motion picture." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/190.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturecol.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/190.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/190.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/190.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/192.html">MARC21-007: Color characteristics of a projected graphic</a></td>
+  <td>
+    <img alt="note" title="Color characteristics of a projected graphic." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/192.html">Concept list (8)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/projectedcol.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/192.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/192.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/192.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/193.html">MARC21-007: Color characteristics of a videorecording</a></td>
+  <td>
+    <img alt="note" title="Color characteristics of a videorecording." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/193.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/videocol.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/193.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/193.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/193.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/191.html">MARC21-007: Color characteristics of the nonprojected graphic</a></td>
+  <td>
+    <img alt="note" title="Color characteristics of the nonprojected graphic." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/191.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/nonprojectedcol.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/191.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/191.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/191.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/186.html">MARC21-007: Color of the electronic resource</a></td>
+  <td>
+    <img alt="note" title="Whether the item is one color or multicolored." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/186.html">Concept list (8)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electrocol.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/186.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/186.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/186.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/187.html">MARC21-007: Color of the globe</a></td>
+  <td>
+    <img alt="note" title="Whether the globe is in one color or multicolored." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/187.html">Concept list (2)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/globecol.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/187.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/187.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/187.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/189.html">MARC21-007: Color of the image for microforms</a></td>
+  <td>
+    <img alt="note" title="Color of the image for microforms." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/189.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/microformcol.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/189.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/189.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/189.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/188.html">MARC21-007: Color of the map</a></td>
+  <td>
+    <img alt="note" title="Whether the item is in one color or multicolored." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/188.html">Concept list (2)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/mapcol.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/188.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/188.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/188.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/194.html">MARC21-007: Completeness of the motion picture</a></td>
+  <td>
+    <img alt="note" title="Whether or not the item being cataloged is judged to be complete." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/194.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturecom.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/194.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/194.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/194.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/195.html">MARC21-007: Configuration of playback channels of motion pictures</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/195.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturecon.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/195.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/195.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/195.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/196.html">MARC21-007: Configuration of playback channels of sound recordings</a></td>
+  <td>
+    <img alt="note" title="Configuration of playback channels for a sound recording, based on a clear indication of intended playback. Does not refer to the configuration of channels orginally recorded, unless those channels are all intended to be available on playback." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/196.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingcpc.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/196.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/196.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/196.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/197.html">MARC21-007: Configuration of playback channels of video</a></td>
+  <td>
+    <img alt="note" title="Configuration of intended playback channels for the sound portion of a videorecording." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/197.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/videocpc.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/197.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/197.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/197.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/198.html">MARC21-007: Data type of remotely sensed images</a></td>
+  <td>
+    <img alt="note" title="Spectral, acoustic, or magnetic characteristics of the data received by the device producing the remote-sensing image. It can be used to indicate both the wave length of radiation measured and the type of sensor used to measure it." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/198.html">Concept list (41)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/remotesensingdat.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/198.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/198.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/198.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/199.html">MARC21-007: Deterioration stage of motion picture</a></td>
+  <td>
+    <img alt="note" title="Level of deterioration of the motion picture film." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/199.html">Concept list (11)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturedet.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/199.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/199.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/199.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/200.html">MARC21-007: Dimensions of electronic image</a></td>
+  <td>
+    <img alt="note" title="Dimensions of the medium used to encode the electronic resource." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/200.html">Concept list (10)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electrodim.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/200.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/200.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/200.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/201.html">MARC21-007: Dimensions of microform</a></td>
+  <td>
+    <img alt="note" title="Dimensions of the microform; does not indicate the dimensions of the image." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/201.html">Concept list (11)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/microformdim.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/201.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/201.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/201.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/202.html">MARC21-007: Dimensions of motion picture</a></td>
+  <td><img alt="note" title="Width of a motion picture." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/202.html">Concept list (9)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturedim.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/202.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/202.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/202.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/203.html">MARC21-007: Dimensions of projected graphic</a></td>
+  <td>
+    <img alt="note" title="Width or dimensions of the projected graphic item. Width is given for filmstrips. Height and width are given for slides and transparencies." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/203.html">Concept list (17)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/projecteddim.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/203.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/203.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/203.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/204.html">MARC21-007: Dimensions of sound recording</a></td>
+  <td>
+    <img alt="note" title="Diameter of an open reel or disc, or the dimensions of a cassette, cartridge, or cylinder." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/204.html">Concept list (13)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingdim.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/204.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/204.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/204.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/205.html">MARC21-007: Dimensions of video</a></td>
+  <td><img alt="note" title="Width of the videorecording." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/205.html">Concept list (8)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/videodim.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/205.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/205.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/205.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/206.html">MARC21-007: Emulsion on film of microform</a></td>
+  <td>
+    <img alt="note" title="Type of light-sensitive material on the film." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/206.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/microformemu.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/206.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/206.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/206.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/208.html">MARC21-007: File formats of electronic resource</a></td>
+  <td>
+    <img alt="note" title="Whether the file(s) which comprise the electronic resource are of the same format or type for digitally reformatted materials." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/208.html">Concept list (3)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electrofil.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/208.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/208.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/208.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/209.html">MARC21-007: Form of composition for music</a></td>
+  <td>
+    <img alt="note" title="Indicates the form of composition." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/209.html">Concept list (72)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/musicfoc.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/209.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/209.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/209.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/213.html">MARC21-007: Format of music</a></td>
+  <td>
+    <img alt="note" title="Indicates the format of a musical composition (e.g., piano-conductor score)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/213.html">Concept list (13)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/musicfom.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/213.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/213.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/213.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/215.html">MARC21-007: Generation of microform</a></td>
+  <td>
+    <img alt="note" title="Generation aspect of a microform." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/215.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/microformgen.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/215.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/215.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/215.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/216.html">MARC21-007: Generation of motion picture</a></td>
+  <td>
+    <img alt="note" title="How far away from the original material the item is (e.g., the actual negative film or original videotape in the camera)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/216.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturegen.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/216.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/216.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/216.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/218.html">MARC21-007: Groove width/groove pitch of sound recording</a></td>
+  <td>
+    <img alt="note" title="Width of the groove of the recording for discs or the pitch of the groove for cylinders." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/218.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordinggro.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/218.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/218.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/218.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/220.html">MARC21-007: Kind of color stock or print of motion picture</a></td>
+  <td>
+    <img alt="note" title="Type of color film stock or color print the item represents." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/220.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturecsp.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/220.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/220.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/220.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/221.html">MARC21-007: Kind of cutting of sound recording</a></td>
+  <td>
+    <img alt="note" title="Kind of cutting of the grooves used on a disc." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/221.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingcut.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/221.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/221.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/221.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/222.html">MARC21-007: Kind of disc, cylinder or tape of sound recording</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/222.html">Concept list (11)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingkin.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/222.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/222.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/222.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/223.html">MARC21-007: Kind of material of sound recording</a></td>
+  <td>
+    <img alt="note" title="Kind of material used in the manufacture of sound recordings (both instantaneous and mass-produced)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/223.html">Concept list (14)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingmat.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/223.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/223.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/223.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/224.html">MARC21-007: Level of compression of electronic resource</a></td>
+  <td>
+    <img alt="note" title="Kind of compression the electronic resource has been subjected to." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/224.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electroloc.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/224.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/224.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/224.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/225.html">MARC21-007: Level of contraction of tactile resource</a></td>
+  <td>
+    <img alt="note" title="Whether contractions are used. Contractions are abbreviations consisting of one or more braille or Moon characters to represent common letter combinations." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/225.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/tactilelev.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/225.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/225.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/225.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/227.html">MARC21-007: Literary text of sound recordings</a></td>
+  <td>
+    <img alt="note" title="Indicate the type of literary text contained in a nonmusical sound recording." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/227.html">Concept list (21)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/musiclit.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/227.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/227.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/227.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/228.html">MARC21-007: Medium for sound of motion pictures</a></td>
+  <td>
+    <img alt="note" title="Specific medium used to carry the sound of an item (whether that sound is carried on the item itself or is in the form of accompanying material) and the type of sound playback required." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/228.html">Concept list (12)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturemed.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/228.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/228.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/228.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/229.html">MARC21-007: Medium for sound of projected media</a></td>
+  <td>
+    <img alt="note" title="Specific medium used to carry the sound of an item (whether the sound is on the projected graphic or separate) and the type of sound playback required for the item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/229.html">Concept list (12)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/projectedmed.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/229.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/229.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/229.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/230.html">MARC21-007: Medium for sound of video</a></td>
+  <td>
+    <img alt="note" title="Specific medium used to carry the sound of an item, whether that sound is carried on the videorecording or is separate, and the type of sound playback required for the item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/230.html">Concept list (12)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/videomed.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/230.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/230.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/230.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/231.html">MARC21-007: Motion picture presentation format</a></td>
+  <td>
+    <img alt="note" title="Presentation format for motion pictures." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/231.html">Concept list (8)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturefor.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/231.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/231.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/231.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/232.html">MARC21-007: Music parts</a></td>
+  <td>
+    <img alt="note" title="Indicates whether the item being cataloged contains parts." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/232.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/musicpar.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/232.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/232.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/232.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/236.html">MARC21-007: Physical medium of globe</a></td>
+  <td>
+    <img alt="note" title="Material out of which the globe is made." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/236.html">Concept list (14)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/globemed.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/236.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/236.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/236.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/237.html">MARC21-007: Physical medium of map</a></td>
+  <td>
+    <img alt="note" title="Material out of which the cartographic item is made." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/237.html">Concept list (21)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/mapmed.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/237.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/237.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/237.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/238.html">MARC21-007: Platform construction type of remote sensing device</a></td>
+  <td>
+    <img alt="note" title="Type of construction of the platform serving as the base for the remote-sensing device. &quot;Platform&quot; refers to any structure that serves as a base, not only flat surfaces." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/238.html">Concept list (12)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/remotesensingpct.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/238.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/238.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/238.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/239.html">MARC21-007: Platform use category of remote sensing platform</a></td>
+  <td>
+    <img alt="note" title="Primary use intended for the platform specified." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/239.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/remotesensingpla.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/239.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/239.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/239.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/274.html">MARC21-007: Playback speed of sound recording</a></td>
+  <td>
+    <img alt="note" title="Playback speed of the sound recording." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/274.html">Concept list (16)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingspd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/274.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/274.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/274.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/240.html">MARC21-007: Positive/negative aspect of map</a></td>
+  <td>
+    <img alt="note" title="Positive/negative aspect of the photocopy or film of the cartographic item. This characteristic is also referred to as polarity." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/240.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/mappna.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/240.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/240.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/240.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/241.html">MARC21-007: Positive/negative aspect of microform</a></td>
+  <td>
+    <img alt="note" title="Positive/negative polarity of the microform." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/241.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/microformpna.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/241.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/241.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/241.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/242.html">MARC21-007: Positive/negative aspect of motion picture</a></td>
+  <td>
+    <img alt="note" title="Whether the film is positive or negative." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/242.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturepna.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/242.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/242.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/242.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/243.html">MARC21-007: Primary support material for non-projected graphic</a></td>
+  <td>
+    <img alt="note" title="Type of material used for the support or base on which an image is printed or executed." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/243.html">Concept list (19)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/nonprojectedpri.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/243.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/243.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/243.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/244.html">MARC21-007: Production elements of motion picture</a></td>
+  <td>
+    <img alt="note" title="Whether the film is part of a complete production or is a preliminary or post-production element." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/244.html">Concept list (9)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturepro.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/244.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/244.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/244.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/245.html">MARC21-007: Production/reproduction details of map</a></td>
+  <td>
+    <img alt="note" title="Photographic technique used to produce the cartographic item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/245.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/mappor.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/245.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/245.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/245.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/247.html">MARC21-007: Quality assurance target(s) of electronic resource</a></td>
+  <td>
+    <img alt="note" title="Whether quality assurance targets have been included appropriately at the time of reformatting/creation of the electronic resource. Targets are standard reference points which can be interpreted by a human or machine and used to measure resolution, color, faithfulness of representation to the original, etc." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/247.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electroqat.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/247.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/247.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/247.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/248.html">MARC21-007: Reduction ratio range of microform</a></td>
+  <td>
+    <img alt="note" title="Reduction ratio range for a microform." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/248.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/microformred.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/248.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/248.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/248.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/249.html">MARC21-007: Refined categories of color of motion picture</a></td>
+  <td>
+    <img alt="note" title="More specific color characteristics of the moving image." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/249.html">Concept list (22)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturercc.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/249.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/249.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/249.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/250.html">MARC21-007: Reformatting quality of electronic resource</a></td>
+  <td>
+    <img alt="note" title="Reformatting quality of the electronic resource; an overall assessment of the physical quality of the electronic resource in relation to its intended use." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/250.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electroreq.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/250.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/250.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/250.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/253.html">MARC21-007: Secondary support material of nonprojected graphic</a></td>
+  <td>
+    <img alt="note" title="Type of material (other than normal museum matting) to which the primary support is attached." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/253.html">Concept list (23)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/nonprojectedsec.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/253.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/253.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/253.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/254.html">MARC21-007: Secondary support material of projected graphic</a></td>
+  <td>
+    <img alt="note" title="Type of material of the mount of a slide or transparency for a projected graphic." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/254.html">Concept list (10)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/projectedsec.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/254.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/254.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/254.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/255.html">MARC21-007: Sensor type of remote sensor</a></td>
+  <td>
+    <img alt="note" title="For the recording mode of the remote-sensing device, specifically, whether the sensor is involved in the creation of the transmission it eventually measures." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/255.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/remotesensingtyp.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/255.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/255.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/255.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/256.html">MARC21-007: Sound of electronic resource</a></td>
+  <td>
+    <img alt="note" title="Whether the production of sound is an integral part of an electronic resource." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/256.html">Concept list (3)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electrosnd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/256.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/256.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/256.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/257.html">MARC21-007: Sound on medium or separate of motion picture</a></td>
+  <td>
+    <img alt="note" title="Whether the sound is on the item or separate from the item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/257.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturesom.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/257.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/257.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/257.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/258.html">MARC21-007: Sound on medium or separate of projected graphic</a></td>
+  <td>
+    <img alt="note" title="Whether the sound is on or is separate from the projected graphic (i.e., on the accompanying material)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/258.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/projectedsom.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/258.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/258.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/258.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/259.html">MARC21-007: Sound on medium or separate of video</a></td>
+  <td>
+    <img alt="note" title="Whether the sound is on the item or separate from the item (i.e., on the accompanying material)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/259.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/videosom.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/259.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/259.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/259.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/261.html">MARC21-007: Special physical characteristics of tactile resource</a></td>
+  <td>
+    <img alt="note" title="Other special physical characteristics about the braille." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/261.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/tactilespc.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/261.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/261.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/261.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/262.html">MARC21-007: Special playback characteristics of sound recording</a></td>
+  <td>
+    <img alt="note" title="Playback characteristics for sound recordings, including special equipment or equalization necessary for proper playback. Not used to indicate special processes used during recording unless those processes must be applied during playback." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/262.html">Concept list (11)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingspc.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/262.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/262.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/262.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/263.html">MARC21-007: Specific material designation of electronic resource</a></td>
+  <td>
+    <img alt="note" title="Special class of material (usually the class of physical object) to which an item belongs (e.g., a magnetic disk)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/263.html">Concept list (14)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/electrosmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/263.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/263.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/263.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/264.html">MARC21-007: Specific material designation of globe</a></td>
+  <td>
+    <img alt="note" title="Special class of material (usually the class of physical object) to which an item belongs, e.g., a celestial globe." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/264.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/globesmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/264.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/264.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/264.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/265.html">MARC21-007: Specific material designation of map</a></td>
+  <td>
+    <img alt="note" title="Special class of cartographic material to which the item belongs." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/265.html">Concept list (10)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/mapsmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/265.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/265.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/265.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/266.html">MARC21-007: Specific material designation of microform</a></td>
+  <td>
+    <img alt="note" title="Special class of microform to which the item belongs. (e.g., a microopaque)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/266.html">Concept list (11)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/microformsmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/266.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/266.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/266.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/267.html">MARC21-007: Specific material designation of motion picture</a></td>
+  <td>
+    <img alt="note" title="Special class of motion picture to which the item belongs., e.g., a film reel." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/267.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/motionpicturesmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/267.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/267.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/267.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/268.html">MARC21-007: Specific material designation of nonprojected graphic</a></td>
+  <td>
+    <img alt="note" title="Special class of nonprojected graphic to which the item belongs, (e.g., a picture)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/268.html">Concept list (20)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/nonprojectedsmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/268.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/268.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/268.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/269.html">MARC21-007: Specific material designation of projected graphic</a></td>
+  <td>
+    <img alt="note" title="Special class of projected graphic to which the item belongs, e.g., a slide." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/269.html">Concept list (8)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/projectedsmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/269.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/269.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/269.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/270.html">MARC21-007: Specific material designation of sound recording</a></td>
+  <td>
+    <img alt="note" title="Special class of sound recording to which the item belongs (e.g., a cylinder)." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/270.html">Concept list (10)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingsmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/270.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/270.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/270.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/271.html">MARC21-007: Specific material designation of tactile resource</a></td>
+  <td>
+    <img alt="note" title="Special class of tactile materialspecific material to which the item belongs." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/271.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/tactilesmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/271.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/271.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/271.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/272.html">MARC21-007: Specific material designation of text</a></td>
+  <td>
+    <img alt="note" title="Special class of textual material to which an item belongs." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/272.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/textsmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/272.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/272.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/272.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/273.html">MARC21-007: Specific material designation of video</a></td>
+  <td>
+    <img alt="note" title="Special class of videorecording to which an item belongs." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/273.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/videosmd.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/273.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/273.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/273.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/275.html">MARC21-007: Tape configuration of sound recording</a></td>
+  <td><img alt="note" title="Number of tracks on a tape." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/275.html">Concept list (9)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingtap.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/275.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/275.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/275.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/276.html">MARC21-007: Tape width of sound recording</a></td>
+  <td><img alt="note" title="Width of the tape." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top"></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/276.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/soundrecordingwid.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/276.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/276.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/276.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/278.html">MARC21-007: Technique of visual material</a></td>
+  <td>
+    <img alt="note" title="Indicates the technique used in creating motion in motion pictures or videorecordings." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/278.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/visualtec.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/278.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/278.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/278.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/279.html">MARC21-007: Transposition and arrangement of music</a></td>
+  <td>
+    <img alt="note" title="Whether all or part of the item being cataloged is a transposition and/or arrangement of another work." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/279.html">Concept list (6)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/musictra.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/279.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/279.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/279.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/284.html">MARC21-007: Type of reproduction of globe</a></td>
+  <td>
+    <img alt="note" title="Whether the globe is a facsimile or other type of reproduction." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/284.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/globerep.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/284.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/284.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/284.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/285.html">MARC21-007: Type of reproduction of map</a></td>
+  <td>
+    <img alt="note" title="Whether the cartographic item is a facsimile or other type of reproduction." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/285.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/maprep.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/285.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/285.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/285.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/286.html">MARC21-007: Type of visual material</a></td>
+  <td>
+    <img alt="note" title="Indicates the type of visual material being described." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/286.html">Concept list (21)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/visualtyp.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/286.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/286.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/286.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/287.html">MARC21-007: Videorecording format</a></td>
+  <td>
+    <img alt="note" title="Videotape or videodisc recording format." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/287.html">Concept list (19)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/videofor.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/287.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/287.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/287.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/180.html">MARC21-008: Biography</a></td>
+  <td>
+    <img alt="note" title="Indicates whether or not an item contains biographical material, and if so, what the biographical characteristics are." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/180.html">Concept list (5)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/bookbio.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/180.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/180.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/180.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/207.html">MARC21-008: Entry convention of continuing resource</a></td>
+  <td>
+    <img alt="note" title="Whether the item was cataloged according to successive entry, latest entry, or integrated entry cataloging conventions." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/207.html">Concept list (3)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/continuingent.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/207.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/207.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/207.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/210.html">MARC21-008: Form of item</a></td>
+  <td>
+    <img alt="note" title="Specifies the form of material." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/210.html">Concept list (14)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/commonfor.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/210.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/210.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/210.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/291.html">MARC21-008: Form of item of computer files</a></td>
+  <td>
+    <img alt="note" title="Specifies the form of material for the computer file." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/291.html">Concept list (3)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/computerfor.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/291.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/291.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/291.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/212.html">MARC21-008: Form of original item of continuing resource</a></td>
+  <td>
+    <img alt="note" title="The form of material in which an item was originally published." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/212.html">Concept list (15)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/continuingori.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/212.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/212.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/212.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/214.html">MARC21-008: Frequency of continuing resource</a></td>
+  <td>
+    <img alt="note" title="The frequency of an item. In the case of integrating resources, updates to an item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/214.html">Concept list (19)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/continuingfre.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/214.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/214.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/214.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/217.html">MARC21-008: Government publication</a></td>
+  <td>
+    <img alt="note" title="Indicates whether the item is published or produced by or for an international, provincial, national, state, or local government agency, or by any subdivision of such a body, and, if so, the jurisdictional level of the agency." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/217.html">Concept list (12)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/commongov.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/217.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/217.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/217.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/219.html">MARC21-008: Illustrations of books</a></td>
+  <td>
+    <img alt="note" title="Indicates the presence of types of illustrations in the item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/219.html">Concept list (16)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/bookill.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/219.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/219.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/219.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/226.html">MARC21-008: Literary form of book</a></td>
+  <td><img alt="note" title="The literary form of an item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/226.html">Concept list (13)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/booklit.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/226.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/226.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/226.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/233.html">MARC21-008: Nature of contents</a></td>
+  <td>
+    <img alt="note" title="Indicate whether a significant part of the item is or contains certain types of material." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/233.html">Concept list (28)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/commonnat.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/233.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/233.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/233.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/234.html">MARC21-008: Nature of entire work of continuing resource</a></td>
+  <td>
+    <img alt="note" title="The nature of an item if it consists entirely of a certain type of material." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/234.html">Concept list (29)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/continuingwor.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/234.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/234.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/234.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/235.html">MARC21-008: Original alphabet or script of title of continuing resource</a></td>
+  <td>
+    <img alt="note" title="the original alphabet or script of the language of the title on the source item upon which the key title is based." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/235.html">Concept list (15)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/continuingscr.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/235.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/235.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/235.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/246.html">MARC21-008: Projection of map</a></td>
+  <td>
+    <img alt="note" title="Indicates the projection used in producing the item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/246.html">Concept list (45)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/mappro.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/246.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/246.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/246.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/251.html">MARC21-008: Regularity of continuing resource</a></td>
+  <td>
+    <img alt="note" title="The intended regularity of an item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/251.html">Concept list (4)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/continuingreg.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/251.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/251.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/251.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/252.html">MARC21-008: Relief of map</a></td>
+  <td>
+    <img alt="note" title="Indicate the relief type specified on the item." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/252.html">Concept list (14)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/maprel.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/252.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/252.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/252.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/260.html">MARC21-008: Special format characteristics of map</a></td>
+  <td>
+    <img alt="note" title="Indicate the special format characteristics of the map." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/260.html">Concept list (19)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/mapspe.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/260.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/260.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/260.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/277.html">MARC21-008: Target audience</a></td>
+  <td>
+    <img alt="note" title="Indicates the audience for which the item is intended." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/277.html">Concept list (9)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/commonaud.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/277.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/277.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/277.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/280.html">MARC21-008: Type of cartographic material</a></td>
+  <td>
+    <img alt="note" title="Indicates the type of cartographic item described." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/280.html">Concept list (9)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/maptyp.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/280.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/280.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/280.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/281.html">MARC21-008: Type of computer file</a></td>
+  <td>
+    <img alt="note" title="Indicates the type of computer file described in the bibliographic record." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/281.html">Concept list (13)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/computertyp.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/281.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/281.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/281.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/282.html">MARC21-008: Type of continuing resource</a></td>
+  <td>
+    <img alt="note" title="The type of continuing resource." src="/images/note2.gif" style="width: 8px; height: 10px;" align="top">
+  </td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/282.html">Concept list (7)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/continuingtyp.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/282.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/282.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/282.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+<tr>
+  <td><a href="http://metadataregistry.org/vocabulary/show/id/283.html">MARC21-008: Type of date or publication status</a></td>
+  <td></td>
+  <td class="nowrap"><a href="http://metadataregistry.org/concept/list/vocabulary_id/283.html">Concept list (14)</a></td>
+  <td class="nowrap"><img alt="RDF/XML" src="/images/rdf_flyer.gif" style="width: 16px; height: 15px;" align="top">
+    <a href="http://marc21rdf.info/terms/alltyp.rdf" rel="alternate" type="application/rdf+xml">RDF/XML</a>&nbsp;</td>
+  <td class="nowrap"><img alt="Feed-icon" src="/images/feed-icon.gif" style="width: 16px; height: 16px;" align="top">
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/283.rss" rel="alternate" title="RSS 2.01 History Feed" type="application/rss+xml">rss2</a>&nbsp;
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/283.rdf" rel="alternate" title="RSS 1.0 (RDF) History Feed" type="application/rdf+xml">rss1</a>
+    <a href="http://metadataregistry.org/history/feed/vocabulary_id/283.atom" rel="alternate" title="Atom 1.0 History Feed" type="application/atom+xml">atom</a>
+  </td>
+  <td class="nowrap">Published</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+<td class="right">
+  <div class="main-subcontent" id="content_bar">
+    <div id="panel_default">
+      <div class="subcontent-unit-border-orange">
+        <div class="round-border-topleft"></div>
+        <div class="round-border-topright"></div>
+        <h1 class="orange">Browse...</h1>
         <ul>
-          <li><a href="https://github.com/OpenMetadataRegistry/marc21rdf.info/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/OpenMetadataRegistry/marc21rdf.info/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/OpenMetadataRegistry/marc21rdf.info">View On <strong>GitHub</strong></a></li>
+          <li><a href="http://marc21rdf.info/agent/list.html">Resource&nbsp;Owners</a>
+          </li>
+          <li>
+            <a href="http://marc21rdf.info/vocabulary/list.html">Vocabularies</a>
+          </li>
+          <li>
+            <a href="http://marc21rdf.info/schema/list.html">Schemas</a>
+          </li>
         </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+      </div>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/OpenMetadataRegistry">OpenMetadataRegistry</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-25635723-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+  </div><br/>
+  <div class="g-plus" data-action="share" data-height="24" data-href="http://www.marc21rdf.info"></div><br/>
+  <div style="padding-bottom: 10px; padding-top: 10px"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://marc21rdf.info" data-via="jonphipps">Tweet</a></div>
 
-  </body>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>  <div class="fb-like" data-href="http://www.marc21rdf.info" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="footer">
+  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license"><img alt="Creative Commons License" src="/images/80x15.png" style="border-width:0"></a>
+  powered by <a href="http://www.symfony-project.com/"><img alt="Symfony" src="/images/symfony.gif" align="middle"></a>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25635723-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</body>
 </html>
